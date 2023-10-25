@@ -4,23 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "d17a3f57acdc245d",
+        "id": "314fd166e05b2057",
         "type": "tabs",
         "children": [
           {
-            "id": "b0ebcbfda2d700d1",
+            "id": "7a54075f9c652fcd",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "UnrealEngine/Animation/AnimationInUE/1. UE动画更新流程.canvas",
-                "viewState": {
-                  "x": 2336.526517961552,
-                  "y": 3984.5230172507,
-                  "zoom": -0.5796889980204967
-                }
+                "file": "计算机理论基础/设计模式/4. 面向对象的设计模式.md",
+                "mode": "source",
+                "source": true
               }
-            }
+            },
+            "group": "df0e7292b1cf8e6e"
+          }
+        ]
+      },
+      {
+        "id": "9aaed8832d0eaccd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a4566c9c7a1ee8a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计算机理论基础/设计模式/4. 面向对象的设计模式.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "df0e7292b1cf8e6e"
           }
         ]
       }
@@ -88,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UnrealEngine/Animation/AnimationInUE/1. UE动画更新流程.canvas",
+                "file": "计算机理论基础/设计模式/4. 面向对象的设计模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UnrealEngine/Animation/AnimationInUE/1. UE动画更新流程.canvas",
+                "file": "计算机理论基础/设计模式/4. 面向对象的设计模式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UnrealEngine/Animation/AnimationInUE/1. UE动画更新流程.canvas"
+                "file": "计算机理论基础/设计模式/4. 面向对象的设计模式.md"
               }
             }
           },
@@ -162,55 +179,55 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "c001a77f61a2bd59",
+  "active": "7a54075f9c652fcd",
   "lastOpenFiles": [
-    "图形学/计算机图形学/attachments/Pic_114.png",
-    "图形学/计算机图形学/attachments/Pic_113.png",
-    "图形学/计算机图形学/attachments/Pic_112.png",
-    "图形学/计算机图形学/attachments/Pic_111.png",
-    "图形学/计算机图形学/attachments/Pic_110.png",
-    "图形学/计算机图形学/attachments/Pic_109.png",
-    "图形学/计算机图形学/attachments/Pic_108.png",
-    "图形学/计算机图形学/attachments/Pic_107.png",
-    "图形学/计算机图形学/attachments/Pic_106.png",
-    "图形学/计算机图形学/attachments/Pic_105.png",
-    "图形学/计算机图形学/attachments/Pic_104.png",
-    "图形学/计算机图形学/attachments",
-    "图形学/计算机图形学/9. 计算机动画.md",
-    "图形学/计算机图形学/7. 光线追踪1.md",
-    "图形学/计算机图形学/8. 光线追踪2.md",
-    "图形学/计算机图形学/5. 纹理贴图.md",
-    "图形学/计算机图形学/6. 图形学中常用的数据结构.md",
-    "图形学/计算机图形学/4. 光照与表面着色.md",
-    "图形学/计算机图形学/2. 信号处理与卷积.md",
-    "图形学/计算机图形学/3. 滤波器与图像信息处理.md",
+    "计算机理论基础/设计模式/3. 结构型模式.md",
+    "计算机理论基础/设计模式/4. 面向对象的设计模式.md",
+    "计算机理论基础/设计模式/0. 目录.md",
+    "计算机理论基础/设计模式/attachments/Pic_047.png",
+    "计算机理论基础/设计模式/attachments/Pic_046.png",
+    "计算机理论基础/设计模式/attachments/Pic_045.png",
+    "计算机理论基础/设计模式/attachments/Pic_044.png",
+    "计算机理论基础/设计模式/attachments/Pic_043.png",
+    "计算机理论基础/设计模式/attachments/Pic_042.png",
+    "计算机理论基础/设计模式/attachments/Pic_041.png",
+    "计算机理论基础/设计模式/attachments/Pic_040.png",
+    "计算机理论基础/设计模式/attachments/Pic_039.png",
+    "计算机理论基础/设计模式/attachments/Pic_038.png",
+    "计算机理论基础/设计模式/2. 行为型模式.md",
+    "计算机理论基础/设计模式/1. 创建型模式.md",
     "图形学/计算机图形学/14. 反射模型.md",
     "图形学/计算机图形学/13. 全局光照.md",
     "图形学/计算机图形学/12. 光照.md",
     "图形学/计算机图形学/11. 使用OpenGL绘制.md",
     "图形学/计算机图形学/10. OpenGL概述.md",
+    "图形学/计算机图形学/9. 计算机动画.md",
+    "图形学/计算机图形学/8. 光线追踪2.md",
+    "图形学/计算机图形学/7. 光线追踪1.md",
+    "图形学/计算机图形学/6. 图形学中常用的数据结构.md",
+    "图形学/计算机图形学/5. 纹理贴图.md",
+    "图形学/计算机图形学/4. 光照与表面着色.md",
+    "图形学/计算机图形学/3. 滤波器与图像信息处理.md",
+    "图形学/计算机图形学/2. 信号处理与卷积.md",
     "图形学/计算机图形学/1. 实时图形渲染管线.md",
-    "图形学/计算机图形学/0. 目录.md",
-    "图形学/计算机图形学",
-    "数学基础/3D数学基础/attachments",
-    "数学基础/3D数学基础/9. 图形学中的常用技巧.md",
-    "数学基础/3D数学基础/8. 图形学中的集合元素.md",
-    "数学基础/3D数学基础/7. 欧拉角与四元数.md",
-    "数学基础/3D数学基础/6. 齐次空间与仿射变换.md",
-    "数学基础/3D数学基础/5. 法线从本地空间转化到视空间矩阵.md",
-    "数学基础/3D数学基础/4. 视图空间与投影空间.md",
-    "数学基础/3D数学基础/3. 行列式与逆矩阵.md",
     "数学基础/3D数学基础/26. 蒙特卡洛积分法.md",
     "数学基础/3D数学基础/25. 傅里叶变换.md",
     "数学基础/3D数学基础/24. 卷积.md",
-    "数学基础/3D数学基础",
-    "图形学",
-    "新建文件夹",
-    "数学基础",
+    "数学基础/3D数学基础/23. 极坐标.md",
+    "数学基础/3D数学基础/22. 回旋曲线.md",
+    "数学基础/3D数学基础/21. 贝塞尔曲线.md",
+    "数学基础/3D数学基础/20. 埃尔米特曲线.md",
     "UnrealEngine/Animation/AnimationInUE/1. UE动画更新流程.canvas",
-    "未命名.canvas",
-    "计算机图形学/attachments",
-    "计算机图形学/新建文件夹",
-    "计算机图形学"
+    "计算机理论基础/设计模式/attachments",
+    "计算机理论基础/设计模式/新建文件夹",
+    "计算机理论基础/设计模式",
+    "计算机理论基础/新建文件夹",
+    "计算机理论基础",
+    "新建文件夹",
+    "图形学/计算机图形学/attachments",
+    "图形学/计算机图形学",
+    "数学基础/3D数学基础/attachments",
+    "数学基础/3D数学基础",
+    "未命名.canvas"
   ]
 }
