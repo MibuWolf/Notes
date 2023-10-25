@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "0477b7d17aca0ca0",
+    "type": "split",
+    "children": [
+      {
+        "id": "d17a3f57acdc245d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b0ebcbfda2d700d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计算机图形学/14. 反射模型.md",
+                "mode": "source",
+                "source": true
+              }
+            },
+            "group": "d53e6488d8288206"
+          }
+        ]
+      },
+      {
+        "id": "7647ace1b83cd825",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "97aad92a4d9935a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计算机图形学/14. 反射模型.md",
+                "mode": "preview",
+                "source": false
+              }
+            },
+            "group": "d53e6488d8288206"
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "445e0d9677804d88",
+    "type": "split",
+    "children": [
+      {
+        "id": "376560e67b640bf2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c001a77f61a2bd59",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6d70efcc7a99d111",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7c8a1767301ea06a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7c6e048684854d63",
+    "type": "split",
+    "children": [
+      {
+        "id": "1b03fdadf7b3943f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "77e2a2ebd0435efd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "计算机图形学/14. 反射模型.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bb6b70742e9efb3c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "计算机图形学/14. 反射模型.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b966a6966fa23e42",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a55c6d04c8df300f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "计算机图形学/14. 反射模型.md"
+              }
+            }
+          },
+          {
+            "id": "7a1a5eed47e0f0ea",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian42-brat:BRAT": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "workspaces:管理工作区布局": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "b0ebcbfda2d700d1",
+  "lastOpenFiles": [
+    "计算机图形学/attachments/Pic_114.png",
+    "计算机图形学/attachments/Pic_113.png",
+    "计算机图形学/attachments/Pic_112.png",
+    "计算机图形学/attachments/Pic_111.png",
+    "计算机图形学/attachments/Pic_110.png",
+    "计算机图形学/13. 全局光照.md",
+    "计算机图形学/attachments/Pic_109.png",
+    "计算机图形学/attachments/Pic_108.png",
+    "计算机图形学/attachments/Pic_107.png",
+    "计算机图形学/attachments/Pic_106.png",
+    "计算机图形学/attachments/Pic_105.png",
+    "计算机图形学/attachments/Pic_104.png",
+    "计算机图形学/12. 光照.md",
+    "计算机图形学/4. 光照与表面着色.md",
+    "计算机图形学/11. 使用OpenGL绘制.md",
+    "计算机图形学/10. OpenGL概述.md",
+    "计算机图形学/9. 计算机动画.md",
+    "计算机图形学/8. 光线追踪2.md",
+    "计算机图形学/7. 光线追踪1.md",
+    "3D数学基础/11. Phong式光照模型.md",
+    "3D数学基础/10. 光照概述.md",
+    "计算机图形学/6. 图形学中常用的数据结构.md",
+    "计算机图形学/5. 纹理贴图.md",
+    "计算机图形学/3. 滤波器与图像信息处理.md",
+    "计算机图形学/2. 信号处理与卷积.md",
+    "3D数学基础/25. 傅里叶变换.md",
+    "计算机图形学/1. 实时图形渲染管线.md",
+    "未命名.canvas",
+    "计算机图形学/attachments",
+    "计算机图形学/新建文件夹",
+    "3D数学基础/14. 实时图形渲染管线.md",
+    "3D数学基础/16. 速度与微分(导数).md",
+    "3D数学基础/4. 视图空间与投影空间.md",
+    "3D数学基础/15. 一些基于HSLS的示例.md",
+    "3D数学基础/13. 凹凸贴图与切线空间.md",
+    "3D数学基础/12. 光源.md",
+    "3D数学基础/9. 图形学中的常用技巧.md",
+    "3D数学基础/8. 图形学中的集合元素.md",
+    "计算机图形学/0. 目录.md",
+    "计算机图形学",
+    "Templaters",
+    "3D数学基础/attachments",
+    "3D数学基础/新建文件夹",
+    "3D数学基础"
+  ]
+}
