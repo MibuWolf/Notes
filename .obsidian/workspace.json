@@ -11,33 +11,16 @@
             "id": "b0ebcbfda2d700d1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "计算机图形学/14. 反射模型.md",
-                "mode": "source",
-                "source": true
+                "file": "UnrealEngine/Animation/AnimationInUE/1. UE动画更新流程.canvas",
+                "viewState": {
+                  "x": 2336.526517961552,
+                  "y": 3984.5230172507,
+                  "zoom": -0.5796889980204967
+                }
               }
-            },
-            "group": "d53e6488d8288206"
-          }
-        ]
-      },
-      {
-        "id": "7647ace1b83cd825",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "97aad92a4d9935a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "计算机图形学/14. 反射模型.md",
-                "mode": "preview",
-                "source": false
-              }
-            },
-            "group": "d53e6488d8288206"
+            }
           }
         ]
       }
@@ -105,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机图形学/14. 反射模型.md",
+                "file": "UnrealEngine/Animation/AnimationInUE/1. UE动画更新流程.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机图形学/14. 反射模型.md",
+                "file": "UnrealEngine/Animation/AnimationInUE/1. UE动画更新流程.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机图形学/14. 反射模型.md"
+                "file": "UnrealEngine/Animation/AnimationInUE/1. UE动画更新流程.canvas"
               }
             }
           },
@@ -167,7 +150,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian42-brat:BRAT": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -176,54 +158,59 @@
       "command-palette:打开命令面板": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
       "workspaces:管理工作区布局": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian42-brat:BRAT": false
     }
   },
-  "active": "b0ebcbfda2d700d1",
+  "active": "c001a77f61a2bd59",
   "lastOpenFiles": [
-    "计算机图形学/attachments/Pic_114.png",
-    "计算机图形学/attachments/Pic_113.png",
-    "计算机图形学/attachments/Pic_112.png",
-    "计算机图形学/attachments/Pic_111.png",
-    "计算机图形学/attachments/Pic_110.png",
-    "计算机图形学/13. 全局光照.md",
-    "计算机图形学/attachments/Pic_109.png",
-    "计算机图形学/attachments/Pic_108.png",
-    "计算机图形学/attachments/Pic_107.png",
-    "计算机图形学/attachments/Pic_106.png",
-    "计算机图形学/attachments/Pic_105.png",
-    "计算机图形学/attachments/Pic_104.png",
-    "计算机图形学/12. 光照.md",
-    "计算机图形学/4. 光照与表面着色.md",
-    "计算机图形学/11. 使用OpenGL绘制.md",
-    "计算机图形学/10. OpenGL概述.md",
-    "计算机图形学/9. 计算机动画.md",
-    "计算机图形学/8. 光线追踪2.md",
-    "计算机图形学/7. 光线追踪1.md",
-    "3D数学基础/11. Phong式光照模型.md",
-    "3D数学基础/10. 光照概述.md",
-    "计算机图形学/6. 图形学中常用的数据结构.md",
-    "计算机图形学/5. 纹理贴图.md",
-    "计算机图形学/3. 滤波器与图像信息处理.md",
-    "计算机图形学/2. 信号处理与卷积.md",
-    "3D数学基础/25. 傅里叶变换.md",
-    "计算机图形学/1. 实时图形渲染管线.md",
+    "图形学/计算机图形学/attachments/Pic_114.png",
+    "图形学/计算机图形学/attachments/Pic_113.png",
+    "图形学/计算机图形学/attachments/Pic_112.png",
+    "图形学/计算机图形学/attachments/Pic_111.png",
+    "图形学/计算机图形学/attachments/Pic_110.png",
+    "图形学/计算机图形学/attachments/Pic_109.png",
+    "图形学/计算机图形学/attachments/Pic_108.png",
+    "图形学/计算机图形学/attachments/Pic_107.png",
+    "图形学/计算机图形学/attachments/Pic_106.png",
+    "图形学/计算机图形学/attachments/Pic_105.png",
+    "图形学/计算机图形学/attachments/Pic_104.png",
+    "图形学/计算机图形学/attachments",
+    "图形学/计算机图形学/9. 计算机动画.md",
+    "图形学/计算机图形学/7. 光线追踪1.md",
+    "图形学/计算机图形学/8. 光线追踪2.md",
+    "图形学/计算机图形学/5. 纹理贴图.md",
+    "图形学/计算机图形学/6. 图形学中常用的数据结构.md",
+    "图形学/计算机图形学/4. 光照与表面着色.md",
+    "图形学/计算机图形学/2. 信号处理与卷积.md",
+    "图形学/计算机图形学/3. 滤波器与图像信息处理.md",
+    "图形学/计算机图形学/14. 反射模型.md",
+    "图形学/计算机图形学/13. 全局光照.md",
+    "图形学/计算机图形学/12. 光照.md",
+    "图形学/计算机图形学/11. 使用OpenGL绘制.md",
+    "图形学/计算机图形学/10. OpenGL概述.md",
+    "图形学/计算机图形学/1. 实时图形渲染管线.md",
+    "图形学/计算机图形学/0. 目录.md",
+    "图形学/计算机图形学",
+    "数学基础/3D数学基础/attachments",
+    "数学基础/3D数学基础/9. 图形学中的常用技巧.md",
+    "数学基础/3D数学基础/8. 图形学中的集合元素.md",
+    "数学基础/3D数学基础/7. 欧拉角与四元数.md",
+    "数学基础/3D数学基础/6. 齐次空间与仿射变换.md",
+    "数学基础/3D数学基础/5. 法线从本地空间转化到视空间矩阵.md",
+    "数学基础/3D数学基础/4. 视图空间与投影空间.md",
+    "数学基础/3D数学基础/3. 行列式与逆矩阵.md",
+    "数学基础/3D数学基础/26. 蒙特卡洛积分法.md",
+    "数学基础/3D数学基础/25. 傅里叶变换.md",
+    "数学基础/3D数学基础/24. 卷积.md",
+    "数学基础/3D数学基础",
+    "图形学",
+    "新建文件夹",
+    "数学基础",
+    "UnrealEngine/Animation/AnimationInUE/1. UE动画更新流程.canvas",
     "未命名.canvas",
     "计算机图形学/attachments",
     "计算机图形学/新建文件夹",
-    "3D数学基础/14. 实时图形渲染管线.md",
-    "3D数学基础/16. 速度与微分(导数).md",
-    "3D数学基础/4. 视图空间与投影空间.md",
-    "3D数学基础/15. 一些基于HSLS的示例.md",
-    "3D数学基础/13. 凹凸贴图与切线空间.md",
-    "3D数学基础/12. 光源.md",
-    "3D数学基础/9. 图形学中的常用技巧.md",
-    "3D数学基础/8. 图形学中的集合元素.md",
-    "计算机图形学/0. 目录.md",
-    "计算机图形学",
-    "Templaters",
-    "3D数学基础/attachments",
-    "3D数学基础/新建文件夹",
-    "3D数学基础"
+    "计算机图形学"
   ]
 }
