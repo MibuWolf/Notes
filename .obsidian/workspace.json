@@ -4,16 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "edfd8b8d153737a5",
+        "id": "c9f5daef43c854b2",
         "type": "tabs",
         "children": [
           {
-            "id": "cc513810516e6ee6",
+            "id": "25576590f9397b9d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
+              "type": "markdown",
+              "state": {
+                "file": "UnrealEngine/Animation/Animation/2. 物理动画概述.md",
+                "mode": "source",
+                "source": true
+              }
+            },
+            "group": "b31850804cf07de9"
+          }
+        ]
+      },
+      {
+        "id": "484ee30450a90cd6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "867119a2f36edbbe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UnrealEngine/Animation/Animation/2. 物理动画概述.md",
+                "mode": "preview",
+                "source": false
+              }
+            },
+            "group": "b31850804cf07de9"
           }
         ]
       }
@@ -81,6 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "UnrealEngine/Animation/Animation/2. 物理动画概述.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "UnrealEngine/Animation/Animation/2. 物理动画概述.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +144,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "UnrealEngine/Animation/Animation/2. 物理动画概述.md"
+              }
             }
           },
           {
@@ -151,22 +179,37 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "cc513810516e6ee6",
+  "active": "c001a77f61a2bd59",
   "lastOpenFiles": [
-    "UnrealEngine/Animation/AnimationInUE/1. UE动画更新流程.canvas",
+    "UnrealEngine/Animation/Animation/attachments/Pic_016.gif",
+    "UnrealEngine/Animation/Animation/attachments/Pic_016.gif.crdownload",
+    "UnrealEngine/Animation/Animation/attachments/Pic_015.gif",
+    "UnrealEngine/Animation/Animation/attachments/Pic_015.gif.crdownload",
+    "UnrealEngine/Animation/Animation/attachments/Pic_014.gif",
+    "UnrealEngine/Animation/Animation/attachments/Pic_014.gif.crdownload",
+    "UnrealEngine/Animation/Animation/attachments/Pic_013.gif",
+    "UnrealEngine/Animation/Animation/attachments/Pic_012.png",
+    "UnrealEngine/Animation/Animation/attachments/Pic_012.png.crdownload",
+    "UnrealEngine/Animation/Animation/attachments/Pic_011.png",
+    "UnrealEngine/Animation/Animation/attachments/Pic_011.png.crdownload",
+    "UnrealEngine/Animation/Animation/attachments/Pic_010.png",
+    "UnrealEngine/Animation/Animation/attachments/Pic_010.png.crdownload",
+    "UnrealEngine/Animation/Animation/attachments/Pic_009.png",
+    "UnrealEngine/Animation/Animation/attachments/Pic_009.png.crdownload",
+    "UnrealEngine/Animation/Animation/attachments/Pic_008.png",
+    "UnrealEngine/Animation/Animation/attachments/Pic_008.png.crdownload",
+    "UnrealEngine/Animation/Animation/attachments/Pic_007.png",
+    "UnrealEngine/Animation/Animation/attachments/Pic_007.png.crdownload",
+    "UnrealEngine/Animation/Animation/attachments/Pic_006.png",
+    "UnrealEngine/Animation/Animation/attachments/Pic_006.png.crdownload",
+    "UnrealEngine/Animation/Animation/1. 动画更新流程.canvas",
+    "UnrealEngine/Animation/Animation/0. 目录.md",
+    "UnrealEngine/Animation/Animation/2. 物理动画概述.md",
+    "README.md",
+    "图形学/计算机图形学/1. 实时图形渲染管线.md",
     "计算机理论基础/设计模式/4. 面向对象的设计模式.md",
     "计算机理论基础/设计模式/3. 结构型模式.md",
     "计算机理论基础/设计模式/0. 目录.md",
-    "计算机理论基础/设计模式/attachments/Pic_047.png",
-    "计算机理论基础/设计模式/attachments/Pic_046.png",
-    "计算机理论基础/设计模式/attachments/Pic_045.png",
-    "计算机理论基础/设计模式/attachments/Pic_044.png",
-    "计算机理论基础/设计模式/attachments/Pic_043.png",
-    "计算机理论基础/设计模式/attachments/Pic_042.png",
-    "计算机理论基础/设计模式/attachments/Pic_041.png",
-    "计算机理论基础/设计模式/attachments/Pic_040.png",
-    "计算机理论基础/设计模式/attachments/Pic_039.png",
-    "计算机理论基础/设计模式/attachments/Pic_038.png",
     "计算机理论基础/设计模式/2. 行为型模式.md",
     "计算机理论基础/设计模式/1. 创建型模式.md",
     "图形学/计算机图形学/14. 反射模型.md",
@@ -182,23 +225,9 @@
     "图形学/计算机图形学/4. 光照与表面着色.md",
     "图形学/计算机图形学/3. 滤波器与图像信息处理.md",
     "图形学/计算机图形学/2. 信号处理与卷积.md",
-    "图形学/计算机图形学/1. 实时图形渲染管线.md",
     "数学基础/3D数学基础/26. 蒙特卡洛积分法.md",
     "数学基础/3D数学基础/25. 傅里叶变换.md",
     "数学基础/3D数学基础/24. 卷积.md",
-    "数学基础/3D数学基础/23. 极坐标.md",
-    "数学基础/3D数学基础/22. 回旋曲线.md",
-    "数学基础/3D数学基础/21. 贝塞尔曲线.md",
-    "计算机理论基础/设计模式/attachments",
-    "计算机理论基础/设计模式/新建文件夹",
-    "计算机理论基础/设计模式",
-    "计算机理论基础/新建文件夹",
-    "计算机理论基础",
-    "新建文件夹",
-    "图形学/计算机图形学/attachments",
-    "图形学/计算机图形学",
-    "数学基础/3D数学基础/attachments",
-    "数学基础/3D数学基础",
     "未命名.canvas"
   ]
 }
