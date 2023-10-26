@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "314fd166e05b2057",
+        "id": "edfd8b8d153737a5",
         "type": "tabs",
         "children": [
           {
-            "id": "7a54075f9c652fcd",
+            "id": "cc513810516e6ee6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "计算机理论基础/设计模式/4. 面向对象的设计模式.md",
-                "mode": "source",
-                "source": true
-              }
-            },
-            "group": "df0e7292b1cf8e6e"
-          }
-        ]
-      },
-      {
-        "id": "9aaed8832d0eaccd",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a4566c9c7a1ee8a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "计算机理论基础/设计模式/4. 面向对象的设计模式.md",
-                "mode": "source",
-                "source": false
-              }
-            },
-            "group": "df0e7292b1cf8e6e"
+              "type": "empty",
+              "state": {}
+            }
           }
         ]
       }
@@ -105,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机理论基础/设计模式/4. 面向对象的设计模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机理论基础/设计模式/4. 面向对象的设计模式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "计算机理论基础/设计模式/4. 面向对象的设计模式.md"
-              }
+              "state": {}
             }
           },
           {
@@ -179,10 +151,11 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "7a54075f9c652fcd",
+  "active": "cc513810516e6ee6",
   "lastOpenFiles": [
-    "计算机理论基础/设计模式/3. 结构型模式.md",
+    "UnrealEngine/Animation/AnimationInUE/1. UE动画更新流程.canvas",
     "计算机理论基础/设计模式/4. 面向对象的设计模式.md",
+    "计算机理论基础/设计模式/3. 结构型模式.md",
     "计算机理论基础/设计模式/0. 目录.md",
     "计算机理论基础/设计模式/attachments/Pic_047.png",
     "计算机理论基础/设计模式/attachments/Pic_046.png",
@@ -216,8 +189,6 @@
     "数学基础/3D数学基础/23. 极坐标.md",
     "数学基础/3D数学基础/22. 回旋曲线.md",
     "数学基础/3D数学基础/21. 贝塞尔曲线.md",
-    "数学基础/3D数学基础/20. 埃尔米特曲线.md",
-    "UnrealEngine/Animation/AnimationInUE/1. UE动画更新流程.canvas",
     "计算机理论基础/设计模式/attachments",
     "计算机理论基础/设计模式/新建文件夹",
     "计算机理论基础/设计模式",
