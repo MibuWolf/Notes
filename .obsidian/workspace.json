@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/流程图模板.md",
+                "file": "UnrealEngine/Animation/Animation/5. UPhysicalAnimationComponent.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,8 +32,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/流程图模板.md",
-                "mode": "preview",
+                "file": "UnrealEngine/Animation/Animation/5. UPhysicalAnimationComponent.md",
+                "mode": "source",
                 "source": false
               }
             },
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/流程图模板.md",
+                "file": "UnrealEngine/Animation/Animation/5. UPhysicalAnimationComponent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/流程图模板.md",
+                "file": "UnrealEngine/Animation/Animation/5. UPhysicalAnimationComponent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/流程图模板.md"
+                "file": "UnrealEngine/Animation/Animation/5. UPhysicalAnimationComponent.md"
               }
             }
           },
@@ -179,17 +179,18 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "867119a2f36edbbe",
+  "active": "25576590f9397b9d",
   "lastOpenFiles": [
+    "UnrealEngine/Animation/Animation/4. 物理动画更新流程.md",
+    "UnrealEngine/Animation/Animation/3. 物理动画概述.md",
+    "UnrealEngine/Animation/Animation/2. 移动与动画.md",
+    "UnrealEngine/Animation/Animation/1. 动画更新流程.canvas",
+    "UnrealEngine/Animation/Animation/0. 目录.md",
     "UnrealEngine/Animation/Animation/5. UPhysicalAnimationComponent.md",
+    "Templates/思维导图模板.md",
     "Templates/流程图模板.md",
     "Templates",
     "新建文件夹",
-    "UnrealEngine/Animation/Animation/4. 物理动画更新流程.md",
-    "UnrealEngine/Animation/Animation/3. 物理动画概述.md",
-    "UnrealEngine/Animation/Animation/1. 动画更新流程.canvas",
-    "UnrealEngine/Animation/Animation/2. 移动与动画.md",
-    "UnrealEngine/Animation/Animation/0. 目录.md",
     "UnrealEngine/Animation/Animation/attachments/Pic_016.gif",
     "UnrealEngine/Animation/Animation/attachments/Pic_016.gif.crdownload",
     "UnrealEngine/Animation/Animation/attachments/Pic_015.gif",
@@ -226,8 +227,6 @@
     "图形学/计算机图形学/6. 图形学中常用的数据结构.md",
     "图形学/计算机图形学/5. 纹理贴图.md",
     "图形学/计算机图形学/4. 光照与表面着色.md",
-    "图形学/计算机图形学/3. 滤波器与图像信息处理.md",
-    "图形学/计算机图形学/2. 信号处理与卷积.md",
     "未命名.canvas"
   ]
 }
