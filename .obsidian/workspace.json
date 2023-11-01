@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UnrealEngine/Animation/Animation/6. PhysicsControl组件.md",
+                "file": "计算机理论基础/设计模式/2. 行为型模式.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UnrealEngine/Animation/Animation/6. PhysicsControl组件.md",
+                "file": "计算机理论基础/设计模式/2. 行为型模式.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UnrealEngine/Animation/Animation/6. PhysicsControl组件.md",
+                "file": "计算机理论基础/设计模式/2. 行为型模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UnrealEngine/Animation/Animation/6. PhysicsControl组件.md",
+                "file": "计算机理论基础/设计模式/2. 行为型模式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UnrealEngine/Animation/Animation/6. PhysicsControl组件.md"
+                "file": "计算机理论基础/设计模式/2. 行为型模式.md"
               }
             }
           },
@@ -181,8 +181,11 @@
   },
   "active": "25576590f9397b9d",
   "lastOpenFiles": [
-    "UnrealEngine/Animation/Animation/5. PhysicalAnimation组件.md",
+    "计算机理论基础/设计模式/4. 面向对象的设计模式.md",
+    "计算机理论基础/设计模式/3. 结构型模式.md",
+    "计算机理论基础/设计模式/2. 行为型模式.md",
     "UnrealEngine/Animation/Animation/6. PhysicsControl组件.md",
+    "UnrealEngine/Animation/Animation/5. PhysicalAnimation组件.md",
     "UnrealEngine/Animation/Animation/0. 目录.md",
     "UnrealEngine/Animation/Animation/5. UPhysicalAnimationComponent.md",
     "UnrealEngine/Animation/Animation/4. 物理动画更新流程.md",
@@ -215,10 +218,7 @@
     "UnrealEngine/Animation/Animation/attachments/Pic_007.png",
     "README.md",
     "图形学/计算机图形学/1. 实时图形渲染管线.md",
-    "计算机理论基础/设计模式/4. 面向对象的设计模式.md",
-    "计算机理论基础/设计模式/3. 结构型模式.md",
     "计算机理论基础/设计模式/0. 目录.md",
-    "计算机理论基础/设计模式/2. 行为型模式.md",
     "计算机理论基础/设计模式/1. 创建型模式.md",
     "图形学/计算机图形学/14. 反射模型.md",
     "图形学/计算机图形学/13. 全局光照.md",
