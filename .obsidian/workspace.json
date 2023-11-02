@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UnrealEngine/Animation/Animation/5. PhysicalAnimation组件.md",
+                "file": "C++/Effective Modern C++/2. 型别推导.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UnrealEngine/Animation/Animation/5. PhysicalAnimation组件.md",
+                "file": "C++/Effective Modern C++/2. 型别推导.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UnrealEngine/Animation/Animation/5. PhysicalAnimation组件.md",
+                "file": "C++/Effective Modern C++/2. 型别推导.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UnrealEngine/Animation/Animation/5. PhysicalAnimation组件.md",
+                "file": "C++/Effective Modern C++/2. 型别推导.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UnrealEngine/Animation/Animation/5. PhysicalAnimation组件.md"
+                "file": "C++/Effective Modern C++/2. 型别推导.md"
               }
             }
           },
@@ -181,6 +181,9 @@
   },
   "active": "25576590f9397b9d",
   "lastOpenFiles": [
+    "C++/Effective Modern C++/1. 绪论.md",
+    "C++/Effective Modern C++/0. 目录.md",
+    "UnrealEngine/Animation/Animation/5. PhysicalAnimation组件.md",
     "C++/Effective Modern C++/9. 微调.md",
     "C++/Effective Modern C++/8. 并发API.md",
     "C++/Effective Modern C++/7. lambda表达式.md",
@@ -189,12 +192,10 @@
     "C++/Effective Modern C++/4. 转向现代C++.md",
     "C++/Effective Modern C++/3. auto.md",
     "C++/Effective Modern C++/2. 型别推导.md",
-    "C++/Effective Modern C++/1. 绪论.md",
     "UnrealEngine/Animation/Animation/6. PhysicsControl组件.md",
     "计算机理论基础/设计模式/2. 行为型模式.md",
     "计算机理论基础/设计模式/4. 面向对象的设计模式.md",
     "计算机理论基础/设计模式/3. 结构型模式.md",
-    "UnrealEngine/Animation/Animation/5. PhysicalAnimation组件.md",
     "UnrealEngine/Animation/Animation/0. 目录.md",
     "UnrealEngine/Animation/Animation/5. UPhysicalAnimationComponent.md",
     "UnrealEngine/Animation/Animation/4. 物理动画更新流程.md",
@@ -202,7 +203,6 @@
     "数学基础/3D数学基础/5. 法线从本地空间转化到视空间矩阵.md",
     "UnrealEngine/Animation/Animation/1. 动画更新流程.canvas",
     "UnrealEngine/Animation/Animation/2. 移动与动画.md",
-    "C++/Effective Modern C++/0. 目录.md",
     "Templates/思维导图模板.md",
     "Templates/流程图模板.md",
     "Templates",
