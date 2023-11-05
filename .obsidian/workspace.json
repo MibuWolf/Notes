@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Effective Modern C++/2. 型别推导.md",
+                "file": "C++/Effective Modern C++/0. 目录.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             },
             "group": "b31850804cf07de9"
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Effective Modern C++/2. 型别推导.md",
+                "file": "C++/Effective Modern C++/0. 目录.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,14 +105,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Effective Modern C++/2. 型别推导.md",
+                "file": "C++/Effective Modern C++/0. 目录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Effective Modern C++/2. 型别推导.md",
+                "file": "C++/Effective Modern C++/0. 目录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Effective Modern C++/2. 型别推导.md"
+                "file": "C++/Effective Modern C++/0. 目录.md"
               }
             }
           },
@@ -163,8 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,14 +181,22 @@
   },
   "active": "25576590f9397b9d",
   "lastOpenFiles": [
-    "C++/Effective Modern C++/1. 绪论.md",
-    "C++/Effective Modern C++/0. 目录.md",
+    "C++/Effective Modern C++/2. 型别推导/条款1： 理解模板型别推导.md",
+    "C++/Effective Modern C++/2. 型别推导",
+    "C++/Effective Modern C++/型别推导/条款1： 理解模板型别推导.md",
+    "C++/Effective Modern C++/型别推导",
+    "图形学/计算机图形学/0. 目录.md",
     "C++/Effective Modern C++/2. 型别推导.md",
-    "C++/Effective Modern C++/6 右值引用,移动语义和完美转发.md",
+    "C++/Effective Modern C++/条款1： 理解模板型别推导.md",
+    "C++/Effective Modern C++/1. 绪论.md",
+    "C++/Effective Modern C++/型别推导/1. 绪论.md",
+    "C++/Effective Modern C++/新建文件夹",
+    "C++/Effective Modern C++/0. 目录.md",
     "UnrealEngine/Animation/Animation/5. PhysicalAnimation组件.md",
     "C++/Effective Modern C++/9. 微调.md",
     "C++/Effective Modern C++/8. 并发API.md",
     "C++/Effective Modern C++/7. lambda表达式.md",
+    "C++/Effective Modern C++/6 右值引用,移动语义和完美转发.md",
     "C++/Effective Modern C++/5. 智能指针.md",
     "C++/Effective Modern C++/4. 转向现代C++.md",
     "C++/Effective Modern C++/3. auto.md",
@@ -203,9 +210,6 @@
     "UnrealEngine/Animation/Animation/3. 物理动画概述.md",
     "数学基础/3D数学基础/5. 法线从本地空间转化到视空间矩阵.md",
     "UnrealEngine/Animation/Animation/1. 动画更新流程.canvas",
-    "UnrealEngine/Animation/Animation/2. 移动与动画.md",
-    "Templates/思维导图模板.md",
-    "Templates/流程图模板.md",
     "Templates",
     "新建文件夹",
     "UnrealEngine/Animation/Animation/attachments/Pic_016.gif",
@@ -220,15 +224,9 @@
     "UnrealEngine/Animation/Animation/attachments/Pic_011.png",
     "UnrealEngine/Animation/Animation/attachments/Pic_011.png.crdownload",
     "UnrealEngine/Animation/Animation/attachments/Pic_010.png",
-    "UnrealEngine/Animation/Animation/attachments/Pic_010.png.crdownload",
     "UnrealEngine/Animation/Animation/attachments/Pic_009.png",
-    "UnrealEngine/Animation/Animation/attachments/Pic_009.png.crdownload",
     "UnrealEngine/Animation/Animation/attachments/Pic_008.png",
-    "UnrealEngine/Animation/Animation/attachments/Pic_008.png.crdownload",
     "UnrealEngine/Animation/Animation/attachments/Pic_007.png",
-    "README.md",
-    "图形学/计算机图形学/1. 实时图形渲染管线.md",
-    "计算机理论基础/设计模式/0. 目录.md",
     "未命名.canvas"
   ]
 }
