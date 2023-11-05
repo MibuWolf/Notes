@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Effective Modern C++/0. 目录.md",
+                "file": "C++/Effective Modern C++/型别推导/条款1： 理解模板型别推导.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             },
             "group": "b31850804cf07de9"
@@ -32,12 +32,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Effective Modern C++/0. 目录.md",
+                "file": "C++/Effective Modern C++/型别推导/条款1： 理解模板型别推导.md",
                 "mode": "source",
                 "source": false
               }
             },
             "group": "b31850804cf07de9"
+          },
+          {
+            "id": "319d8ec4a27146c5",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ]
       }
@@ -105,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Effective Modern C++/0. 目录.md",
+                "file": "C++/Effective Modern C++/型别推导/条款1： 理解模板型别推导.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Effective Modern C++/0. 目录.md",
+                "file": "C++/Effective Modern C++/型别推导/条款1： 理解模板型别推导.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Effective Modern C++/0. 目录.md"
+                "file": "C++/Effective Modern C++/型别推导/条款1： 理解模板型别推导.md"
               }
             }
           },
@@ -179,19 +187,21 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "25576590f9397b9d",
+  "active": "867119a2f36edbbe",
   "lastOpenFiles": [
-    "C++/Effective Modern C++/2. 型别推导/条款1： 理解模板型别推导.md",
-    "C++/Effective Modern C++/2. 型别推导",
+    "C++/Effective Modern C++/2. 型别推导.md",
+    "C++/Effective Modern C++/型别推导/条款2：理解auto型别推导.md",
+    "C++/Effective Modern C++/型别推导/条款4：掌握查看型别拖到结果的方法.md",
     "C++/Effective Modern C++/型别推导/条款1： 理解模板型别推导.md",
+    "C++/Effective Modern C++/型别推导/条款3：理解decltype.md",
+    "C++/Effective Modern C++/0. 目录.md",
+    "C++/Effective Modern C++/1. 绪论.md",
+    "C++/Effective Modern C++/型别推导",
     "C++/Effective Modern C++/型别推导",
     "图形学/计算机图形学/0. 目录.md",
-    "C++/Effective Modern C++/2. 型别推导.md",
     "C++/Effective Modern C++/条款1： 理解模板型别推导.md",
-    "C++/Effective Modern C++/1. 绪论.md",
     "C++/Effective Modern C++/型别推导/1. 绪论.md",
     "C++/Effective Modern C++/新建文件夹",
-    "C++/Effective Modern C++/0. 目录.md",
     "UnrealEngine/Animation/Animation/5. PhysicalAnimation组件.md",
     "C++/Effective Modern C++/9. 微调.md",
     "C++/Effective Modern C++/8. 并发API.md",
@@ -208,7 +218,6 @@
     "UnrealEngine/Animation/Animation/5. UPhysicalAnimationComponent.md",
     "UnrealEngine/Animation/Animation/4. 物理动画更新流程.md",
     "UnrealEngine/Animation/Animation/3. 物理动画概述.md",
-    "数学基础/3D数学基础/5. 法线从本地空间转化到视空间矩阵.md",
     "UnrealEngine/Animation/Animation/1. 动画更新流程.canvas",
     "Templates",
     "新建文件夹",
