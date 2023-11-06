@@ -167,11 +167,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,18 +184,20 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "templater-obsidian:Templater": false,
+      "obsidian42-brat:BRAT": false
     }
   },
   "active": "867119a2f36edbbe",
   "lastOpenFiles": [
     "C++/Effective Modern C++/2. 型别推导.md",
+    "C++/Effective Modern C++/1. 绪论.md",
+    "C++/Effective Modern C++/0. 目录.md",
+    "C++/Effective Modern C++/型别推导/条款1： 理解模板型别推导.md",
     "C++/Effective Modern C++/型别推导/条款2：理解auto型别推导.md",
     "C++/Effective Modern C++/型别推导/条款4：掌握查看型别拖到结果的方法.md",
-    "C++/Effective Modern C++/型别推导/条款1： 理解模板型别推导.md",
     "C++/Effective Modern C++/型别推导/条款3：理解decltype.md",
-    "C++/Effective Modern C++/0. 目录.md",
-    "C++/Effective Modern C++/1. 绪论.md",
     "C++/Effective Modern C++/型别推导",
     "C++/Effective Modern C++/型别推导",
     "图形学/计算机图形学/0. 目录.md",
