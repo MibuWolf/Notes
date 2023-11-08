@@ -179,12 +179,15 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "76b277c8b670dc07",
+  "active": "25576590f9397b9d",
   "lastOpenFiles": [
-    "C++/Effective Modern C++/型别推导/条款1： 理解模板型别推导.md",
     "C++/Effective Modern C++/型别推导/条款2：理解auto型别推导.md",
+    "C++/Effective Modern C++/型别推导/条款1： 理解模板型别推导.md",
+    "C++/Effective Modern C++/2. 型别推导.md",
+    "C++/Effective Modern C++/1. 绪论.md",
+    "C++/Effective Modern C++/0. 目录.md",
+    "C++/Effective Modern C++/型别推导/条款4：掌握查看型别推导结果的方法.md",
     "C++/Effective Modern C++/型别推导/条款3：理解decltype.md",
-    "C++/Effective Modern C++/型别推导/条款4：掌握查看型别拖到结果的方法.md",
     "数学基础/3D数学基础/2. 矩阵.md",
     "C++/Effective Modern C++/转向现代C++/条款17：理解特种成员函数的生成机制.md",
     "C++/Effective Modern C++/转向现代C++/条款16：保证const成员函数的线程安全性.md",
