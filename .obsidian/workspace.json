@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Effective Modern C++/型别推导/条款1： 理解模板型别推导.md",
+                "file": "C++/Effective Modern C++/型别推导/条款2：理解auto型别推导.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Effective Modern C++/型别推导/条款1： 理解模板型别推导.md",
+                "file": "C++/Effective Modern C++/型别推导/条款2：理解auto型别推导.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Effective Modern C++/型别推导/条款1： 理解模板型别推导.md",
+                "file": "C++/Effective Modern C++/型别推导/条款2：理解auto型别推导.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Effective Modern C++/型别推导/条款1： 理解模板型别推导.md",
+                "file": "C++/Effective Modern C++/型别推导/条款2：理解auto型别推导.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Effective Modern C++/型别推导/条款1： 理解模板型别推导.md"
+                "file": "C++/Effective Modern C++/型别推导/条款2：理解auto型别推导.md"
               }
             }
           },
@@ -189,37 +189,39 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "867119a2f36edbbe",
+  "active": "25576590f9397b9d",
   "lastOpenFiles": [
-    "C++/Effective Modern C++/2. 型别推导.md",
-    "C++/Effective Modern C++/1. 绪论.md",
-    "C++/Effective Modern C++/0. 目录.md",
     "C++/Effective Modern C++/型别推导/条款1： 理解模板型别推导.md",
     "C++/Effective Modern C++/型别推导/条款2：理解auto型别推导.md",
-    "C++/Effective Modern C++/型别推导/条款4：掌握查看型别拖到结果的方法.md",
-    "C++/Effective Modern C++/型别推导/条款3：理解decltype.md",
-    "C++/Effective Modern C++/型别推导",
-    "C++/Effective Modern C++/型别推导",
-    "图形学/计算机图形学/0. 目录.md",
-    "C++/Effective Modern C++/条款1： 理解模板型别推导.md",
-    "C++/Effective Modern C++/型别推导/1. 绪论.md",
+    "数学基础/3D数学基础/2. 矩阵.md",
+    "C++/Effective Modern C++/转向现代C++/条款17：理解特种成员函数的生成机制.md",
+    "C++/Effective Modern C++/转向现代C++/条款16：保证const成员函数的线程安全性.md",
+    "C++/Effective Modern C++/转向现代C++/条款15：只要有可能使用constexpr就使用它.md",
+    "C++/Effective Modern C++/转向现代C++/条款14：只要函数与不会抛出异常就为其加上noexcept声明.md",
+    "C++/Effective Modern C++/转向现代C++/条款13：优先选用const_iterator而非iterator.md",
+    "C++/Effective Modern C++/转向现代C++/条款12：为意在改写的函数添加override声明.md",
+    "C++/Effective Modern C++/转向现代C++/条款11：优先选用删除函数而非private未定义函数.md",
+    "C++/Effective Modern C++/转向现代C++/条款10：优先选用限定作用域的枚举型别，而非不限作用域的枚举型别.md",
+    "C++/Effective Modern C++/转向现代C++/条款9：优先选用别名声明而非typedef - 副本 (8).md",
+    "C++/Effective Modern C++/转向现代C++/条款9：优先选用别名声明而非typedef - 副本 (7).md",
+    "C++/Effective Modern C++/转向现代C++/条款9：优先选用别名声明而非typedef - 副本 (6).md",
+    "C++/Effective Modern C++/转向现代C++/条款9：优先选用别名声明而非typedef - 副本 (5).md",
+    "C++/Effective Modern C++/转向现代C++/条款9：优先选用别名声明而非typedef - 副本 (4).md",
+    "C++/Effective Modern C++/转向现代C++/条款9：优先选用别名声明而非typedef - 副本 (3).md",
+    "C++/Effective Modern C++/转向现代C++/条款9：优先选用别名声明而非typedef - 副本 (2).md",
+    "C++/Effective Modern C++/转向现代C++/条款9：优先选用别名声明而非typedef - 副本.md",
+    "C++/Effective Modern C++/转向现代C++/条款9：优先选用别名声明而非typedef.md",
+    "C++/Effective Modern C++/转向现代C++/条款8：优先选用nullptr而非0或NULL - 副本.md",
+    "C++/Effective Modern C++/转向现代C++/条款8：优先选用nullptr而非0或NULL.md",
+    "C++/Effective Modern C++/转向现代C++/条款7：创建对象时注意区分和{} - 副本.md",
+    "C++/Effective Modern C++/转向现代C++/条款7：创建对象时注意区分()和{}.md",
+    "C++/Effective Modern C++/转向现代C++/条款5：优先选用auto而非显示型别声明.md",
+    "C++/Effective Modern C++/转向现代C++",
     "C++/Effective Modern C++/新建文件夹",
-    "UnrealEngine/Animation/Animation/5. PhysicalAnimation组件.md",
-    "C++/Effective Modern C++/9. 微调.md",
-    "C++/Effective Modern C++/8. 并发API.md",
-    "C++/Effective Modern C++/7. lambda表达式.md",
-    "C++/Effective Modern C++/6 右值引用,移动语义和完美转发.md",
-    "C++/Effective Modern C++/5. 智能指针.md",
-    "C++/Effective Modern C++/4. 转向现代C++.md",
-    "C++/Effective Modern C++/3. auto.md",
-    "UnrealEngine/Animation/Animation/6. PhysicsControl组件.md",
-    "计算机理论基础/设计模式/2. 行为型模式.md",
-    "计算机理论基础/设计模式/4. 面向对象的设计模式.md",
-    "计算机理论基础/设计模式/3. 结构型模式.md",
-    "UnrealEngine/Animation/Animation/0. 目录.md",
-    "UnrealEngine/Animation/Animation/5. UPhysicalAnimationComponent.md",
-    "UnrealEngine/Animation/Animation/4. 物理动画更新流程.md",
-    "UnrealEngine/Animation/Animation/3. 物理动画概述.md",
+    "C++/Effective Modern C++/Auto/条款6：当auto推导的型别不符合要求时，使用带显示型别的初始化物习惯用法.md",
+    "C++/Effective Modern C++/Auto",
+    "C++/Effective Modern C++/型别推导",
+    "C++/Effective Modern C++/型别推导",
     "UnrealEngine/Animation/Animation/1. 动画更新流程.canvas",
     "Templates",
     "新建文件夹",
@@ -231,9 +233,7 @@
     "UnrealEngine/Animation/Animation/attachments/Pic_014.gif.crdownload",
     "UnrealEngine/Animation/Animation/attachments/Pic_013.gif",
     "UnrealEngine/Animation/Animation/attachments/Pic_012.png",
-    "UnrealEngine/Animation/Animation/attachments/Pic_012.png.crdownload",
     "UnrealEngine/Animation/Animation/attachments/Pic_011.png",
-    "UnrealEngine/Animation/Animation/attachments/Pic_011.png.crdownload",
     "UnrealEngine/Animation/Animation/attachments/Pic_010.png",
     "UnrealEngine/Animation/Animation/attachments/Pic_009.png",
     "UnrealEngine/Animation/Animation/attachments/Pic_008.png",
