@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c9f5daef43c854b2",
+        "id": "b3854caf1fd12fec",
         "type": "tabs",
         "children": [
           {
-            "id": "25576590f9397b9d",
+            "id": "76b277c8b670dc07",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -17,17 +17,16 @@
                 "mode": "source",
                 "source": true
               }
-            },
-            "group": "b31850804cf07de9"
+            }
           }
         ]
       },
       {
-        "id": "484ee30450a90cd6",
+        "id": "4afba956452eafe7",
         "type": "tabs",
         "children": [
           {
-            "id": "867119a2f36edbbe",
+            "id": "a3efefa6bc830cb6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,15 +35,6 @@
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "b31850804cf07de9"
-          },
-          {
-            "id": "319d8ec4a27146c5",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ]
@@ -189,10 +179,12 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "25576590f9397b9d",
+  "active": "76b277c8b670dc07",
   "lastOpenFiles": [
     "C++/Effective Modern C++/型别推导/条款1： 理解模板型别推导.md",
     "C++/Effective Modern C++/型别推导/条款2：理解auto型别推导.md",
+    "C++/Effective Modern C++/型别推导/条款3：理解decltype.md",
+    "C++/Effective Modern C++/型别推导/条款4：掌握查看型别拖到结果的方法.md",
     "数学基础/3D数学基础/2. 矩阵.md",
     "C++/Effective Modern C++/转向现代C++/条款17：理解特种成员函数的生成机制.md",
     "C++/Effective Modern C++/转向现代C++/条款16：保证const成员函数的线程安全性.md",
@@ -215,10 +207,8 @@
     "C++/Effective Modern C++/转向现代C++/条款8：优先选用nullptr而非0或NULL.md",
     "C++/Effective Modern C++/转向现代C++/条款7：创建对象时注意区分和{} - 副本.md",
     "C++/Effective Modern C++/转向现代C++/条款7：创建对象时注意区分()和{}.md",
-    "C++/Effective Modern C++/转向现代C++/条款5：优先选用auto而非显示型别声明.md",
     "C++/Effective Modern C++/转向现代C++",
     "C++/Effective Modern C++/新建文件夹",
-    "C++/Effective Modern C++/Auto/条款6：当auto推导的型别不符合要求时，使用带显示型别的初始化物习惯用法.md",
     "C++/Effective Modern C++/Auto",
     "C++/Effective Modern C++/型别推导",
     "C++/Effective Modern C++/型别推导",
