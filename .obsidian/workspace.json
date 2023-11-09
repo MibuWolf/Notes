@@ -4,38 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "b3854caf1fd12fec",
+        "id": "024e9df9f680b18d",
         "type": "tabs",
         "children": [
           {
-            "id": "76b277c8b670dc07",
+            "id": "122824077d679e4c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Effective Modern C++/型别推导/条款2：理解auto型别推导.md",
+                "file": "UnrealEngine/Animation/Animation/4. 物理动画更新流程.md",
                 "mode": "source",
                 "source": true
               }
-            }
+            },
+            "group": "43830e05b1d25385"
           }
         ]
       },
       {
-        "id": "4afba956452eafe7",
+        "id": "920e2da5555ae8c8",
         "type": "tabs",
         "children": [
           {
-            "id": "a3efefa6bc830cb6",
+            "id": "9c15ef975b79108a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Effective Modern C++/型别推导/条款2：理解auto型别推导.md",
+                "file": "UnrealEngine/Animation/Animation/4. 物理动画更新流程.md",
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "43830e05b1d25385"
           }
         ]
       }
@@ -103,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Effective Modern C++/型别推导/条款2：理解auto型别推导.md",
+                "file": "UnrealEngine/Animation/Animation/4. 物理动画更新流程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Effective Modern C++/型别推导/条款2：理解auto型别推导.md",
+                "file": "UnrealEngine/Animation/Animation/4. 物理动画更新流程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Effective Modern C++/型别推导/条款2：理解auto型别推导.md"
+                "file": "UnrealEngine/Animation/Animation/4. 物理动画更新流程.md"
               }
             }
           },
@@ -179,10 +181,20 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "c001a77f61a2bd59",
+  "active": "122824077d679e4c",
   "lastOpenFiles": [
-    "C++/Effective Modern C++/型别推导/条款1： 理解模板型别推导.md",
+    "UnrealEngine/Animation/Animation/6. PhysicsControl组件.md",
+    "UnrealEngine/Animation/Animation/5. PhysicalAnimation组件.md",
+    "UnrealEngine/Animation/Animation/4. 物理动画更新流程.md",
+    "UnrealEngine/Animation/Animation/3. 物理动画概述.md",
+    "UnrealEngine/Animation/Animation/2. 移动与动画.md",
+    "UnrealEngine/Animation/Animation/1. 动画更新流程.canvas",
+    "Templates/时序图模板.md",
+    "Templates/流程图模板.md",
+    "Templates/思维导图模板.md",
+    "UnrealEngine/Animation/Animation/attachments/Pic_003.png",
     "C++/Effective Modern C++/型别推导/条款2：理解auto型别推导.md",
+    "C++/Effective Modern C++/型别推导/条款1： 理解模板型别推导.md",
     "C++/Effective Modern C++/型别推导/条款3：理解decltype.md",
     "C++/Effective Modern C++/型别推导/条款4：掌握查看型别拖到结果的方法.md",
     "数学基础/3D数学基础/2. 矩阵.md",
@@ -199,20 +211,11 @@
     "C++/Effective Modern C++/转向现代C++/条款9：优先选用别名声明而非typedef - 副本 (6).md",
     "C++/Effective Modern C++/转向现代C++/条款9：优先选用别名声明而非typedef - 副本 (5).md",
     "C++/Effective Modern C++/转向现代C++/条款9：优先选用别名声明而非typedef - 副本 (4).md",
-    "C++/Effective Modern C++/转向现代C++/条款9：优先选用别名声明而非typedef - 副本 (3).md",
-    "C++/Effective Modern C++/转向现代C++/条款9：优先选用别名声明而非typedef - 副本 (2).md",
-    "C++/Effective Modern C++/转向现代C++/条款9：优先选用别名声明而非typedef - 副本.md",
-    "C++/Effective Modern C++/转向现代C++/条款9：优先选用别名声明而非typedef.md",
-    "C++/Effective Modern C++/转向现代C++/条款8：优先选用nullptr而非0或NULL - 副本.md",
-    "C++/Effective Modern C++/转向现代C++/条款8：优先选用nullptr而非0或NULL.md",
-    "C++/Effective Modern C++/转向现代C++/条款7：创建对象时注意区分和{} - 副本.md",
-    "C++/Effective Modern C++/转向现代C++/条款7：创建对象时注意区分()和{}.md",
     "C++/Effective Modern C++/转向现代C++",
     "C++/Effective Modern C++/新建文件夹",
     "C++/Effective Modern C++/Auto",
     "C++/Effective Modern C++/型别推导",
     "C++/Effective Modern C++/型别推导",
-    "UnrealEngine/Animation/Animation/1. 动画更新流程.canvas",
     "Templates",
     "新建文件夹",
     "UnrealEngine/Animation/Animation/attachments/Pic_016.gif",
@@ -227,7 +230,6 @@
     "UnrealEngine/Animation/Animation/attachments/Pic_010.png",
     "UnrealEngine/Animation/Animation/attachments/Pic_009.png",
     "UnrealEngine/Animation/Animation/attachments/Pic_008.png",
-    "UnrealEngine/Animation/Animation/attachments/Pic_007.png",
     "未命名.canvas"
   ]
 }
