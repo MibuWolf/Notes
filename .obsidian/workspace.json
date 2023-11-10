@@ -15,7 +15,7 @@
               "state": {
                 "file": "UnrealEngine/Animation/Animation/4. 物理动画更新流程.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             },
             "group": "43830e05b1d25385"
@@ -181,14 +181,15 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "122824077d679e4c",
+  "active": "9c15ef975b79108a",
   "lastOpenFiles": [
-    "UnrealEngine/Animation/Animation/6. PhysicsControl组件.md",
     "UnrealEngine/Animation/Animation/5. PhysicalAnimation组件.md",
     "UnrealEngine/Animation/Animation/4. 物理动画更新流程.md",
     "UnrealEngine/Animation/Animation/3. 物理动画概述.md",
+    "UnrealEngine/Animation/Animation/0. 目录.md",
     "UnrealEngine/Animation/Animation/2. 移动与动画.md",
     "UnrealEngine/Animation/Animation/1. 动画更新流程.canvas",
+    "UnrealEngine/Animation/Animation/6. PhysicsControl组件.md",
     "Templates/时序图模板.md",
     "Templates/流程图模板.md",
     "Templates/思维导图模板.md",
@@ -210,7 +211,6 @@
     "C++/Effective Modern C++/转向现代C++/条款9：优先选用别名声明而非typedef - 副本 (7).md",
     "C++/Effective Modern C++/转向现代C++/条款9：优先选用别名声明而非typedef - 副本 (6).md",
     "C++/Effective Modern C++/转向现代C++/条款9：优先选用别名声明而非typedef - 副本 (5).md",
-    "C++/Effective Modern C++/转向现代C++/条款9：优先选用别名声明而非typedef - 副本 (4).md",
     "C++/Effective Modern C++/转向现代C++",
     "C++/Effective Modern C++/新建文件夹",
     "C++/Effective Modern C++/Auto",
