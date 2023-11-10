@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UnrealEngine/Animation/Animation/4. 物理动画更新流程.md",
+                "file": "UnrealEngine/Animation/SkeletalMeshComponent/0. 目录.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             },
             "group": "43830e05b1d25385"
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UnrealEngine/Animation/Animation/4. 物理动画更新流程.md",
+                "file": "UnrealEngine/Animation/SkeletalMeshComponent/0. 目录.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 352.5
   },
   "right": {
     "id": "7c6e048684854d63",
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UnrealEngine/Animation/Animation/4. 物理动画更新流程.md",
+                "file": "UnrealEngine/Animation/SkeletalMeshComponent/0. 目录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UnrealEngine/Animation/Animation/4. 物理动画更新流程.md",
+                "file": "UnrealEngine/Animation/SkeletalMeshComponent/0. 目录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UnrealEngine/Animation/Animation/4. 物理动画更新流程.md"
+                "file": "UnrealEngine/Animation/SkeletalMeshComponent/0. 目录.md"
               }
             }
           },
@@ -181,19 +181,24 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "9c15ef975b79108a",
+  "active": "122824077d679e4c",
   "lastOpenFiles": [
-    "UnrealEngine/Animation/Animation/5. PhysicalAnimation组件.md",
-    "UnrealEngine/Animation/Animation/4. 物理动画更新流程.md",
-    "UnrealEngine/Animation/Animation/3. 物理动画概述.md",
-    "UnrealEngine/Animation/Animation/0. 目录.md",
-    "UnrealEngine/Animation/Animation/2. 移动与动画.md",
-    "UnrealEngine/Animation/Animation/1. 动画更新流程.canvas",
-    "UnrealEngine/Animation/Animation/6. PhysicsControl组件.md",
+    "UnrealEngine/Animation/SkeletalMeshComponent/4. 物理动画更新流程.md",
+    "UnrealEngine/网络同步",
+    "UnrealEngine/多线程",
+    "UnrealEngine/框架结构",
+    "UnrealEngine/Animation/SkeletalMeshComponent/3. 物理动画概述.md",
+    "UnrealEngine/Animation/SkeletalMeshComponent/0. 目录.md",
+    "UnrealEngine/Animation/SkeletalMeshComponent/1. 骨骼动画更新流程.canvas",
+    "UnrealEngine/Animation/SkeletalMeshComponent/2. 移动与动画.md",
+    "UnrealEngine/Animation/SkeletalMeshComponent/8. SkeletalMeshComponent更新流程.md",
+    "UnrealEngine/Animation/SkeletalMeshComponent/7. SkeletalMeshComponent组件.md",
+    "UnrealEngine/Animation/SkeletalMeshComponent/5. PhysicalAnimation组件.md",
+    "UnrealEngine/Animation/SkeletalMeshComponent/6. PhysicsControl组件.md",
     "Templates/时序图模板.md",
     "Templates/流程图模板.md",
     "Templates/思维导图模板.md",
-    "UnrealEngine/Animation/Animation/attachments/Pic_003.png",
+    "UnrealEngine/Animation/SkeletalMeshComponent/attachments/Pic_003.png",
     "C++/Effective Modern C++/型别推导/条款2：理解auto型别推导.md",
     "C++/Effective Modern C++/型别推导/条款1： 理解模板型别推导.md",
     "C++/Effective Modern C++/型别推导/条款3：理解decltype.md",
@@ -208,9 +213,6 @@
     "C++/Effective Modern C++/转向现代C++/条款11：优先选用删除函数而非private未定义函数.md",
     "C++/Effective Modern C++/转向现代C++/条款10：优先选用限定作用域的枚举型别，而非不限作用域的枚举型别.md",
     "C++/Effective Modern C++/转向现代C++/条款9：优先选用别名声明而非typedef - 副本 (8).md",
-    "C++/Effective Modern C++/转向现代C++/条款9：优先选用别名声明而非typedef - 副本 (7).md",
-    "C++/Effective Modern C++/转向现代C++/条款9：优先选用别名声明而非typedef - 副本 (6).md",
-    "C++/Effective Modern C++/转向现代C++/条款9：优先选用别名声明而非typedef - 副本 (5).md",
     "C++/Effective Modern C++/转向现代C++",
     "C++/Effective Modern C++/新建文件夹",
     "C++/Effective Modern C++/Auto",
@@ -218,18 +220,15 @@
     "C++/Effective Modern C++/型别推导",
     "Templates",
     "新建文件夹",
-    "UnrealEngine/Animation/Animation/attachments/Pic_016.gif",
-    "UnrealEngine/Animation/Animation/attachments/Pic_016.gif.crdownload",
-    "UnrealEngine/Animation/Animation/attachments/Pic_015.gif",
-    "UnrealEngine/Animation/Animation/attachments/Pic_015.gif.crdownload",
-    "UnrealEngine/Animation/Animation/attachments/Pic_014.gif",
-    "UnrealEngine/Animation/Animation/attachments/Pic_014.gif.crdownload",
-    "UnrealEngine/Animation/Animation/attachments/Pic_013.gif",
-    "UnrealEngine/Animation/Animation/attachments/Pic_012.png",
-    "UnrealEngine/Animation/Animation/attachments/Pic_011.png",
-    "UnrealEngine/Animation/Animation/attachments/Pic_010.png",
-    "UnrealEngine/Animation/Animation/attachments/Pic_009.png",
-    "UnrealEngine/Animation/Animation/attachments/Pic_008.png",
+    "UnrealEngine/Animation/SkeletalMeshComponent/attachments/Pic_016.gif",
+    "UnrealEngine/Animation/SkeletalMeshComponent/attachments/Pic_015.gif",
+    "UnrealEngine/Animation/SkeletalMeshComponent/attachments/Pic_014.gif",
+    "UnrealEngine/Animation/SkeletalMeshComponent/attachments/Pic_013.gif",
+    "UnrealEngine/Animation/SkeletalMeshComponent/attachments/Pic_012.png",
+    "UnrealEngine/Animation/SkeletalMeshComponent/attachments/Pic_011.png",
+    "UnrealEngine/Animation/SkeletalMeshComponent/attachments/Pic_010.png",
+    "UnrealEngine/Animation/SkeletalMeshComponent/attachments/Pic_009.png",
+    "UnrealEngine/Animation/SkeletalMeshComponent/attachments/Pic_008.png",
     "未命名.canvas"
   ]
 }
