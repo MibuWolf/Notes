@@ -4,25 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "920e2da5555ae8c8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "9c15ef975b79108a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UnrealEngine/Animation/SkeletalMeshComponent/1. SkeletalMeshComponent组件.md",
-                "mode": "source",
-                "source": true
-              }
-            },
-            "group": "71f79cb95ea9b6fc"
-          }
-        ]
-      },
-      {
         "id": "1606c62487d5e79b",
         "type": "tabs",
         "children": [
@@ -33,11 +14,30 @@
               "type": "markdown",
               "state": {
                 "file": "UnrealEngine/Animation/SkeletalMeshComponent/1. SkeletalMeshComponent组件.md",
-                "mode": "preview",
+                "mode": "source",
+                "source": true
+              }
+            },
+            "group": "f733f073568ff04c"
+          }
+        ]
+      },
+      {
+        "id": "ba541990247e3c54",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f1feabd4ae1292d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UnrealEngine/Animation/SkeletalMeshComponent/1. SkeletalMeshComponent组件.md",
+                "mode": "source",
                 "source": false
               }
             },
-            "group": "71f79cb95ea9b6fc"
+            "group": "f733f073568ff04c"
           }
         ]
       }
@@ -181,21 +181,25 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "9c15ef975b79108a",
+  "active": "c6d7d1740d1e422b",
   "lastOpenFiles": [
-    "UnrealEngine/Animation/SkeletalMeshComponent/2. 动画蓝图的更新与评价(UAnimInstance).md",
-    "UnrealEngine/Animation/SkeletalMeshComponent/1. SkeletalMeshComponent组件.md",
+    "UnrealEngine/Animation/SkeletalMeshComponent/8. PhysicsControl组件.md",
     "UnrealEngine/Animation/SkeletalMeshComponent/0. 目录.md",
-    "UnrealEngine/Animation/SkeletalMeshComponent/4. 动画与移动.md",
+    "UnrealEngine/Animation/SkeletalMeshComponent/1. SkeletalMeshComponent组件.md",
+    "数学基础/3D数学基础/10. 光照概述.md",
+    "UnrealEngine/Animation/SkeletalMeshComponent/10. 使用动态骨骼进行布料模拟.md",
+    "UnrealEngine/Animation/SkeletalMeshComponent/9. 布料模拟.md",
+    "UnrealEngine/Animation/SkeletalMeshComponent/11. SkeletalMesh的渲染.md",
+    "UnrealEngine/Animation/SkeletalMeshComponent/12. 骨骼动画更新流程.canvas",
     "UnrealEngine/Animation/SkeletalMeshComponent/3. 常用动作节点( FAnimNode).md",
-    "UnrealEngine/Animation/SkeletalMeshComponent/10. SkeletalMesh的渲染.md",
-    "UnrealEngine/Animation/SkeletalMeshComponent/9. PhysicsControl组件.md",
+    "UnrealEngine/Animation/SkeletalMeshComponent/4. 动画与移动.md",
+    "UnrealEngine/多线程/1. 移动同步.md",
+    "UnrealEngine/多线程/0. 目录.md",
+    "UnrealEngine/网络同步/0. 目录.md",
+    "UnrealEngine/Animation/SkeletalMeshComponent/2. 动画蓝图的更新与评价(UAnimInstance).md",
     "UnrealEngine/Animation/SkeletalMeshComponent/7. PhysicalAnimation组件.md",
     "UnrealEngine/Animation/SkeletalMeshComponent/6. 物理动画更新流程.md",
     "UnrealEngine/Animation/SkeletalMeshComponent/5. 物理动画概述.md",
-    "UnrealEngine/多线程/0. 目录.md",
-    "UnrealEngine/Animation/SkeletalMeshComponent/11. 骨骼动画更新流程.canvas",
-    "UnrealEngine/Animation/SkeletalMeshComponent/8. 布料模拟.md",
     "数学基础/3D数学基础/2. 矩阵.md",
     "C++/Effective Modern C++/1. 绪论.md",
     "C++/Effective Modern C++/型别推导/条款1： 理解模板型别推导.md",
@@ -210,10 +214,6 @@
     "C++/Effective Modern C++/型别推导/条款2：理解auto型别推导.md",
     "C++/Effective Modern C++/型别推导/条款3：理解decltype.md",
     "C++/Effective Modern C++/型别推导/条款4：掌握查看型别拖到结果的方法.md",
-    "C++/Effective Modern C++/转向现代C++/条款17：理解特种成员函数的生成机制.md",
-    "C++/Effective Modern C++/转向现代C++/条款16：保证const成员函数的线程安全性.md",
-    "C++/Effective Modern C++/转向现代C++/条款15：只要有可能使用constexpr就使用它.md",
-    "C++/Effective Modern C++/转向现代C++/条款14：只要函数与不会抛出异常就为其加上noexcept声明.md",
     "C++/Effective Modern C++/转向现代C++",
     "C++/Effective Modern C++/新建文件夹",
     "C++/Effective Modern C++/Auto",
