@@ -176,11 +176,14 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "templater-obsidian:Templater": false,
+      "obsidian42-brat:BRAT": false
     }
   },
   "active": "c6d7d1740d1e422b",
   "lastOpenFiles": [
+    "UnrealEngine/网络同步/Movement.xmind",
     "UnrealEngine/Animation/SkeletalMeshComponent/8. PhysicsControl组件.md",
     "UnrealEngine/Animation/SkeletalMeshComponent/0. 目录.md",
     "UnrealEngine/Animation/SkeletalMeshComponent/1. SkeletalMeshComponent组件.md",
@@ -211,7 +214,6 @@
     "UnrealEngine/Animation/SkeletalMeshComponent/attachments/Pic_003.png",
     "C++/Effective Modern C++/型别推导/条款2：理解auto型别推导.md",
     "C++/Effective Modern C++/型别推导/条款3：理解decltype.md",
-    "C++/Effective Modern C++/型别推导/条款4：掌握查看型别拖到结果的方法.md",
     "C++/Effective Modern C++/转向现代C++",
     "C++/Effective Modern C++/新建文件夹",
     "C++/Effective Modern C++/Auto",
