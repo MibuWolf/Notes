@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UnrealEngine/Animation/SkeletalMeshComponent/13. MetaHuaman-----脸部表情动画.md",
+                "file": "UnrealEngine/MetaHuman/1. 初探MetaHuman.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UnrealEngine/Animation/SkeletalMeshComponent/13. MetaHuaman-----脸部表情动画.md",
+                "file": "UnrealEngine/MetaHuman/1. 初探MetaHuman.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352.5
+    "width": 252.5
   },
   "right": {
     "id": "7c6e048684854d63",
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UnrealEngine/Animation/SkeletalMeshComponent/13. MetaHuaman-----脸部表情动画.md",
+                "file": "UnrealEngine/MetaHuman/1. 初探MetaHuman.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UnrealEngine/Animation/SkeletalMeshComponent/13. MetaHuaman-----脸部表情动画.md",
+                "file": "UnrealEngine/MetaHuman/1. 初探MetaHuman.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UnrealEngine/Animation/SkeletalMeshComponent/13. MetaHuaman-----脸部表情动画.md"
+                "file": "UnrealEngine/MetaHuman/1. 初探MetaHuman.md"
               }
             }
           },
@@ -176,17 +176,28 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "templater-obsidian:Templater": false,
+      "obsidian42-brat:BRAT": false
     }
   },
   "active": "c6d7d1740d1e422b",
   "lastOpenFiles": [
-    "UnrealEngine/Animation/SkeletalMeshComponent/1. SkeletalMeshComponent组件.md",
-    "UnrealEngine/Animation/SkeletalMeshComponent/2. 动画蓝图的更新与评价(UAnimInstance).md",
-    "UnrealEngine/Animation/SkeletalMeshComponent/13. MetaHuaman-----脸部表情动画.md",
-    "UnrealEngine/Animation/SkeletalMeshComponent/0. 目录.md",
-    "C++/Effective Modern C++/型别推导/条款2：理解auto型别推导.md",
+    "UnrealEngine/MetaHuman/attachments/Pic_002.png",
+    "UnrealEngine/MetaHuman/attachments/Pic_001.png",
+    "UnrealEngine/MetaHuman/attachments",
+    "UnrealEngine/MetaHuman/新建文件夹",
+    "图形学/计算机图形学/1. 实时图形渲染管线.md",
     "C++/Effective Modern C++/型别推导/条款1： 理解模板型别推导.md",
+    "UnrealEngine/MetaHuman/1. 初探MetaHuman.md",
+    "UnrealEngine/Animation/SkeletalMeshComponent/2. 动画蓝图的更新与评价(UAnimInstance).md",
+    "UnrealEngine/Animation/SkeletalMeshComponent/1. SkeletalMeshComponent组件.md",
+    "UnrealEngine/MetaHuman/0. 目录.md",
+    "UnrealEngine/Animation/SkeletalMeshComponent/0. 目录.md",
+    "UnrealEngine/MetaHuman",
+    "UnrealEngine/新建文件夹",
+    "UnrealEngine/Animation/SkeletalMeshComponent/13. MetaHuaman-----脸部表情动画.md",
+    "C++/Effective Modern C++/型别推导/条款2：理解auto型别推导.md",
     "UnrealEngine/网络同步/Movement.xmind",
     "UnrealEngine/Animation/SkeletalMeshComponent/8. PhysicsControl组件.md",
     "数学基础/3D数学基础/10. 光照概述.md",
@@ -208,17 +219,9 @@
     "UnrealEngine/网络同步",
     "UnrealEngine/多线程",
     "UnrealEngine/框架结构",
-    "Templates/时序图模板.md",
-    "Templates/流程图模板.md",
-    "Templates/思维导图模板.md",
     "UnrealEngine/Animation/SkeletalMeshComponent/attachments/Pic_003.png",
-    "C++/Effective Modern C++/型别推导/条款3：理解decltype.md",
     "C++/Effective Modern C++/转向现代C++",
     "C++/Effective Modern C++/新建文件夹",
-    "C++/Effective Modern C++/Auto",
-    "C++/Effective Modern C++/型别推导",
-    "C++/Effective Modern C++/型别推导",
-    "Templates",
     "UnrealEngine/Animation/SkeletalMeshComponent/attachments/Pic_016.gif",
     "UnrealEngine/Animation/SkeletalMeshComponent/attachments/Pic_015.gif",
     "UnrealEngine/Animation/SkeletalMeshComponent/attachments/Pic_014.gif",
@@ -227,7 +230,6 @@
     "UnrealEngine/Animation/SkeletalMeshComponent/attachments/Pic_011.png",
     "UnrealEngine/Animation/SkeletalMeshComponent/attachments/Pic_010.png",
     "UnrealEngine/Animation/SkeletalMeshComponent/attachments/Pic_009.png",
-    "UnrealEngine/Animation/SkeletalMeshComponent/attachments/Pic_008.png",
     "未命名.canvas"
   ]
 }
