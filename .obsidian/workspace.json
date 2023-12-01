@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
+                "file": "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
+                "file": "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
+                "file": "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
+                "file": "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md"
+                "file": "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md"
               }
             }
           },
@@ -181,15 +181,23 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "c6d7d1740d1e422b",
+  "active": "f1feabd4ae1292d3",
   "lastOpenFiles": [
-    "UnrealEngine/MetaHuman/RigLogic白皮书.pdf",
-    "UnrealEngine/MetaHuman/RigLogic白皮书.pdf.saving",
+    "数学基础/3D数学基础/0. 目录.md",
+    "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
+    "27. 稀疏矩阵行/列压缩(Compressed Sparse Row/Column Matrix).md",
+    "27. 稀疏矩阵行/列压缩(Compressed Sparse Row",
     "UnrealEngine/MetaHuman/RigLogicWhitePaper.pdf",
-    "UnrealEngine/MetaHuman/RigLogicWhitePaper.pdf.saving",
+    "27. 稀疏矩阵行/列压缩.md",
+    "27. 稀疏矩阵行",
+    "UnrealEngine/MetaHuman/0. 目录.md",
+    "UnrealEngine/MetaHuman/3. RigLogic与表情动画原理.md",
+    "数学基础/3D数学基础/Untitled.md",
     "UnrealEngine/MetaHuman/1. 初探MetaHuman.md",
     "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
-    "UnrealEngine/MetaHuman/0. 目录.md",
+    "UnrealEngine/MetaHuman/RigLogic白皮书.pdf",
+    "UnrealEngine/MetaHuman/RigLogic白皮书.pdf.saving",
+    "UnrealEngine/MetaHuman/RigLogicWhitePaper.pdf.saving",
     "UnrealEngine/MetaHuman/attachments/Pic_058.png",
     "UnrealEngine/MetaHuman/attachments/Pic_057.png",
     "UnrealEngine/MetaHuman/attachments/Video_012.mp4",
@@ -197,12 +205,9 @@
     "UnrealEngine/MetaHuman/attachments/Pic_056.png",
     "UnrealEngine/MetaHuman/attachments/Video_010.mp4",
     "UnrealEngine/MetaHuman/attachments/虚幻5 Metahuman 全解析——万字长文解析Epic Unreal Engine的元宇宙数字人管线 - 腾讯游戏知识库 - KM平台 - 用户配置 1 - Microsoft​ Edge 2023-12-01 21-48-02.mp4",
-    "UnrealEngine/MetaHuman/attachments/Video_009.mp4",
     "UnrealEngine/MetaHuman/attachments/Pic_055.png",
     "UnrealEngine/MetaHuman/attachments/Pic_054.png",
     "UnrealEngine/MetaHuman/attachments/Pic_053.png",
-    "UnrealEngine/MetaHuman/attachments/Video_008.mp4",
-    "UnrealEngine/MetaHuman/attachments/虚幻5 Metahuman 全解析——万字长文解析Epic Unreal Engine的元宇宙数字人管线 - 腾讯游戏知识库 - KM平台 - 用户配置 1 - Microsoft​ Edge 2023-12-01 21-29-30.mp4",
     "UnrealEngine/MetaHuman/attachments/Pic_052.png",
     "UnrealEngine/MetaHuman/attachments/Pic_051.png",
     "UnrealEngine/MetaHuman/attachments/Pic_050.png",
@@ -225,11 +230,6 @@
     "UnrealEngine/Animation/SkeletalMeshComponent/12. 骨骼动画更新流程.canvas",
     "UnrealEngine/Animation/SkeletalMeshComponent/3. 常用动作节点( FAnimNode).md",
     "UnrealEngine/Animation/SkeletalMeshComponent/4. 动画与移动.md",
-    "UnrealEngine/多线程/1. 移动同步.md",
-    "UnrealEngine/多线程/0. 目录.md",
-    "UnrealEngine/网络同步/0. 目录.md",
-    "UnrealEngine/Animation/SkeletalMeshComponent/7. PhysicalAnimation组件.md",
-    "UnrealEngine/Animation/SkeletalMeshComponent/6. 物理动画更新流程.md",
     "未命名.canvas"
   ]
 }
