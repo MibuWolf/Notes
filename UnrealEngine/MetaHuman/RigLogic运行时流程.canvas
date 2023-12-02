@@ -19,10 +19,23 @@
 		{"id":"6082ec394fcf9045","type":"text","text":"FRigUnit_RigLogic_Data::MapInputCurveIndices","x":2200,"y":-855,"width":500,"height":60},
 		{"id":"c57ddae1dad8fb23","type":"text","text":"将动画中曲线与RigLogic神经网络掩码索引建立关联，方便后续用曲线控制","x":2780,"y":-765,"width":380,"height":58,"color":"3"},
 		{"id":"14fb2a2ec10ed1d9","type":"text","text":"将Mesh中的MorphTargetIndex与DNA中的BlendShape建立关联，方便后续控制","x":2780,"y":-675,"width":380,"height":60,"color":"3"},
-		{"id":"2dc2f28d97f59562","type":"text","text":"将动画中曲线与DNA数据中的输入控制参数数据建立关联，方便后续用曲线控制表情","x":2780,"y":-590,"width":380,"height":60,"color":"3"},
+		{"id":"2dc2f28d97f59562","type":"text","text":"将ControlRig中的曲线与DNA中的动画贴图控制建立关联，方便后续用曲线控制","x":2780,"y":-590,"width":380,"height":60,"color":"3"},
 		{"id":"4f9a9bdc92bada07","type":"text","text":"AnimNode_RigLogic","x":850,"y":520,"width":250,"height":60},
-		{"id":"1a9dc79a524ad858","type":"text","text":"RigLogic每帧更新","x":1240,"y":-260,"width":280,"height":60},
-		{"id":"a2fc27141a0b3105","type":"text","text":"如果是在普通动画蓝图中调用AnimNode_RigLogic节点","x":850,"y":620,"width":250,"height":100,"color":"3"}
+		{"id":"a2fc27141a0b3105","type":"text","text":"如果是在普通动画蓝图中调用AnimNode_RigLogic节点","x":850,"y":620,"width":250,"height":100,"color":"3"},
+		{"id":"ae4b63a4928aea0b","type":"text","text":"更新RigLogic计算表情数据(更新LOD数据并将曲线值设置给RigLogic计算当前帧的表情数据)","x":1640,"y":-460,"width":400,"height":60,"color":"3"},
+		{"id":"48535c4a0d08ba65","type":"text","text":"FRigInstance::SetRawControl","x":2200,"y":-460,"width":400,"height":60},
+		{"id":"c8026fe2ebdea122","type":"text","text":"FRigInstance::SetNeuralNetworkMask","x":2200,"y":-370,"width":400,"height":60},
+		{"id":"1a9dc79a524ad858","type":"text","text":"RigLogic每帧更新","x":1240,"y":-220,"width":280,"height":60},
+		{"id":"8f63d1c3e5f1a61c","type":"text","text":"FRigUnit_RigLogic_Data::CalculateRigLogic","x":1640,"y":-370,"width":400,"height":60},
+		{"id":"84a90c6002831a0d","type":"text","text":"将曲线值设置给对应的控制输入值","x":2640,"y":-460,"width":330,"height":60,"color":"3"},
+		{"id":"6a1d56f5a89a3dbf","type":"text","text":"将曲线值设置给对应的神经网络掩码","x":2640,"y":-370,"width":330,"height":60,"color":"3"},
+		{"id":"b536ffac51cb1521","type":"text","text":"FRiRigLogicImpl::calculateMachineLearnedBehaviorControls","x":2780,"y":-290,"width":520,"height":60},
+		{"id":"cf6740d6b1c493cb","type":"text","text":"FRiRigLogicImpl::calculateMachineLearnedBehaviorControls","x":2780,"y":-200,"width":520,"height":60},
+		{"id":"e98f10167c98df42","type":"text","text":"FRiRigLogicImpl::calculateMachineLearnedBehaviorControls","x":2780,"y":-120,"width":520,"height":60},
+		{"id":"621bfb507c700505","type":"text","text":"FRiRigLogicImpl::calculateMachineLearnedBehaviorControls","x":2780,"y":-40,"width":520,"height":60},
+		{"id":"c70882ee7d69432a","type":"text","text":"FRiRigLogicImpl::calculateMachineLearnedBehaviorControls","x":2780,"y":40,"width":520,"height":60},
+		{"id":"a694a7a148c5071f","type":"text","text":"FRigLogic::Calculate","x":2200,"y":-120,"width":400,"height":60},
+		{"id":"a2e76ad7aa8bd314","type":"text","text":"更新RigLogic核心逻辑，计算表情数据","x":2200,"y":-230,"width":400,"height":60,"color":"3"}
 	],
 	"edges":[
 		{"id":"b1a7d39c95145f0b","fromNode":"5cd50fc874268d1a","fromSide":"right","toNode":"ab62520017e3a7d2","toSide":"left"},
@@ -35,6 +48,15 @@
 		{"id":"b0a60bbe996a0659","fromNode":"eef16bd9b6cdefa2","fromSide":"right","toNode":"6082ec394fcf9045","toSide":"left"},
 		{"id":"898b86a40b1712f2","fromNode":"eef16bd9b6cdefa2","fromSide":"right","toNode":"3b6fa4c5bcc460ae","toSide":"left"},
 		{"id":"81c9182e91f8dad2","fromNode":"eef16bd9b6cdefa2","fromSide":"right","toNode":"d04da52674b4f372","toSide":"left"},
-		{"id":"55b6126dd0ff6aa3","fromNode":"eef16bd9b6cdefa2","fromSide":"right","toNode":"14ae6f239fbf5372","toSide":"left"}
+		{"id":"55b6126dd0ff6aa3","fromNode":"eef16bd9b6cdefa2","fromSide":"right","toNode":"14ae6f239fbf5372","toSide":"left"},
+		{"id":"eb2487706f398e11","fromNode":"1a9dc79a524ad858","fromSide":"right","toNode":"8f63d1c3e5f1a61c","toSide":"left"},
+		{"id":"0cdf4ad75b886d52","fromNode":"8f63d1c3e5f1a61c","fromSide":"right","toNode":"48535c4a0d08ba65","toSide":"left"},
+		{"id":"f3cc2434bb9f8dd0","fromNode":"8f63d1c3e5f1a61c","fromSide":"right","toNode":"c8026fe2ebdea122","toSide":"left"},
+		{"id":"cbbc18733c93aa4e","fromNode":"8f63d1c3e5f1a61c","fromSide":"right","toNode":"a694a7a148c5071f","toSide":"left"},
+		{"id":"a0d2cfdec5f95591","fromNode":"a694a7a148c5071f","fromSide":"right","toNode":"b536ffac51cb1521","toSide":"left"},
+		{"id":"8ccff4774f3d59c2","fromNode":"a694a7a148c5071f","fromSide":"right","toNode":"cf6740d6b1c493cb","toSide":"left"},
+		{"id":"8c4399ed4ad954e8","fromNode":"a694a7a148c5071f","fromSide":"right","toNode":"e98f10167c98df42","toSide":"left"},
+		{"id":"f77739d447e2888a","fromNode":"a694a7a148c5071f","fromSide":"right","toNode":"621bfb507c700505","toSide":"left"},
+		{"id":"73d0ae100172a64c","fromNode":"a694a7a148c5071f","fromSide":"right","toNode":"c70882ee7d69432a","toSide":"left"}
 	]
 }
