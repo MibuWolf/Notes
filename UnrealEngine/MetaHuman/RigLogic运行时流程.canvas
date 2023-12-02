@@ -1,7 +1,40 @@
 {
 	"nodes":[
-		{"id":"5cd50fc874268d1a","x":-125,"y":-30,"width":250,"height":60,"type":"text","text":"PostProcessAnimBlueprint"},
-		{"id":"ab62520017e3a7d2","x":180,"y":-30,"width":250,"height":60,"type":"text","text":""}
+		{"id":"5cd50fc874268d1a","type":"text","text":"PostProcessAnimBlueprint","x":-125,"y":-30,"width":250,"height":60},
+		{"id":"ab62520017e3a7d2","type":"text","text":"调用RigLogic节点","x":320,"y":-30,"width":250,"height":60},
+		{"id":"9dd02099e675f714","type":"text","text":"FaceMesh(脸部Mesh)上的后处理动作蓝图中调用","x":-125,"y":-160,"width":250,"height":80,"color":"3"},
+		{"id":"85e4225d961db14a","type":"text","text":"在后处理动画蓝图中调用RigLogic节点\n调用RigLogic节点的方式有两种(在ControlRig\n蓝图中调用RigLogic节点和在普通动画蓝图中\n调用AnimNode_RigLogic节点)","x":255,"y":-230,"width":380,"height":140,"color":"3"},
+		{"id":"4f9ff1d255f17899","type":"text","text":"如果是在ControlRig中调用RigLogic节点","x":820,"y":-640,"width":280,"height":70,"color":"3"},
+		{"id":"67b2f778fbcb26b1","type":"text","text":"FRigUnit_RigLogic_Execute","x":820,"y":-520,"width":280,"height":60},
+		{"id":"eef16bd9b6cdefa2","type":"text","text":"FRigUnit_RigLogic_Data::InitializeRigLogic","x":1640,"y":-765,"width":360,"height":60},
+		{"id":"5c3c4b6fa3192e2e","type":"text","text":"仅在第一次执行 ","x":1240,"y":-880,"width":280,"height":60,"color":"3"},
+		{"id":"17b9bcd71cd60274","type":"text","text":"RigLogic初始化","x":1240,"y":-765,"width":280,"height":60},
+		{"id":"bd2d69fcf038d113","type":"text","text":"将运行时数据与DNA中动画数据建立关联","x":1640,"y":-880,"width":360,"height":60,"color":"3"},
+		{"id":"3b6fa4c5bcc460ae","type":"text","text":"FRigUnit_RigLogic_Data::MapNeuralNetMaskCurveIndice","x":2200,"y":-765,"width":500,"height":60},
+		{"id":"d04da52674b4f372","type":"text","text":"FRigUnit_RigLogic_Data::MapMorphTargets","x":2200,"y":-675,"width":500,"height":60},
+		{"id":"14ae6f239fbf5372","type":"text","text":"FRigUnit_RigLogic_Data::MapMaskMultipliers","x":2200,"y":-590,"width":500,"height":60},
+		{"id":"fb8e40466d87111c","type":"text","text":"将运行时骨骼与DNA中存储的骨骼索引数据建立关联，方便后续驱动表情动画控制","x":2780,"y":-940,"width":380,"height":60,"color":"3"},
+		{"id":"c41615639b6bea37","type":"text","text":"将动画中曲线与DNA数据中的输入控制参数数据建立关联，方便后续用曲线控制表情","x":2780,"y":-855,"width":380,"height":60,"color":"3"},
+		{"id":"045409ce2a9a4c49","type":"text","text":"FRigUnit_RigLogic_Data::MapJoints","x":2200,"y":-940,"width":500,"height":60},
+		{"id":"6082ec394fcf9045","type":"text","text":"FRigUnit_RigLogic_Data::MapInputCurveIndices","x":2200,"y":-855,"width":500,"height":60},
+		{"id":"c57ddae1dad8fb23","type":"text","text":"将动画中曲线与RigLogic神经网络掩码索引建立关联，方便后续用曲线控制","x":2780,"y":-765,"width":380,"height":58,"color":"3"},
+		{"id":"14fb2a2ec10ed1d9","type":"text","text":"将Mesh中的MorphTargetIndex与DNA中的BlendShape建立关联，方便后续控制","x":2780,"y":-675,"width":380,"height":60,"color":"3"},
+		{"id":"2dc2f28d97f59562","type":"text","text":"将动画中曲线与DNA数据中的输入控制参数数据建立关联，方便后续用曲线控制表情","x":2780,"y":-590,"width":380,"height":60,"color":"3"},
+		{"id":"4f9a9bdc92bada07","type":"text","text":"AnimNode_RigLogic","x":850,"y":520,"width":250,"height":60},
+		{"id":"1a9dc79a524ad858","type":"text","text":"RigLogic每帧更新","x":1240,"y":-260,"width":280,"height":60},
+		{"id":"a2fc27141a0b3105","type":"text","text":"如果是在普通动画蓝图中调用AnimNode_RigLogic节点","x":850,"y":620,"width":250,"height":100,"color":"3"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"b1a7d39c95145f0b","fromNode":"5cd50fc874268d1a","fromSide":"right","toNode":"ab62520017e3a7d2","toSide":"left"},
+		{"id":"d5e5c74040eea52e","fromNode":"ab62520017e3a7d2","fromSide":"right","toNode":"67b2f778fbcb26b1","toSide":"left"},
+		{"id":"54208cd43121bf95","fromNode":"ab62520017e3a7d2","fromSide":"right","toNode":"4f9a9bdc92bada07","toSide":"left"},
+		{"id":"51a865e667b19308","fromNode":"67b2f778fbcb26b1","fromSide":"right","toNode":"17b9bcd71cd60274","toSide":"left"},
+		{"id":"b075b8676f4be9c8","fromNode":"17b9bcd71cd60274","fromSide":"right","toNode":"eef16bd9b6cdefa2","toSide":"left"},
+		{"id":"82318a8387fdd4b8","fromNode":"67b2f778fbcb26b1","fromSide":"right","toNode":"1a9dc79a524ad858","toSide":"left"},
+		{"id":"3f69cd2133b0254f","fromNode":"eef16bd9b6cdefa2","fromSide":"right","toNode":"045409ce2a9a4c49","toSide":"left"},
+		{"id":"b0a60bbe996a0659","fromNode":"eef16bd9b6cdefa2","fromSide":"right","toNode":"6082ec394fcf9045","toSide":"left"},
+		{"id":"898b86a40b1712f2","fromNode":"eef16bd9b6cdefa2","fromSide":"right","toNode":"3b6fa4c5bcc460ae","toSide":"left"},
+		{"id":"81c9182e91f8dad2","fromNode":"eef16bd9b6cdefa2","fromSide":"right","toNode":"d04da52674b4f372","toSide":"left"},
+		{"id":"55b6126dd0ff6aa3","fromNode":"eef16bd9b6cdefa2","fromSide":"right","toNode":"14ae6f239fbf5372","toSide":"left"}
+	]
 }

@@ -6,6 +6,7 @@
       {
         "id": "9083c3571a66fa4c",
         "type": "tabs",
+        "dimension": 73.03030303030303,
         "children": [
           {
             "id": "467f32ac7bc1425c",
@@ -15,9 +16,9 @@
               "state": {
                 "file": "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
                 "viewState": {
-                  "x": 211,
-                  "y": -1,
-                  "zoom": 0
+                  "x": 2503.5741609274523,
+                  "y": -620.2556000346223,
+                  "zoom": -0.5
                 }
               }
             }
@@ -27,6 +28,7 @@
       {
         "id": "4159c76bf1d3f738",
         "type": "tabs",
+        "dimension": 26.969696969696972,
         "children": [
           {
             "id": "51bf347ea31e2858",
@@ -36,7 +38,7 @@
               "state": {
                 "file": "UnrealEngine/MetaHuman/4. RigLogic.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
