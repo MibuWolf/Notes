@@ -17,7 +17,8 @@
                 "mode": "source",
                 "source": true
               }
-            }
+            },
+            "group": "8031f35d18863043"
           }
         ]
       },
@@ -35,7 +36,8 @@
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "8031f35d18863043"
           }
         ]
       }
@@ -179,7 +181,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "41c8d9a5de9872aa",
+  "active": "609dacdac798c285",
   "lastOpenFiles": [
     "数学基础/3D数学基础/2. 矩阵.md",
     "数学基础/3D数学基础/3. 行列式与逆矩阵.md",
