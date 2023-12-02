@@ -6,6 +6,7 @@
       {
         "id": "f8b7e3e16c1e43bb",
         "type": "tabs",
+        "dimension": 53.93939393939395,
         "children": [
           {
             "id": "73449f0ab26dd726",
@@ -25,6 +26,7 @@
       {
         "id": "07c4d6b580ff0aff",
         "type": "tabs",
+        "dimension": 46.06060606060605,
         "children": [
           {
             "id": "3344c17c840dafd8",
@@ -181,7 +183,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "3344c17c840dafd8",
+  "active": "73449f0ab26dd726",
   "lastOpenFiles": [
     "Templates/思维导图模板.md",
     "UnrealEngine/MetaHuman/4. RigLogic.md",

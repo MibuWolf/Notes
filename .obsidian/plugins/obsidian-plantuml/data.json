@@ -1,7 +1,7 @@
 {
   "server_url": "https://www.plantuml.com/plantuml",
   "header": "",
-  "debounce": 3,
+  "debounce": 1,
   "localJar": "",
   "javaPath": "java",
   "dotPath": "dot",
