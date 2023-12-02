@@ -1,6 +1,6 @@
 ---
 tags:
-  - c++ auto
+  - cplusplus auto
 ---
 
 # 1. 概述
@@ -102,5 +102,74 @@ auto x4{ 27 };
 
 ```
 
+此时对auto的型别推导将有所不同，使用了（**uniform initialization**）语法进行初始化的对象将被推导为std::initializer_list。这是因为关于auto的型别推导有一条特殊的不同于模板型别推导的规则：当用于auto声明变量的初始化表达式使用了同意初始化语法(用大括号括起来初始化)时，推导所得的型别类型就属于std::initializer_list。因此上述示例中的型别推导结果如下所示：
+
+``` C++ 伪代码
+
+auto x1 = 27;          // 型别类型是int 值是27
+auto x2(27);           // 型别类型是int 值是27
+auto x3 = { 27 };      // 型别类型是std::initializer_list<int> 值是 {27}
+auto x4{ 27 };         // 型别类型是std::initializer_list<int> 值是 {27}
+
+```
+
+正是由于这一特殊的规则，将引申导致两个额外的结果：
+
+- 模板的型别推导无法将用大括号括起来变量推导为std::initializer_list。
+
+``` C++ 伪代码
+
+auto x = { 11, 23, 9 }     // x的类型将被推导成为std::initializer_list<int> 
+
+template<typename T>
+void func(T param);
+
+func({ 11, 23, 9 });       // 此时会报错，无法进行型别类型推导
+
+template<typename T>
+void func(std::initializer_list<T> param);
+
+func({ 11, 23, 9 });       // 此时类型T将被推导成为int型，而整个传入参数的
+                           // 类型为std::initializer_list<int>
+
+```
+
+- 当auto对大括号括起来的变量进行型别推导时，大括号内的变量类型必须完全相同否则会编译报错。
+
+``` C++ 伪代码
+
+auto x = { 1, 2, 3.0f };        // 此时会编译报错，原因是当进行型别推导时会先将其推导为
+								// std::initializer_list<T>, 然后在对模板的型别进行推导
+								// 时会发现实参中值的类型不统一进而出现编译报错
+
+```
 
 # 3. C++14 auto的扩展规则
+
+当C++发展到C++14时对auto的使用范围进行了扩展，主要体现在两个方面：
+
+- 允许使用auto来说明函数返回值需要推导。
+- 允许在lambda式的形参声明中使用autor。
+
+但这两种情况下的auto用法是在使用模板型别推导规则而非auto型别推导，这也就意味着：
+
+``` C+++伪代码
+
+auto CreateInitList()       // C++ 14
+{
+	return { 1, 2, 3 };    // 编译错误，唯一此时的auto只能使用模板型别推导规则，因此无法
+						   // 完成对 { 1, 2, 3 }的型别(类型)推导
+}
+
+auto resetV = [&v] (const auto& newValue) { v = newValue; }   // C++ 14 
+
+resetV({ 1, 2, 3 });       // 编译错误，此时auto的型别推导规则使用的是模板型别推导，因此
+						   // 无法完成对 { 1, 2, 3 }的型别(类型)推导
+
+```
+
+
+# 4. 要点速记
+
+- 在一般情况下auto的型别推导规则与模板推导是一摸一样的，但是auto型别推导会假定用大括号括起来初始化表达式代表一个std::initializer_list，但模板型别推导却不会。
+- 在函数返回值或lambda的形参中使用auto，意思是使用模板型别推导而非auto型别推导。
