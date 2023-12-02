@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Effective Modern C++/3. 转向现代C++/3. 转向现代C++.md",
+                "file": "图形学/计算机图形学/6. 图形学中常用的数据结构.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             },
             "group": "f733f073568ff04c"
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Effective Modern C++/3. 转向现代C++/3. 转向现代C++.md",
+                "file": "图形学/计算机图形学/6. 图形学中常用的数据结构.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Effective Modern C++/3. 转向现代C++/3. 转向现代C++.md",
+                "file": "图形学/计算机图形学/6. 图形学中常用的数据结构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Effective Modern C++/3. 转向现代C++/3. 转向现代C++.md",
+                "file": "图形学/计算机图形学/6. 图形学中常用的数据结构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Effective Modern C++/3. 转向现代C++/3. 转向现代C++.md"
+                "file": "图形学/计算机图形学/6. 图形学中常用的数据结构.md"
               }
             }
           },
@@ -183,35 +183,37 @@
   },
   "active": "c6d7d1740d1e422b",
   "lastOpenFiles": [
-    "C++/Effective Modern C++/1. 型别推导/0. 型别推导.md",
-    "C++/Effective Modern C++/2. Auto/2. Auto.md",
-    "C++/Effective Modern C++/3. 转向现代C++/3. 转向现代C++.md",
-    "C++/Effective Modern C++/1. 型别推导/1. 型别推导.md",
-    "C++/Effective Modern C++/0. 目录.md",
-    "C++/Effective Modern C++/1. 绪论.md",
-    "C++/Effective Modern C++/1. 型别推导/条款2：理解auto型别推导.md",
-    "C++/Effective Modern C++/1. 型别推导/条款1： 理解模板型别推导.md",
-    "C++/Effective Modern C++/5. 智能指针.md",
-    "C++/Effective Modern C++/3. auto.md",
-    "C++/Effective Modern C++/4. 转向现代C++.md",
-    "C++/Effective Modern C++/1. 型别推导/条款4：掌握查看型别推导结果的方法.md",
-    "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
-    "C++/Effective Modern C++/1. 型别推导",
-    "C++/Effective Modern C++/1. 型别推导/条款2：理解auto型别推导.md",
-    "C++/Effective Modern C++/1. 型别推导/条款1： 理解模板型别推导.md",
-    "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
-    "数学基础/3D数学基础/0. 目录.md",
-    "27. 稀疏矩阵行/列压缩(Compressed Sparse Row/Column Matrix).md",
-    "27. 稀疏矩阵行/列压缩(Compressed Sparse Row",
-    "UnrealEngine/MetaHuman/RigLogicWhitePaper.pdf",
-    "27. 稀疏矩阵行/列压缩.md",
-    "27. 稀疏矩阵行",
-    "UnrealEngine/MetaHuman/0. 目录.md",
-    "UnrealEngine/MetaHuman/3. RigLogic与表情动画原理.md",
-    "数学基础/3D数学基础/Untitled.md",
+    "图形学/计算机图形学/14. 反射模型.md",
+    "计算机理论基础/设计模式/4. 面向对象的设计模式.md",
     "UnrealEngine/MetaHuman/1. 初探MetaHuman.md",
     "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
     "UnrealEngine/MetaHuman/RigLogic白皮书.pdf",
+    "UnrealEngine/MetaHuman/4. RigLogic.md",
+    "UnrealEngine/Animation/SkeletalMeshComponent/7. PhysicalAnimation组件.md",
+    "UnrealEngine/Animation/SkeletalMeshComponent/8. PhysicsControl组件.md",
+    "UnrealEngine/Animation/SkeletalMeshComponent/6. 物理动画更新流程.md",
+    "UnrealEngine/Animation/SkeletalMeshComponent/5. 物理动画概述.md",
+    "UnrealEngine/Animation/SkeletalMeshComponent/4. 动画与移动.md",
+    "UnrealEngine/Animation/SkeletalMeshComponent/3. 常用动作节点( FAnimNode).md",
+    "UnrealEngine/Animation/SkeletalMeshComponent/2. 动画蓝图的更新与评价(UAnimInstance).md",
+    "UnrealEngine/Animation/SkeletalMeshComponent/1. SkeletalMeshComponent组件.md",
+    "图形学/计算机图形学/11. 使用OpenGL绘制.md",
+    "图形学/计算机图形学/10. OpenGL概述.md",
+    "图形学/计算机图形学/9. 计算机动画.md",
+    "图形学/计算机图形学/7. 光线追踪1.md",
+    "图形学/计算机图形学/6. 图形学中常用的数据结构.md",
+    "图形学/计算机图形学/5. 纹理贴图.md",
+    "图形学/计算机图形学/4. 光照与表面着色.md",
+    "图形学/计算机图形学/1. 实时图形渲染管线.md",
+    "计算机理论基础/设计模式/3. 结构型模式.md",
+    "计算机理论基础/设计模式/2. 行为型模式.md",
+    "计算机理论基础/设计模式/1. 创建型模式.md",
+    "数学基础/3D数学基础/19. 多项式曲线.md",
+    "数学基础/3D数学基础/7. 欧拉角与四元数.md",
+    "C++/Effective Modern C++/1. 型别推导",
+    "27. 稀疏矩阵行/列压缩(Compressed Sparse Row",
+    "UnrealEngine/MetaHuman/RigLogicWhitePaper.pdf",
+    "27. 稀疏矩阵行",
     "UnrealEngine/MetaHuman/RigLogic白皮书.pdf.saving",
     "UnrealEngine/MetaHuman/RigLogicWhitePaper.pdf.saving",
     "UnrealEngine/MetaHuman/attachments/Pic_058.png",
@@ -227,8 +229,6 @@
     "UnrealEngine/MetaHuman/attachments/Pic_051.png",
     "UnrealEngine/MetaHuman/attachments/Pic_050.png",
     "UnrealEngine/MetaHuman/attachments/Pic_049.png",
-    "Templates/PlantUML模板/官方文档.md",
-    "Templates/PlantUML模板/PlantUML流程图模板.md",
     "UnrealEngine/Animation/SkeletalMeshComponent/12. 骨骼动画更新流程.canvas",
     "未命名.canvas"
   ]
