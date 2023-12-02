@@ -4,40 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "1606c62487d5e79b",
+        "id": "f8b7e3e16c1e43bb",
         "type": "tabs",
         "children": [
           {
-            "id": "c6d7d1740d1e422b",
+            "id": "73449f0ab26dd726",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "图形学/计算机图形学/6. 图形学中常用的数据结构.md",
+                "file": "UnrealEngine/MetaHuman/4. RigLogic.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             },
-            "group": "f733f073568ff04c"
+            "group": "974c232c2c7aec96"
           }
         ]
       },
       {
-        "id": "ba541990247e3c54",
+        "id": "07c4d6b580ff0aff",
         "type": "tabs",
         "children": [
           {
-            "id": "f1feabd4ae1292d3",
+            "id": "3344c17c840dafd8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "图形学/计算机图形学/6. 图形学中常用的数据结构.md",
+                "file": "UnrealEngine/MetaHuman/4. RigLogic.md",
                 "mode": "source",
                 "source": false
               }
             },
-            "group": "f733f073568ff04c"
+            "group": "974c232c2c7aec96"
           }
         ]
       }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "图形学/计算机图形学/6. 图形学中常用的数据结构.md",
+                "file": "UnrealEngine/MetaHuman/4. RigLogic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "图形学/计算机图形学/6. 图形学中常用的数据结构.md",
+                "file": "UnrealEngine/MetaHuman/4. RigLogic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "图形学/计算机图形学/6. 图形学中常用的数据结构.md"
+                "file": "UnrealEngine/MetaHuman/4. RigLogic.md"
               }
             }
           },
@@ -181,14 +181,19 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "c6d7d1740d1e422b",
+  "active": "3344c17c840dafd8",
   "lastOpenFiles": [
+    "Templates/思维导图模板.md",
+    "UnrealEngine/MetaHuman/4. RigLogic.md",
+    "Templates/时序图模板.md",
+    "Templates/流程图模板.md",
+    "Templates/PlantUML模板/官方文档.md",
+    "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
+    "UnrealEngine/MetaHuman/1. 初探MetaHuman.md",
+    "图形学/计算机图形学/6. 图形学中常用的数据结构.md",
     "图形学/计算机图形学/14. 反射模型.md",
     "计算机理论基础/设计模式/4. 面向对象的设计模式.md",
-    "UnrealEngine/MetaHuman/1. 初探MetaHuman.md",
-    "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
     "UnrealEngine/MetaHuman/RigLogic白皮书.pdf",
-    "UnrealEngine/MetaHuman/4. RigLogic.md",
     "UnrealEngine/Animation/SkeletalMeshComponent/7. PhysicalAnimation组件.md",
     "UnrealEngine/Animation/SkeletalMeshComponent/8. PhysicsControl组件.md",
     "UnrealEngine/Animation/SkeletalMeshComponent/6. 物理动画更新流程.md",
@@ -201,15 +206,10 @@
     "图形学/计算机图形学/10. OpenGL概述.md",
     "图形学/计算机图形学/9. 计算机动画.md",
     "图形学/计算机图形学/7. 光线追踪1.md",
-    "图形学/计算机图形学/6. 图形学中常用的数据结构.md",
     "图形学/计算机图形学/5. 纹理贴图.md",
     "图形学/计算机图形学/4. 光照与表面着色.md",
     "图形学/计算机图形学/1. 实时图形渲染管线.md",
     "计算机理论基础/设计模式/3. 结构型模式.md",
-    "计算机理论基础/设计模式/2. 行为型模式.md",
-    "计算机理论基础/设计模式/1. 创建型模式.md",
-    "数学基础/3D数学基础/19. 多项式曲线.md",
-    "数学基础/3D数学基础/7. 欧拉角与四元数.md",
     "C++/Effective Modern C++/1. 型别推导",
     "27. 稀疏矩阵行/列压缩(Compressed Sparse Row",
     "UnrealEngine/MetaHuman/RigLogicWhitePaper.pdf",
