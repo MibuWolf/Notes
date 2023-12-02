@@ -4,41 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "9083c3571a66fa4c",
+        "id": "317dbedf2cd33529",
         "type": "tabs",
-        "dimension": 73.03030303030303,
         "children": [
           {
-            "id": "467f32ac7bc1425c",
+            "id": "41c8d9a5de9872aa",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
-                "viewState": {
-                  "x": 2640.7528764776425,
-                  "y": -113.96714470505415,
-                  "zoom": -0.5
-                }
+                "file": "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
+                "mode": "source",
+                "source": true
               }
             }
           }
         ]
       },
       {
-        "id": "4159c76bf1d3f738",
+        "id": "e713110b33ac69c7",
         "type": "tabs",
-        "dimension": 26.969696969696972,
         "children": [
           {
-            "id": "51bf347ea31e2858",
+            "id": "609dacdac798c285",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UnrealEngine/MetaHuman/4. RigLogic.md",
+                "file": "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -92,7 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5
+    "width": 281.5
   },
   "right": {
     "id": "7c6e048684854d63",
@@ -108,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
+                "file": "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
+                "file": "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas"
+                "file": "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md"
               }
             }
           },
@@ -184,10 +179,23 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "467f32ac7bc1425c",
+  "active": "41c8d9a5de9872aa",
   "lastOpenFiles": [
-    "UnrealEngine/MetaHuman/4. RigLogic.md",
+    "数学基础/3D数学基础/2. 矩阵.md",
+    "数学基础/3D数学基础/3. 行列式与逆矩阵.md",
+    "数学基础/3D数学基础/4. 视图空间与投影空间.md",
+    "数学基础/3D数学基础/5. 法线从本地空间转化到视空间矩阵.md",
+    "数学基础/3D数学基础/10. 光照概述.md",
+    "数学基础/3D数学基础/9. 图形学中的常用技巧.md",
+    "数学基础/3D数学基础/8. 图形学中的集合元素.md",
+    "数学基础/3D数学基础/7. 欧拉角与四元数.md",
+    "数学基础/3D数学基础/6. 齐次空间与仿射变换.md",
+    "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
+    "UnrealEngine/MetaHuman/RigLogicWhitePaper.pdf",
+    "数学基础/3D数学基础/26. 蒙特卡洛积分法.md",
+    "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
     "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
+    "UnrealEngine/MetaHuman/4. RigLogic.md",
     "Templates/思维导图模板.md",
     "Templates/时序图模板.md",
     "Templates/流程图模板.md",
@@ -203,19 +211,8 @@
     "UnrealEngine/Animation/SkeletalMeshComponent/6. 物理动画更新流程.md",
     "UnrealEngine/Animation/SkeletalMeshComponent/5. 物理动画概述.md",
     "UnrealEngine/Animation/SkeletalMeshComponent/4. 动画与移动.md",
-    "UnrealEngine/Animation/SkeletalMeshComponent/3. 常用动作节点( FAnimNode).md",
-    "UnrealEngine/Animation/SkeletalMeshComponent/2. 动画蓝图的更新与评价(UAnimInstance).md",
-    "UnrealEngine/Animation/SkeletalMeshComponent/1. SkeletalMeshComponent组件.md",
-    "图形学/计算机图形学/11. 使用OpenGL绘制.md",
-    "图形学/计算机图形学/10. OpenGL概述.md",
-    "图形学/计算机图形学/9. 计算机动画.md",
-    "图形学/计算机图形学/7. 光线追踪1.md",
-    "图形学/计算机图形学/5. 纹理贴图.md",
-    "图形学/计算机图形学/4. 光照与表面着色.md",
-    "图形学/计算机图形学/1. 实时图形渲染管线.md",
     "C++/Effective Modern C++/1. 型别推导",
     "27. 稀疏矩阵行/列压缩(Compressed Sparse Row",
-    "UnrealEngine/MetaHuman/RigLogicWhitePaper.pdf",
     "27. 稀疏矩阵行",
     "UnrealEngine/MetaHuman/RigLogic白皮书.pdf.saving",
     "UnrealEngine/MetaHuman/RigLogicWhitePaper.pdf.saving",

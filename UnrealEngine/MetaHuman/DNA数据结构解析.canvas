@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"d92eece2ba445cc8","x":-125,"y":-30,"width":1165,"height":60,"color":"3","type":"text","text":"inputs:输入控制数据(该部分数据为外部提供运行时控制表情单元AU的控制参数，为一个float类型的一维数组)"},
+		{"id":"7cf5c797e2beb4e4","x":-125,"y":100,"width":365,"height":60,"color":"#11fa00","type":"text","text":""},
+		{"id":"abd58c1adcc4ddff","type":"text","text":"","x":240,"y":100,"width":800,"height":60,"color":"#00fadd"},
+		{"id":"562cf001612010b9","x":-320,"y":130,"width":80,"height":320,"color":"3","type":"text","text":" 压\n\n 缩\n\n 稀\n\n 疏\n\n 行\n\n 矩\n\n 阵"}
+	],
+	"edges":[]
+}
