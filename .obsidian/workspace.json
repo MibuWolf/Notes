@@ -4,32 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "f8b7e3e16c1e43bb",
+        "id": "9083c3571a66fa4c",
         "type": "tabs",
-        "dimension": 53.93939393939395,
         "children": [
           {
-            "id": "73449f0ab26dd726",
+            "id": "467f32ac7bc1425c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "UnrealEngine/MetaHuman/4. RigLogic.md",
-                "mode": "source",
-                "source": true
+                "file": "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
+                "viewState": {
+                  "x": 211,
+                  "y": -1,
+                  "zoom": 0
+                }
               }
-            },
-            "group": "974c232c2c7aec96"
+            }
           }
         ]
       },
       {
-        "id": "07c4d6b580ff0aff",
+        "id": "4159c76bf1d3f738",
         "type": "tabs",
-        "dimension": 46.06060606060605,
         "children": [
           {
-            "id": "3344c17c840dafd8",
+            "id": "51bf347ea31e2858",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -38,8 +38,7 @@
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "974c232c2c7aec96"
+            }
           }
         ]
       }
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UnrealEngine/MetaHuman/4. RigLogic.md",
+                "file": "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UnrealEngine/MetaHuman/4. RigLogic.md",
+                "file": "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UnrealEngine/MetaHuman/4. RigLogic.md"
+                "file": "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas"
               }
             }
           },
@@ -183,10 +182,11 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "73449f0ab26dd726",
+  "active": "467f32ac7bc1425c",
   "lastOpenFiles": [
-    "Templates/思维导图模板.md",
     "UnrealEngine/MetaHuman/4. RigLogic.md",
+    "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
+    "Templates/思维导图模板.md",
     "Templates/时序图模板.md",
     "Templates/流程图模板.md",
     "Templates/PlantUML模板/官方文档.md",
@@ -211,7 +211,6 @@
     "图形学/计算机图形学/5. 纹理贴图.md",
     "图形学/计算机图形学/4. 光照与表面着色.md",
     "图形学/计算机图形学/1. 实时图形渲染管线.md",
-    "计算机理论基础/设计模式/3. 结构型模式.md",
     "C++/Effective Modern C++/1. 型别推导",
     "27. 稀疏矩阵行/列压缩(Compressed Sparse Row",
     "UnrealEngine/MetaHuman/RigLogicWhitePaper.pdf",

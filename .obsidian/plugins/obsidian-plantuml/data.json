@@ -6,5 +6,5 @@
   "javaPath": "java",
   "dotPath": "dot",
   "defaultProcessor": "svg",
-  "cache": 60
+  "cache": 110
 }
