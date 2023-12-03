@@ -11,11 +11,14 @@
             "id": "41c8d9a5de9872aa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
-                "mode": "source",
-                "source": true
+                "file": "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
+                "viewState": {
+                  "x": 104.37871624394285,
+                  "y": -68.80229664286502,
+                  "zoom": -0.24179187923049844
+                }
               }
             },
             "group": "8031f35d18863043"
@@ -30,11 +33,14 @@
             "id": "609dacdac798c285",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
-                "mode": "source",
-                "source": false
+                "file": "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
+                "viewState": {
+                  "x": 360,
+                  "y": 210,
+                  "zoom": -0.908458545897165
+                }
               }
             },
             "group": "8031f35d18863043"
@@ -105,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
+                "file": "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
+                "file": "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md"
+                "file": "UnrealEngine/MetaHuman/DNA数据结构解析.canvas"
               }
             }
           },
@@ -183,6 +189,7 @@
   },
   "active": "609dacdac798c285",
   "lastOpenFiles": [
+    "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
     "数学基础/3D数学基础/2. 矩阵.md",
     "数学基础/3D数学基础/3. 行列式与逆矩阵.md",
     "数学基础/3D数学基础/4. 视图空间与投影空间.md",
@@ -192,7 +199,6 @@
     "数学基础/3D数学基础/8. 图形学中的集合元素.md",
     "数学基础/3D数学基础/7. 欧拉角与四元数.md",
     "数学基础/3D数学基础/6. 齐次空间与仿射变换.md",
-    "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
     "UnrealEngine/MetaHuman/RigLogicWhitePaper.pdf",
     "数学基础/3D数学基础/26. 蒙特卡洛积分法.md",
     "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
