@@ -6,6 +6,7 @@
       {
         "id": "317dbedf2cd33529",
         "type": "tabs",
+        "dimension": 32.12045169385194,
         "children": [
           {
             "id": "41c8d9a5de9872aa",
@@ -13,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
+                "file": "UnrealEngine/MetaHuman/4. RigLogic.md",
                 "mode": "source",
                 "source": true
               }
@@ -25,6 +26,7 @@
       {
         "id": "e713110b33ac69c7",
         "type": "tabs",
+        "dimension": 67.87954830614805,
         "children": [
           {
             "id": "609dacdac798c285",
@@ -32,14 +34,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
+                "file": "UnrealEngine/MetaHuman/4. RigLogic.md",
                 "mode": "source",
                 "source": false
               }
             },
             "group": "8031f35d18863043"
+          },
+          {
+            "id": "05af89af87828d48",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "UnrealEngine/MetaHuman/RigLogic白皮书.pdf"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
+                "file": "UnrealEngine/MetaHuman/4. RigLogic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
+                "file": "UnrealEngine/MetaHuman/4. RigLogic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md"
+                "file": "UnrealEngine/MetaHuman/4. RigLogic.md"
               }
             }
           },
@@ -183,12 +196,14 @@
   },
   "active": "41c8d9a5de9872aa",
   "lastOpenFiles": [
-    "UnrealEngine/MetaHuman/1. 初探MetaHuman.md",
-    "UnrealEngine/MetaHuman/3. DNA.md",
+    "UnrealEngine/MetaHuman/RigLogic白皮书.pdf",
     "UnrealEngine/MetaHuman/4. RigLogic.md",
+    "UnrealEngine/MetaHuman/3. DNA.md",
     "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
-    "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
+    "UnrealEngine/MetaHuman/attachments/Pic_059.png",
     "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
+    "UnrealEngine/MetaHuman/1. 初探MetaHuman.md",
+    "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
     "UnrealEngine/MetaHuman/RigLogicWhitePaper.pdf",
     "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
     "数学基础/3D数学基础/2. 矩阵.md",
@@ -208,7 +223,6 @@
     "图形学/计算机图形学/6. 图形学中常用的数据结构.md",
     "图形学/计算机图形学/14. 反射模型.md",
     "计算机理论基础/设计模式/4. 面向对象的设计模式.md",
-    "UnrealEngine/MetaHuman/RigLogic白皮书.pdf",
     "UnrealEngine/Animation/SkeletalMeshComponent/7. PhysicalAnimation组件.md",
     "UnrealEngine/Animation/SkeletalMeshComponent/8. PhysicsControl组件.md",
     "UnrealEngine/Animation/SkeletalMeshComponent/6. 物理动画更新流程.md",
@@ -229,7 +243,6 @@
     "UnrealEngine/MetaHuman/attachments/Pic_052.png",
     "UnrealEngine/MetaHuman/attachments/Pic_051.png",
     "UnrealEngine/MetaHuman/attachments/Pic_050.png",
-    "UnrealEngine/MetaHuman/attachments/Pic_049.png",
     "UnrealEngine/Animation/SkeletalMeshComponent/12. 骨骼动画更新流程.canvas",
     "未命名.canvas"
   ]
