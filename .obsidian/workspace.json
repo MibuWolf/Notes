@@ -11,14 +11,11 @@
             "id": "41c8d9a5de9872aa",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
-                "viewState": {
-                  "x": 104.37871624394285,
-                  "y": -68.80229664286502,
-                  "zoom": -0.24179187923049844
-                }
+                "file": "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
+                "mode": "source",
+                "source": true
               }
             },
             "group": "8031f35d18863043"
@@ -33,14 +30,11 @@
             "id": "609dacdac798c285",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
-                "viewState": {
-                  "x": 360,
-                  "y": 210,
-                  "zoom": -0.908458545897165
-                }
+                "file": "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
+                "mode": "source",
+                "source": false
               }
             },
             "group": "8031f35d18863043"
@@ -111,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
+                "file": "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
+                "file": "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UnrealEngine/MetaHuman/DNA数据结构解析.canvas"
+                "file": "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md"
               }
             }
           },
@@ -187,8 +181,15 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "609dacdac798c285",
+  "active": "41c8d9a5de9872aa",
   "lastOpenFiles": [
+    "UnrealEngine/MetaHuman/1. 初探MetaHuman.md",
+    "UnrealEngine/MetaHuman/3. DNA.md",
+    "UnrealEngine/MetaHuman/4. RigLogic.md",
+    "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
+    "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
+    "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
+    "UnrealEngine/MetaHuman/RigLogicWhitePaper.pdf",
     "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
     "数学基础/3D数学基础/2. 矩阵.md",
     "数学基础/3D数学基础/3. 行列式与逆矩阵.md",
@@ -199,17 +200,11 @@
     "数学基础/3D数学基础/8. 图形学中的集合元素.md",
     "数学基础/3D数学基础/7. 欧拉角与四元数.md",
     "数学基础/3D数学基础/6. 齐次空间与仿射变换.md",
-    "UnrealEngine/MetaHuman/RigLogicWhitePaper.pdf",
     "数学基础/3D数学基础/26. 蒙特卡洛积分法.md",
-    "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
-    "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
-    "UnrealEngine/MetaHuman/4. RigLogic.md",
     "Templates/思维导图模板.md",
     "Templates/时序图模板.md",
     "Templates/流程图模板.md",
     "Templates/PlantUML模板/官方文档.md",
-    "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
-    "UnrealEngine/MetaHuman/1. 初探MetaHuman.md",
     "图形学/计算机图形学/6. 图形学中常用的数据结构.md",
     "图形学/计算机图形学/14. 反射模型.md",
     "计算机理论基础/设计模式/4. 面向对象的设计模式.md",
@@ -217,8 +212,6 @@
     "UnrealEngine/Animation/SkeletalMeshComponent/7. PhysicalAnimation组件.md",
     "UnrealEngine/Animation/SkeletalMeshComponent/8. PhysicsControl组件.md",
     "UnrealEngine/Animation/SkeletalMeshComponent/6. 物理动画更新流程.md",
-    "UnrealEngine/Animation/SkeletalMeshComponent/5. 物理动画概述.md",
-    "UnrealEngine/Animation/SkeletalMeshComponent/4. 动画与移动.md",
     "C++/Effective Modern C++/1. 型别推导",
     "27. 稀疏矩阵行/列压缩(Compressed Sparse Row",
     "27. 稀疏矩阵行",
