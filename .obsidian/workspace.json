@@ -6,7 +6,7 @@
       {
         "id": "317dbedf2cd33529",
         "type": "tabs",
-        "dimension": 32.12045169385194,
+        "dimension": 45.35759096612296,
         "children": [
           {
             "id": "41c8d9a5de9872aa",
@@ -16,7 +16,7 @@
               "state": {
                 "file": "UnrealEngine/MetaHuman/4. RigLogic.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             },
             "group": "8031f35d18863043"
@@ -26,7 +26,7 @@
       {
         "id": "e713110b33ac69c7",
         "type": "tabs",
-        "dimension": 67.87954830614805,
+        "dimension": 54.64240903387704,
         "children": [
           {
             "id": "609dacdac798c285",
@@ -51,8 +51,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,15 +195,15 @@
   },
   "active": "41c8d9a5de9872aa",
   "lastOpenFiles": [
+    "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
     "UnrealEngine/MetaHuman/RigLogic白皮书.pdf",
+    "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
+    "UnrealEngine/MetaHuman/RigLogicWhitePaper.pdf",
     "UnrealEngine/MetaHuman/4. RigLogic.md",
     "UnrealEngine/MetaHuman/3. DNA.md",
     "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
-    "UnrealEngine/MetaHuman/attachments/Pic_059.png",
-    "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
     "UnrealEngine/MetaHuman/1. 初探MetaHuman.md",
-    "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
-    "UnrealEngine/MetaHuman/RigLogicWhitePaper.pdf",
+    "UnrealEngine/MetaHuman/attachments/Pic_059.png",
     "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
     "数学基础/3D数学基础/2. 矩阵.md",
     "数学基础/3D数学基础/3. 行列式与逆矩阵.md",
