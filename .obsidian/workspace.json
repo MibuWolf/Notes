@@ -15,7 +15,7 @@
               "state": {
                 "file": "UnrealEngine/MetaHuman/4. RigLogic.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             },
             "group": "f733f073568ff04c"
@@ -183,8 +183,16 @@
   },
   "active": "c6d7d1740d1e422b",
   "lastOpenFiles": [
-    "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
+    "UnrealEngine/MetaHuman/attachments/Pic_062.png",
     "UnrealEngine/MetaHuman/4. RigLogic.md",
+    "UnrealEngine/MetaHuman/attachments/Pic_060.png",
+    "UnrealEngine/MetaHuman/attachments/Pic_060.png.saving",
+    "UnrealEngine/MetaHuman/attachments/Pic_061.png",
+    "UnrealEngine/MetaHuman/attachments/Pic_063.png",
+    "UnrealEngine/MetaHuman/attachments/Pic_064.png",
+    "UnrealEngine/MetaHuman/attachments/Pic_065.png",
+    "UnrealEngine/MetaHuman/attachments/Pic_066.png",
+    "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
     "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
     "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
     "UnrealEngine/MetaHuman/3. DNA.md",
@@ -220,15 +228,7 @@
     "UnrealEngine/MetaHuman/RigLogicWhitePaper.pdf.saving",
     "UnrealEngine/MetaHuman/attachments/Pic_058.png",
     "UnrealEngine/MetaHuman/attachments/Pic_057.png",
-    "UnrealEngine/MetaHuman/attachments/Video_012.mp4",
     "UnrealEngine/MetaHuman/attachments/Pic_056.png",
-    "UnrealEngine/MetaHuman/attachments/Pic_055.png",
-    "UnrealEngine/MetaHuman/attachments/Pic_054.png",
-    "UnrealEngine/MetaHuman/attachments/Pic_053.png",
-    "UnrealEngine/MetaHuman/attachments/Pic_052.png",
-    "UnrealEngine/MetaHuman/attachments/Pic_051.png",
-    "UnrealEngine/MetaHuman/attachments/Pic_050.png",
-    "UnrealEngine/MetaHuman/attachments/Pic_049.png",
     "UnrealEngine/Animation/SkeletalMeshComponent/12. 骨骼动画更新流程.canvas",
     "未命名.canvas"
   ]
