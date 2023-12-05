@@ -22,12 +22,9 @@
 		{"id":"2dc2f28d97f59562","type":"text","text":"将ControlRig中的曲线与DNA中的动画贴图控制建立关联，方便后续用曲线控制","x":2780,"y":-590,"width":380,"height":60,"color":"3"},
 		{"id":"4f9a9bdc92bada07","type":"text","text":"AnimNode_RigLogic","x":850,"y":520,"width":250,"height":60},
 		{"id":"a2fc27141a0b3105","type":"text","text":"如果是在普通动画蓝图中调用AnimNode_RigLogic节点","x":850,"y":620,"width":250,"height":100,"color":"3"},
-		{"id":"ae4b63a4928aea0b","type":"text","text":"更新RigLogic计算表情数据(更新LOD数据并将曲线值设置给RigLogic计算当前帧的表情数据)","x":1640,"y":-460,"width":400,"height":60,"color":"3"},
 		{"id":"48535c4a0d08ba65","type":"text","text":"FRigInstance::SetRawControl","x":2200,"y":-460,"width":400,"height":60},
 		{"id":"c8026fe2ebdea122","type":"text","text":"FRigInstance::SetNeuralNetworkMask","x":2200,"y":-370,"width":400,"height":60},
-		{"id":"1a9dc79a524ad858","type":"text","text":"RigLogic每帧更新","x":1240,"y":-220,"width":280,"height":60},
-		{"id":"8f63d1c3e5f1a61c","type":"text","text":"FRigUnit_RigLogic_Data::CalculateRigLogic","x":1640,"y":-370,"width":400,"height":60},
-		{"id":"84a90c6002831a0d","type":"text","text":"将曲线值设置给对应的控制输入值","x":2640,"y":-460,"width":330,"height":60,"color":"3"},
+		{"id":"84a90c6002831a0d","type":"text","text":"将表情原始控制(可以理解为AU)曲线值设置给对应的控制输入值","x":2640,"y":-460,"width":520,"height":60,"color":"3"},
 		{"id":"6a1d56f5a89a3dbf","type":"text","text":"将曲线值设置给对应的神经网络掩码","x":2640,"y":-370,"width":330,"height":60,"color":"3"},
 		{"id":"b536ffac51cb1521","type":"text","text":"FRiRigLogicImpl::calculateMachineLearnedBehaviorControls","x":2780,"y":-260,"width":520,"height":60},
 		{"id":"621bfb507c700505","type":"text","text":"FRiRigLogicImpl::calculateBlendShapes","x":2780,"y":160,"width":520,"height":60},
@@ -35,7 +32,10 @@
 		{"id":"a694a7a148c5071f","type":"text","text":"FRigLogic::Calculate","x":2200,"y":20,"width":400,"height":60},
 		{"id":"a2e76ad7aa8bd314","type":"text","text":"更新RigLogic核心逻辑，计算表情数据","x":2200,"y":-90,"width":400,"height":60,"color":"3"},
 		{"id":"e98f10167c98df42","type":"text","text":"FRiRigLogicImpl::calculateJoints","x":2780,"y":20,"width":520,"height":60},
-		{"id":"c70882ee7d69432a","type":"text","text":"FRiRigLogicImpl::calculateAnimatedMaps","x":2780,"y":300,"width":520,"height":60}
+		{"id":"c70882ee7d69432a","type":"text","text":"FRiRigLogicImpl::calculateAnimatedMaps","x":2780,"y":300,"width":520,"height":60},
+		{"id":"ae4b63a4928aea0b","type":"text","text":"更新RigLogic计算表情数据(更新LOD数据并将曲线值设置给RigLogic计算当前帧的表情数据)","x":1660,"y":-70,"width":400,"height":60,"color":"3"},
+		{"id":"8f63d1c3e5f1a61c","type":"text","text":"FRigUnit_RigLogic_Data::CalculateRigLogic","x":1660,"y":20,"width":400,"height":60},
+		{"id":"1a9dc79a524ad858","type":"text","text":"RigLogic每帧更新","x":1240,"y":20,"width":280,"height":60}
 	],
 	"edges":[
 		{"id":"b1a7d39c95145f0b","fromNode":"5cd50fc874268d1a","fromSide":"right","toNode":"ab62520017e3a7d2","toSide":"left"},
