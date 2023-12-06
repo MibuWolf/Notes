@@ -70,16 +70,16 @@
 		{"id":"0bb37ca7c2664d35","type":"text","text":"将运行时数据与DNA中动画数据建立关联","x":1720,"y":602,"width":374,"height":60,"color":"3"},
 		{"id":"7f2acc32881b645a","x":1200,"y":1210,"width":411,"height":60,"type":"text","text":"FAnimNode_RigLogic::Evaluate_AnyThread"},
 		{"id":"bfc4bf6899f7f43c","type":"text","text":"该节点每帧评价时执行","x":1200,"y":1120,"width":411,"height":60,"color":"3"},
-		{"id":"b4a65b6b239fdd39","x":1773,"y":1029,"width":427,"height":60,"type":"text","text":"FAnimNode_RigLogic::UpdateControlCurves"},
+		{"id":"e6f85ef16bb51ac2","type":"text","text":"调用FRigLogic::Calculate具体逻辑与RigLogic节点中完全一致不再赘述","x":2220,"y":1120,"width":590,"height":60,"color":"3"},
+		{"id":"bfe19cadb263bf31","type":"text","text":"将表情原始控制(可以理解为AU)曲线值设置给对应的控制输入值","x":2220,"y":1029,"width":590,"height":60,"color":"3"},
+		{"id":"4d9d1ba33c870b25","type":"text","text":"更新RigLogic核心逻辑，计算表情数据，执行逻辑内容与RigLogic节点中完全一致不再赘述","x":2220,"y":1210,"width":700,"height":60,"color":"3"},
+		{"id":"35ba91d43196f014","type":"text","text":"设置表情动画中的BlendShape数据，执行逻辑内容与RigLogic节点中完全一致不再赘述","x":2220,"y":1300,"width":700,"height":60,"color":"3"},
+		{"id":"4292a2baad326a0c","type":"text","text":"设置表情动画中的动画贴图数据，执行逻辑内容与RigLogic节点中完全一致不再赘述","x":2220,"y":1380,"width":700,"height":60,"color":"3"},
 		{"id":"68737160017d9316","type":"text","text":"FAnimNode_RigLogic::CalculateRigLogic","x":1773,"y":1120,"width":427,"height":60},
 		{"id":"85359404664489ad","type":"text","text":"FAnimNode_RigLogic::UpdateJoints","x":1773,"y":1210,"width":427,"height":60},
 		{"id":"2f266242ea1a2ac4","type":"text","text":"FAnimNode_RigLogic::UpdateBlendShapeCurves","x":1773,"y":1300,"width":427,"height":60},
 		{"id":"3ccb1ee7d42b0445","type":"text","text":"FAnimNode_RigLogic::UpdateAnimMapCurves","x":1773,"y":1380,"width":427,"height":60},
-		{"id":"bfe19cadb263bf31","type":"text","text":"将表情原始控制(可以理解为AU)曲线值设置给对应的控制输入值","x":2220,"y":1029,"width":590,"height":60,"color":"3"},
-		{"id":"e6f85ef16bb51ac2","type":"text","text":"调用FRigLogic::Calculate具体逻辑与RigLogic节点中完全一致不再赘述","x":2220,"y":1120,"width":590,"height":60,"color":"3"},
-		{"id":"4d9d1ba33c870b25","type":"text","text":"更新RigLogic核心逻辑，计算表情数据，执行逻辑内容与RigLogic节点中完全一致不再赘述","x":2220,"y":1210,"width":700,"height":60,"color":"3"},
-		{"id":"35ba91d43196f014","type":"text","text":"设置表情动画中的BlendShape数据，执行逻辑内容与RigLogic节点中完全一致不再赘述","x":2220,"y":1300,"width":700,"height":60,"color":"3"},
-		{"id":"4292a2baad326a0c","type":"text","text":"设置表情动画中的动画贴图数据，执行逻辑内容与RigLogic节点中完全一致不再赘述","x":2220,"y":1380,"width":700,"height":60,"color":"3"}
+		{"id":"b4a65b6b239fdd39","x":1773,"y":1029,"width":427,"height":60,"type":"text","text":"FAnimNode_RigLogic::UpdateControlCurves"}
 	],
 	"edges":[
 		{"id":"b1a7d39c95145f0b","fromNode":"5cd50fc874268d1a","fromSide":"right","toNode":"ab62520017e3a7d2","toSide":"left"},
@@ -120,6 +120,10 @@
 		{"id":"a4b8e57323d42026","fromNode":"5d7214302e277aeb","fromSide":"right","toNode":"40109bfc977830d9","toSide":"left"},
 		{"id":"c24a026917ac25dc","fromNode":"5d7214302e277aeb","fromSide":"right","toNode":"2b70f6b8c676def6","toSide":"left"},
 		{"id":"46e90eb34af7253c","fromNode":"4f9a9bdc92bada07","fromSide":"right","toNode":"7f2acc32881b645a","toSide":"left"},
-		{"id":"fa969e5331ab35fa","fromNode":"7f2acc32881b645a","fromSide":"right","toNode":"b4a65b6b239fdd39","toSide":"left"}
+		{"id":"fa969e5331ab35fa","fromNode":"7f2acc32881b645a","fromSide":"right","toNode":"b4a65b6b239fdd39","toSide":"left"},
+		{"id":"191d4acbc5e10e6f","fromNode":"7f2acc32881b645a","fromSide":"right","toNode":"68737160017d9316","toSide":"left"},
+		{"id":"3fa7279b30a8a1b4","fromNode":"7f2acc32881b645a","fromSide":"right","toNode":"85359404664489ad","toSide":"left"},
+		{"id":"fd2bee972a4f5a87","fromNode":"7f2acc32881b645a","fromSide":"right","toNode":"2f266242ea1a2ac4","toSide":"left"},
+		{"id":"36521e70025518b8","fromNode":"7f2acc32881b645a","fromSide":"right","toNode":"3ccb1ee7d42b0445","toSide":"left"}
 	]
 }
