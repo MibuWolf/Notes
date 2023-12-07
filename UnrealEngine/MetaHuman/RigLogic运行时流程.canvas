@@ -16,7 +16,7 @@
 		{"id":"a69ca017eaaf7964","type":"text","text":"设置相应的MorphTarget曲线值","x":2702,"y":210,"width":338,"height":60},
 		{"id":"425afe1a4aa8f968","type":"text","text":"设置相应的动画贴图曲线值","x":2702,"y":410,"width":338,"height":60},
 		{"id":"591782352842564a","type":"text","text":"FRigInstance::GetAnimatedMapOutputs","x":2702,"y":320,"width":358,"height":60},
-		{"id":"ad7de8fd0988d46c","type":"text","text":"FRigUnit_RigLogic_Data::UpdateJoints","x":2200,"y":180,"width":400,"height":60},
+		{"id":"ad7de8fd0988d46c","type":"text","text":"FRigUnit_RigLogic_Data::UpdateBlendShapeCurves","x":2200,"y":180,"width":420,"height":60},
 		{"id":"146e5f548e4d214b","type":"text","text":"FRigUnit_RigLogic_Data::UpdateAnimMapCurves","x":2200,"y":380,"width":420,"height":60},
 		{"id":"92f588cb5c279f69","type":"text","text":"获取表情动画的骨骼数据","x":3060,"y":-60,"width":260,"height":60,"color":"3"},
 		{"id":"b8a6d47649a904b2","type":"text","text":"表情动作数据应用到原始脸","x":3060,"y":20,"width":260,"height":60,"color":"3"},
@@ -68,7 +68,7 @@
 		{"id":"9112f53adeafcf02","type":"text","text":"FAnimNode_RigLogic::CacheBones_AnyThread","x":1200,"y":697,"width":411,"height":60},
 		{"id":"5d7214302e277aeb","type":"text","text":"UDNAAsset::GetDNAIndexMapping","x":1720,"y":695,"width":374,"height":60},
 		{"id":"0bb37ca7c2664d35","type":"text","text":"将运行时数据与DNA中动画数据建立关联","x":1720,"y":602,"width":374,"height":60,"color":"3"},
-		{"id":"7f2acc32881b645a","x":1200,"y":1210,"width":411,"height":60,"type":"text","text":"FAnimNode_RigLogic::Evaluate_AnyThread"},
+		{"id":"7f2acc32881b645a","type":"text","text":"FAnimNode_RigLogic::Evaluate_AnyThread","x":1200,"y":1210,"width":411,"height":60},
 		{"id":"bfc4bf6899f7f43c","type":"text","text":"该节点每帧评价时执行","x":1200,"y":1120,"width":411,"height":60,"color":"3"},
 		{"id":"e6f85ef16bb51ac2","type":"text","text":"调用FRigLogic::Calculate具体逻辑与RigLogic节点中完全一致不再赘述","x":2220,"y":1120,"width":590,"height":60,"color":"3"},
 		{"id":"bfe19cadb263bf31","type":"text","text":"将表情原始控制(可以理解为AU)曲线值设置给对应的控制输入值","x":2220,"y":1029,"width":590,"height":60,"color":"3"},
@@ -79,7 +79,7 @@
 		{"id":"85359404664489ad","type":"text","text":"FAnimNode_RigLogic::UpdateJoints","x":1773,"y":1210,"width":427,"height":60},
 		{"id":"2f266242ea1a2ac4","type":"text","text":"FAnimNode_RigLogic::UpdateBlendShapeCurves","x":1773,"y":1300,"width":427,"height":60},
 		{"id":"3ccb1ee7d42b0445","type":"text","text":"FAnimNode_RigLogic::UpdateAnimMapCurves","x":1773,"y":1380,"width":427,"height":60},
-		{"id":"b4a65b6b239fdd39","x":1773,"y":1029,"width":427,"height":60,"type":"text","text":"FAnimNode_RigLogic::UpdateControlCurves"}
+		{"id":"b4a65b6b239fdd39","type":"text","text":"FAnimNode_RigLogic::UpdateControlCurves","x":1773,"y":1029,"width":427,"height":60}
 	],
 	"edges":[
 		{"id":"b1a7d39c95145f0b","fromNode":"5cd50fc874268d1a","fromSide":"right","toNode":"ab62520017e3a7d2","toSide":"left"},

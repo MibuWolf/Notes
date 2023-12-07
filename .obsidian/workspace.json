@@ -4,18 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1606c62487d5e79b",
+        "id": "94d5c0c27fe93984",
         "type": "tabs",
         "children": [
           {
-            "id": "c6d7d1740d1e422b",
+            "id": "c9ee34821b577238",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
-                "mode": "source",
-                "source": false
+                "file": "UnrealEngine/MetaHuman/RigLogic调整流程---基于骨骼调整的捏方案.canvas",
+                "viewState": {
+                  "x": 3275.7419095419486,
+                  "y": -155.47426040998658,
+                  "zoom": -0.5272702408434128
+                }
               }
             }
           }
@@ -85,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
+                "file": "UnrealEngine/MetaHuman/RigLogic调整流程---基于骨骼调整的捏方案.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
+                "file": "UnrealEngine/MetaHuman/RigLogic调整流程---基于骨骼调整的捏方案.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md"
+                "file": "UnrealEngine/MetaHuman/RigLogic调整流程---基于骨骼调整的捏方案.canvas"
               }
             }
           },
@@ -161,11 +164,16 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "c6d7d1740d1e422b",
+  "active": "c9ee34821b577238",
   "lastOpenFiles": [
-    "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
-    "UnrealEngine/MetaHuman/4. RigLogic.md",
     "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
+    "UnrealEngine/MetaHuman/RigLogic调整流程---基于骨骼调整的捏方案.canvas",
+    "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
+    "UnrealEngine/MetaHuman/0. 目录.md",
+    "UnrealEngine/MetaHuman/RigLogic运行时流程 - 副本.canvas",
+    "UnrealEngine/MetaHuman/4. RigLogic.md",
+    "UnrealEngine/MetaHuman/RigLogicWhitePaper.pdf",
+    "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
     "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
     "UnrealEngine/MetaHuman/RigLogic白皮书.pdf",
     "UnrealEngine/MetaHuman/3. DNA.md",
@@ -177,7 +185,6 @@
     "UnrealEngine/MetaHuman/attachments/Pic_064.png",
     "UnrealEngine/MetaHuman/attachments/Pic_065.png",
     "UnrealEngine/MetaHuman/attachments/Pic_066.png",
-    "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
     "C++/Effective Modern C++/3. 转向现代C++/条款9：优先选用别名声明而非typedef.md",
     "C++/Effective Modern C++/3. 转向现代C++/条款8：优先选用nullptr而非0或NULL.md",
     "C++/Effective Modern C++/3. 转向现代C++/条款7：创建对象时注意区分()和{}.md",
@@ -201,9 +208,7 @@
     "C++/Effective Modern C++/1. 型别推导/条款1： 理解模板型别推导.md",
     "C++/Effective Modern C++/1. 型别推导/1. 型别推导.md",
     "C++/Effective Modern C++/1. 型别推导",
-    "数学基础/3D数学基础/0. 目录.md",
     "27. 稀疏矩阵行/列压缩(Compressed Sparse Row",
-    "UnrealEngine/MetaHuman/RigLogicWhitePaper.pdf",
     "27. 稀疏矩阵行",
     "UnrealEngine/MetaHuman/RigLogic白皮书.pdf.saving",
     "UnrealEngine/MetaHuman/RigLogicWhitePaper.pdf.saving",
