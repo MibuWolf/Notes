@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"bd2d69fcf038d113","type":"text","text":"将运行时数据与DNA中动画数据建立关联，其他部分保持不变","x":1640,"y":-1540,"width":360,"height":85,"color":"3"},
+		{"id":"eef16bd9b6cdefa2","type":"text","text":"FRigUnit_RigLogic_Data::InitializeRigLogic","x":1640,"y":-1425,"width":360,"height":60},
+		{"id":"6082ec394fcf9045","type":"text","text":"FRigUnit_RigLogic_Data::MapInputCurveIndices","x":2160,"y":-1425,"width":500,"height":60},
+		{"id":"1cb9e3418af324fd","x":2742,"y":-1425,"width":598,"height":60,"color":"4","type":"text","text":"记录出对于捏脸控制器索引，并由外部设置曲线值或者直接设置控制器的值"},
+		{"id":"c41615639b6bea37","type":"text","text":"将动画中曲线与DNA数据中的输入控制参数数据建立关联，方便后续用曲线控制表情","x":3380,"y":-1425,"width":380,"height":60,"color":"3"}
+	],
+	"edges":[
+		{"id":"b0a60bbe996a0659","fromNode":"eef16bd9b6cdefa2","fromSide":"right","toNode":"6082ec394fcf9045","toSide":"left"},
+		{"id":"dc915151c4c3aec1","fromNode":"6082ec394fcf9045","fromSide":"right","toNode":"1cb9e3418af324fd","toSide":"left"}
+	]
+}

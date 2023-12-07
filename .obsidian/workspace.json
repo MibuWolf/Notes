@@ -4,38 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "94d5c0c27fe93984",
+        "id": "93326240e1fb6cfb",
         "type": "tabs",
         "children": [
           {
-            "id": "c9ee34821b577238",
+            "id": "ce65dd233ae39652",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
+                "file": "UnrealEngine/MetaHuman/4. 面部表情与自定义脸型.md",
                 "mode": "source",
                 "source": true
               }
-            }
+            },
+            "group": "de1ea882adefdcaf"
           }
         ]
       },
       {
-        "id": "7f8e7a0ac49a1846",
+        "id": "daa8ca38408a80dc",
         "type": "tabs",
         "children": [
           {
-            "id": "c63cb55fcdb1fcb0",
+            "id": "e697a9afa030332d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
+                "file": "UnrealEngine/MetaHuman/4. 面部表情与自定义脸型.md",
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "de1ea882adefdcaf"
           }
         ]
       }
@@ -87,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5
+    "width": 358.5
   },
   "right": {
     "id": "7c6e048684854d63",
@@ -103,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
+                "file": "UnrealEngine/MetaHuman/4. 面部表情与自定义脸型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
+                "file": "UnrealEngine/MetaHuman/4. 面部表情与自定义脸型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md"
+                "file": "UnrealEngine/MetaHuman/4. 面部表情与自定义脸型.md"
               }
             }
           },
@@ -179,17 +181,22 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "c9ee34821b577238",
+  "active": "e697a9afa030332d",
   "lastOpenFiles": [
+    "UnrealEngine/MetaHuman/5. 基于控制调整的捏脸方案.md",
+    "UnrealEngine/MetaHuman/0. 目录.md",
+    "UnrealEngine/MetaHuman/4. 面部表情与自定义脸型.md",
+    "UnrealEngine/MetaHuman/RigLogic调整流程---基于控制调整的捏脸方案.canvas",
+    "UnrealEngine/MetaHuman/3. RigLogic.md",
+    "UnrealEngine/MetaHuman/2. DNA.md",
+    "UnrealEngine/MetaHuman/RigLogic运行时流程 - 副本.canvas",
+    "UnrealEngine/MetaHuman/RigLogic调整流程---基于控制器调整的捏脸方案.canvas",
+    "UnrealEngine/MetaHuman/RigLogic调整流程---基于骨骼调整的捏脸方案 - 副本.canvas",
+    "UnrealEngine/MetaHuman/1. 初探MetaHuman.md",
     "UnrealEngine/MetaHuman/attachments/Pic_068.png",
     "UnrealEngine/MetaHuman/attachments/Pic_067.png",
     "UnrealEngine/MetaHuman/RigLogic调整流程---基于骨骼调整的捏脸方案.canvas",
-    "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
     "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
-    "UnrealEngine/MetaHuman/3. DNA.md",
-    "UnrealEngine/MetaHuman/0. 目录.md",
-    "UnrealEngine/MetaHuman/RigLogic运行时流程 - 副本.canvas",
-    "UnrealEngine/MetaHuman/4. RigLogic.md",
     "UnrealEngine/MetaHuman/RigLogicWhitePaper.pdf",
     "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
     "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
@@ -223,14 +230,12 @@
     "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
     "C++/Effective Modern C++/1. 型别推导/条款2：理解auto型别推导.md",
     "C++/Effective Modern C++/1. 型别推导/条款1： 理解模板型别推导.md",
-    "C++/Effective Modern C++/1. 型别推导/1. 型别推导.md",
     "C++/Effective Modern C++/1. 型别推导",
     "27. 稀疏矩阵行/列压缩(Compressed Sparse Row",
     "27. 稀疏矩阵行",
     "UnrealEngine/MetaHuman/RigLogic白皮书.pdf.saving",
     "UnrealEngine/MetaHuman/RigLogicWhitePaper.pdf.saving",
     "UnrealEngine/MetaHuman/attachments/Pic_058.png",
-    "UnrealEngine/MetaHuman/attachments/Pic_057.png",
     "UnrealEngine/Animation/SkeletalMeshComponent/12. 骨骼动画更新流程.canvas",
     "未命名.canvas"
   ]
