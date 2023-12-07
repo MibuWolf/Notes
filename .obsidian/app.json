@@ -2,5 +2,6 @@
   "attachmentFolderPath": "./attachments",
   "newFileLocation": "current",
   "alwaysUpdateLinks": true,
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "showUnsupportedFiles": true
 }
