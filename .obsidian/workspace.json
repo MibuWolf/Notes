@@ -11,14 +11,29 @@
             "id": "c9ee34821b577238",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "UnrealEngine/MetaHuman/RigLogic调整流程---基于骨骼调整的捏方案.canvas",
-                "viewState": {
-                  "x": 3275.7419095419486,
-                  "y": -155.47426040998658,
-                  "zoom": -0.5272702408434128
-                }
+                "file": "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "7f8e7a0ac49a1846",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c63cb55fcdb1fcb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -88,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UnrealEngine/MetaHuman/RigLogic调整流程---基于骨骼调整的捏方案.canvas",
+                "file": "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UnrealEngine/MetaHuman/RigLogic调整流程---基于骨骼调整的捏方案.canvas",
+                "file": "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UnrealEngine/MetaHuman/RigLogic调整流程---基于骨骼调整的捏方案.canvas"
+                "file": "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md"
               }
             }
           },
@@ -166,9 +181,12 @@
   },
   "active": "c9ee34821b577238",
   "lastOpenFiles": [
-    "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
-    "UnrealEngine/MetaHuman/RigLogic调整流程---基于骨骼调整的捏方案.canvas",
+    "UnrealEngine/MetaHuman/attachments/Pic_068.png",
+    "UnrealEngine/MetaHuman/attachments/Pic_067.png",
+    "UnrealEngine/MetaHuman/RigLogic调整流程---基于骨骼调整的捏脸方案.canvas",
     "UnrealEngine/MetaHuman/2. 面部表情与自定义脸型.md",
+    "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
+    "UnrealEngine/MetaHuman/3. DNA.md",
     "UnrealEngine/MetaHuman/0. 目录.md",
     "UnrealEngine/MetaHuman/RigLogic运行时流程 - 副本.canvas",
     "UnrealEngine/MetaHuman/4. RigLogic.md",
@@ -176,7 +194,6 @@
     "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
     "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
     "UnrealEngine/MetaHuman/RigLogic白皮书.pdf",
-    "UnrealEngine/MetaHuman/3. DNA.md",
     "UnrealEngine/MetaHuman/attachments/Pic_062.png",
     "UnrealEngine/MetaHuman/attachments/Pic_060.png",
     "UnrealEngine/MetaHuman/attachments/Pic_060.png.saving",
@@ -214,7 +231,6 @@
     "UnrealEngine/MetaHuman/RigLogicWhitePaper.pdf.saving",
     "UnrealEngine/MetaHuman/attachments/Pic_058.png",
     "UnrealEngine/MetaHuman/attachments/Pic_057.png",
-    "UnrealEngine/MetaHuman/attachments/Pic_056.png",
     "UnrealEngine/Animation/SkeletalMeshComponent/12. 骨骼动画更新流程.canvas",
     "未命名.canvas"
   ]
