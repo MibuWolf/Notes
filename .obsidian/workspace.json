@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UnrealEngine/MetaHuman/3. RigLogic.md",
+                "file": "UnrealEngine/MetaHuman/2. DNA.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UnrealEngine/MetaHuman/3. RigLogic.md",
+                "file": "UnrealEngine/MetaHuman/2. DNA.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UnrealEngine/MetaHuman/3. RigLogic.md",
+                "file": "UnrealEngine/MetaHuman/2. DNA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UnrealEngine/MetaHuman/3. RigLogic.md",
+                "file": "UnrealEngine/MetaHuman/2. DNA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UnrealEngine/MetaHuman/3. RigLogic.md"
+                "file": "UnrealEngine/MetaHuman/2. DNA.md"
               }
             }
           },
@@ -183,12 +183,12 @@
   },
   "active": "ce65dd233ae39652",
   "lastOpenFiles": [
+    "UnrealEngine/MetaHuman/3. RigLogic.md",
     "UnrealEngine/MetaHuman/2. DNA.md",
     "UnrealEngine/MetaHuman/1. 初探MetaHuman.md",
     "UnrealEngine/MetaHuman/4. 面部表情与自定义脸型.md",
     "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
     "UnrealEngine/MetaHuman/5. 基于控制调整的捏脸方案.md",
-    "UnrealEngine/MetaHuman/3. RigLogic.md",
     "UnrealEngine/MetaHuman/attachments/Omar.dna",
     "UnrealEngine/MetaHuman/attachments/Omar.json",
     "UnrealEngine/MetaHuman/Omar.json",
