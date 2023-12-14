@@ -4,40 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "d5cb93f3d5a2f527",
+        "id": "86e7f720e8d9f0ac",
         "type": "tabs",
         "children": [
           {
-            "id": "9fa8e21a2a6bb5cf",
+            "id": "fa3d4d2db2d24f6c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "UnrealEngine/MetaHuman/2. DNA.md",
-                "mode": "source",
-                "source": true
+                "file": "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
+                "viewState": {
+                  "x": 835.0583970323743,
+                  "y": 273.43888756182554,
+                  "zoom": -0.3404905459137898
+                }
               }
-            },
-            "group": "1dd797dd67bc66f9"
-          }
-        ]
-      },
-      {
-        "id": "de70196eb1089693",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "18b3932d7a9df3aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UnrealEngine/MetaHuman/2. DNA.md",
-                "mode": "source",
-                "source": false
-              }
-            },
-            "group": "1dd797dd67bc66f9"
+            }
           }
         ]
       }
@@ -105,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UnrealEngine/MetaHuman/2. DNA.md",
+                "file": "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UnrealEngine/MetaHuman/2. DNA.md",
+                "file": "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UnrealEngine/MetaHuman/2. DNA.md"
+                "file": "UnrealEngine/MetaHuman/DNA数据结构解析.canvas"
               }
             }
           },
@@ -181,13 +164,14 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "9fa8e21a2a6bb5cf",
+  "active": "fa3d4d2db2d24f6c",
   "lastOpenFiles": [
-    "UnrealEngine/MetaHuman/attachments/Pic_071.png",
     "UnrealEngine/MetaHuman/2. DNA.md",
-    "UnrealEngine/MetaHuman/attachments/Pic_070.png",
     "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
     "UnrealEngine/MetaHuman/3. RigLogic.md",
+    "UnrealEngine/MetaHuman/attachments/Pic_072.png",
+    "UnrealEngine/MetaHuman/attachments/Pic_071.png",
+    "UnrealEngine/MetaHuman/attachments/Pic_070.png",
     "UnrealEngine/MetaHuman/1. 初探MetaHuman.md",
     "UnrealEngine/MetaHuman/4. 面部表情与自定义脸型.md",
     "UnrealEngine/MetaHuman/5. 基于控制调整的捏脸方案.md",
@@ -214,7 +198,6 @@
     "UnrealEngine/MetaHuman/attachments/Pic_060.png.saving",
     "UnrealEngine/MetaHuman/attachments/Pic_061.png",
     "UnrealEngine/MetaHuman/attachments/Pic_063.png",
-    "UnrealEngine/MetaHuman/attachments/Pic_064.png",
     "C++/Effective Modern C++/3. 转向现代C++/条款9：优先选用别名声明而非typedef.md",
     "C++/Effective Modern C++/3. 转向现代C++/条款8：优先选用nullptr而非0或NULL.md",
     "C++/Effective Modern C++/3. 转向现代C++/条款7：创建对象时注意区分()和{}.md",

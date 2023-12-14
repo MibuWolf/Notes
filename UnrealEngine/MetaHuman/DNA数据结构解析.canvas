@@ -1,9 +1,22 @@
 {
 	"nodes":[
-		{"id":"d92eece2ba445cc8","x":-125,"y":-30,"width":1165,"height":60,"color":"3","type":"text","text":"inputs:输入控制数据(该部分数据为外部提供运行时控制表情单元AU的控制参数，为一个float类型的一维数组)"},
-		{"id":"7cf5c797e2beb4e4","x":-125,"y":100,"width":365,"height":60,"color":"#11fa00","type":"text","text":""},
-		{"id":"abd58c1adcc4ddff","type":"text","text":"","x":240,"y":100,"width":800,"height":60,"color":"#00fadd"},
-		{"id":"562cf001612010b9","x":-320,"y":130,"width":80,"height":320,"color":"3","type":"text","text":" 压\n\n 缩\n\n 稀\n\n 疏\n\n 行\n\n 矩\n\n 阵"}
+		{"id":"9a1c92c39719bb14","type":"text","text":"DNA","x":-80,"y":215,"width":277,"height":60},
+		{"id":"394477731e7e59ea","type":"text","text":"静态DNA文件的基本数据结构","x":-80,"y":135,"width":277,"height":60,"color":"3"},
+		{"id":"6a62e45219b37719","type":"text","text":"RawDescriptor","x":423,"y":-200,"width":277,"height":60},
+		{"id":"12b04d16aaf8188a","type":"text","text":"RawBehavior","x":423,"y":215,"width":280,"height":60},
+		{"id":"3192fa06020daf31","type":"text","text":"RawDefinition","x":423,"y":0,"width":277,"height":60},
+		{"id":"b8b951edb433a785","type":"text","text":"RawGeometry","x":423,"y":420,"width":280,"height":60},
+		{"id":"13aa0c7025885d7f","type":"text","text":"RawMachineLearnedBehavior","x":423,"y":620,"width":280,"height":60},
+		{"id":"799097a95606b41a","type":"text","text":"描述层数据","x":426,"y":-280,"width":277,"height":60,"color":"3"},
+		{"id":"65dd06eb7cc11e49","type":"text","text":"定义层数据","x":426,"y":-80,"width":277,"height":60,"color":"3"},
+		{"id":"72d0b47f858811f2","type":"text","text":"定义该DNA名称 原型 年龄 坐标系 LOD等信息 详见[[2. DNA#3.1 描述层数据|描述层数据结构]]","x":760,"y":-275,"width":277,"height":110,"color":"3"},
+		{"id":"b3e20b70d25f7049","type":"text","text":"定义该DNA中使用的控制器 骨骼 BlendShape等信息 详见[[2. DNA#3.2 定义层数据|定义层数据结构]]","x":760,"y":-75,"width":277,"height":110,"color":"3"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"7799c5b7812fcf5d","fromNode":"9a1c92c39719bb14","fromSide":"right","toNode":"6a62e45219b37719","toSide":"left"},
+		{"id":"0f13f4d7b55b9c26","fromNode":"9a1c92c39719bb14","fromSide":"right","toNode":"3192fa06020daf31","toSide":"left"},
+		{"id":"dc13eb406915b8ff","fromNode":"9a1c92c39719bb14","fromSide":"right","toNode":"12b04d16aaf8188a","toSide":"left"},
+		{"id":"bdf8b8aa0b4d7ebe","fromNode":"9a1c92c39719bb14","fromSide":"right","toNode":"b8b951edb433a785","toSide":"left"},
+		{"id":"cf420876fa9f61e2","fromNode":"9a1c92c39719bb14","fromSide":"right","toNode":"13aa0c7025885d7f","toSide":"left"}
+	]
 }
