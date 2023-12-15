@@ -32,5 +32,5 @@ decltype(c + 100) d = 2.345f; // d会被推导为float型
 
 - 如果表达式 ***expression*** 参数是不带括号()的简单标识符，或者是某个类的成员变量，那么 ***decltype(expression)*** 就是表达式***expression*** 的类型。如果并不存在 ***expression*** 这样的实体对象，或者 ***expression*** 描述的是一组经过重载(overloaded)的函数名(此时返回值类型可能有多个)，则会触发编译报错。
 - 如果表达式 ***expression*** 是一个对函数或者重载运算符函数的调用，那么 ***decltype(expression)*** 表示的是函数的返回值类型，这里需要注意因为括号()比较特殊，因此此处所说的运算符重载不包括对括号()的重载。
-- 如果表达式 ***expression*** 是一个右值
+- 如果表达式 ***expression*** 是一个右值那么 ***decltype(expression)*** 表示的是 ***expression*** 的类型。如果表达式 ***expression*** 是一个左值，***decltype(expression)*** 表示的是 ***expression*** 的左值引用类型。
 - 如果表达式 ***expression*** 是一个被括号()修饰的表达式
