@@ -11,14 +11,11 @@
             "id": "fa3d4d2db2d24f6c",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
-                "viewState": {
-                  "x": 1050,
-                  "y": 190,
-                  "zoom": -0.13240565611025623
-                }
+                "file": "UnrealEngine/MetaHuman/2. DNA.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -88,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
+                "file": "UnrealEngine/MetaHuman/2. DNA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
+                "file": "UnrealEngine/MetaHuman/2. DNA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UnrealEngine/MetaHuman/DNA数据结构解析.canvas"
+                "file": "UnrealEngine/MetaHuman/2. DNA.md"
               }
             }
           },
@@ -166,6 +163,7 @@
   },
   "active": "fa3d4d2db2d24f6c",
   "lastOpenFiles": [
+    "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
     "UnrealEngine/MetaHuman/2. DNA.md",
     "UnrealEngine/MetaHuman/attachments/Pic_078.png",
     "UnrealEngine/MetaHuman/attachments/Pic_077.png",
@@ -174,7 +172,6 @@
     "UnrealEngine/MetaHuman/attachments/Pic_075.png",
     "UnrealEngine/MetaHuman/attachments/Pic_074.png",
     "UnrealEngine/MetaHuman/attachments/Pic_073.png",
-    "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
     "UnrealEngine/MetaHuman/3. RigLogic.md",
     "UnrealEngine/MetaHuman/attachments/Pic_072.png",
     "UnrealEngine/MetaHuman/attachments/Pic_071.png",
