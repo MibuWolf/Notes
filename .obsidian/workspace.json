@@ -15,9 +15,9 @@
               "state": {
                 "file": "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
                 "viewState": {
-                  "x": 1115.9717272850032,
-                  "y": 2050.250070543867,
-                  "zoom": -0.3162239768801878
+                  "x": 1310.0710458657568,
+                  "y": 2356.134199063955,
+                  "zoom": -0.4843467356885147
                 }
               }
             }
@@ -181,10 +181,11 @@
   },
   "active": "fa3d4d2db2d24f6c",
   "lastOpenFiles": [
-    "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
-    "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
-    "UnrealEngine/MetaHuman/3. RigLogic.md",
     "UnrealEngine/MetaHuman/2. DNA.md",
+    "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
+    "UnrealEngine/MetaHuman/attachments/Pic_079.png",
+    "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
+    "UnrealEngine/MetaHuman/3. RigLogic.md",
     "UnrealEngine/MetaHuman/RigLogicWhitePaper.pdf",
     "UnrealEngine/MetaHuman/4. 面部表情与自定义脸型.md",
     "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
@@ -205,7 +206,6 @@
     "UnrealEngine/MetaHuman/attachments/Omar.json",
     "UnrealEngine/MetaHuman/Omar.json",
     "UnrealEngine/MetaHuman/Omar.dna",
-    "UnrealEngine/MetaHuman/attachments/Pic_069.png",
     "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
     "UnrealEngine/Animation/SkeletalMeshComponent/1. SkeletalMeshComponent组件.md",
     "UnrealEngine/MetaHuman/RigLogic调整流程---基于骨骼调整的捏脸方案.canvas",
