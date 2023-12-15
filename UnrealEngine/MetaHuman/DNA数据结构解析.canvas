@@ -3,7 +3,6 @@
 		{"id":"9a1c92c39719bb14","type":"text","text":"DNA","x":-80,"y":215,"width":277,"height":60},
 		{"id":"394477731e7e59ea","type":"text","text":"静态DNA文件的基本数据结构","x":-80,"y":135,"width":277,"height":60,"color":"3"},
 		{"id":"12b04d16aaf8188a","type":"text","text":"RawBehavior","x":423,"y":215,"width":280,"height":60},
-		{"id":"b8b951edb433a785","type":"text","text":"RawGeometry","x":425,"y":580,"width":280,"height":60},
 		{"id":"13aa0c7025885d7f","type":"text","text":"RawMachineLearnedBehavior","x":425,"y":780,"width":280,"height":60},
 		{"id":"bc7770ae9fe4e4b6","type":"text","text":"RawJoints","x":820,"y":140,"width":250,"height":60},
 		{"id":"1fa69b76700d3509","type":"text","text":"RawBlendShapeChannels","x":820,"y":300,"width":250,"height":60},
@@ -25,10 +24,15 @@
 		{"id":"7d761db08f0371a7","type":"text","text":"基础(原始)控制器信息，对运行时而言主要定义输入曲线索引顺序(即：将曲线ID与输入参数索引绑定)。 同时该数据为GUI上的显示/调节提供额外信息。更多详细信息请参见[[2. DNA#原始/基础控制器数据|基础/原始控制器]]","x":1420,"y":-80,"width":760,"height":60,"color":"3"},
 		{"id":"c97565f0f8f46d50","type":"text","text":"表情动画修正信息，对运行时而言主要用于将基础控制器输入映射到后续更多的修正输入参数索引。更多详细信息请参见[[2. DNA#PSD表情修正控制器数据|PSD表情修正控制]]","x":1420,"y":10,"width":760,"height":60,"color":"3"},
 		{"id":"bf0f3d1698152174","type":"text","text":"新增功能Feture尚未启用，暂不做讨论","x":760,"y":780,"width":380,"height":60,"color":"3"},
-		{"id":"58732ac31900c7a2","x":1149,"y":140,"width":250,"height":60,"type":"text","text":"RawJointGroup"},
+		{"id":"58732ac31900c7a2","type":"text","text":"RawJointGroup","x":1149,"y":140,"width":250,"height":60},
 		{"id":"d6d2a392b88e0c63","type":"text","text":"为了运行时高效采样计算骨骼位置信息数据，存储时对其进行分组分LOD的方式，以输入参数一维数组的索引为参数映射保持骨骼的偏移信息，并记录要保存到的输出列表索引。更多信息参见：[[2. DNA#3.3.2 表情动画骨骼数据|表情动画中的骨骼数据]]","x":1420,"y":140,"width":840,"height":60,"color":"3"},
 		{"id":"d3ac4d518d4ebeb0","type":"text","text":"存储数据较为简单即：输入权重索引对MorpthTarget的索引的映射关系。更多详细信息请参见[[2. DNA#3.3.3 表情动画BlendShape数据|BlendShape数据]]","x":1149,"y":300,"width":840,"height":60,"color":"3"},
-		{"id":"6d77b8e3c6acac60","type":"text","text":"存储数据较为简单即：输入权重索引对MorpthTarget的索引的映射关系。更多详细信息请参见[[2. DNA#3.3.3 表情动画BlendShape数据|BlendShape数据]]","x":1140,"y":460,"width":840,"height":60,"color":"3"}
+		{"id":"6d77b8e3c6acac60","type":"text","text":"存储结构与基础(原始)控制器信息完全一致，其作用就是将输入的控制权重值映射到对应的材质曲线值，更多信息参见：[[2. DNA#3.3.4 表情动画贴图数据|材质动画贴图数据]]","x":1420,"y":460,"width":760,"height":60,"color":"3"},
+		{"id":"3a0fe0af55f84c3d","type":"text","text":"RawConditionalTable","x":1149,"y":460,"width":250,"height":60},
+		{"id":"b8b951edb433a785","type":"text","text":"RawGeometry","x":423,"y":620,"width":280,"height":60},
+		{"id":"08c3ac3e65e9752e","type":"text","text":"RawMesh","x":773,"y":620,"width":250,"height":60},
+		{"id":"592acdd6250b2194","type":"text","text":"存储记录每个Mesh的蒙皮权限 BlendShapeTarget等数据，更多信息参见：[[2. DNA#3.4 几何层数据|几何层数据]]","x":1070,"y":620,"width":710,"height":60,"color":"3"},
+		{"id":"30a5ac52a405ebf5","x":57,"y":1351,"width":250,"height":60,"type":"text","text":"RigLogic"}
 	],
 	"edges":[
 		{"id":"7799c5b7812fcf5d","fromNode":"9a1c92c39719bb14","fromSide":"right","toNode":"6a62e45219b37719","toSide":"left"},
@@ -42,6 +46,8 @@
 		{"id":"095734b8eee9d7f6","fromNode":"12b04d16aaf8188a","fromSide":"right","toNode":"0e105f93d0a4f456","toSide":"left"},
 		{"id":"d22e7c6f8e2e388f","fromNode":"dae1eb773e6bf92f","fromSide":"right","toNode":"cfdfa883ff42044e","toSide":"left"},
 		{"id":"6c5203d3abfcd899","fromNode":"dae1eb773e6bf92f","fromSide":"right","toNode":"aefd80219b12e4d3","toSide":"left"},
-		{"id":"ef53d83235b25f16","fromNode":"bc7770ae9fe4e4b6","fromSide":"right","toNode":"58732ac31900c7a2","toSide":"left"}
+		{"id":"ef53d83235b25f16","fromNode":"bc7770ae9fe4e4b6","fromSide":"right","toNode":"58732ac31900c7a2","toSide":"left"},
+		{"id":"25e77a3b280ef638","fromNode":"0e105f93d0a4f456","fromSide":"right","toNode":"3a0fe0af55f84c3d","toSide":"left"},
+		{"id":"d20373e0e5ca654c","fromNode":"b8b951edb433a785","fromSide":"right","toNode":"08c3ac3e65e9752e","toSide":"left"}
 	]
 }
