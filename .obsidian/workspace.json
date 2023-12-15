@@ -13,11 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UnrealEngine/MetaHuman/5. 基于控制调整的捏脸方案.md",
+                "file": "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
-            }
+            },
+            "group": "9d868948171d0d50"
           },
           {
             "id": "6fbee37260aca0ad",
@@ -33,6 +34,25 @@
                 }
               }
             }
+          }
+        ]
+      },
+      {
+        "id": "c73f48b44a858a89",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4a4eda9348915acd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "9d868948171d0d50"
           }
         ]
       }
@@ -100,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UnrealEngine/MetaHuman/5. 基于控制调整的捏脸方案.md",
+                "file": "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UnrealEngine/MetaHuman/5. 基于控制调整的捏脸方案.md",
+                "file": "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UnrealEngine/MetaHuman/5. 基于控制调整的捏脸方案.md"
+                "file": "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md"
               }
             }
           },
@@ -178,15 +198,16 @@
   },
   "active": "fa3d4d2db2d24f6c",
   "lastOpenFiles": [
-    "UnrealEngine/MetaHuman/4. 面部表情与自定义脸型.md",
+    "C++/Effective Modern C++/1. 型别推导/条款2：理解auto型别推导.md",
+    "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
     "UnrealEngine/MetaHuman/5. 基于控制调整的捏脸方案.md",
+    "UnrealEngine/MetaHuman/4. 面部表情与自定义脸型.md",
     "UnrealEngine/MetaHuman/3. RigLogic.md",
     "UnrealEngine/MetaHuman/2. DNA.md",
     "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
     "UnrealEngine/MetaHuman/attachments/Pic_079.png",
     "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
     "UnrealEngine/MetaHuman/RigLogicWhitePaper.pdf",
-    "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
     "UnrealEngine/MetaHuman/RigLogic白皮书.pdf",
     "UnrealEngine/MetaHuman/attachments/Pic_078.png",
     "UnrealEngine/MetaHuman/attachments/Pic_077.png",
