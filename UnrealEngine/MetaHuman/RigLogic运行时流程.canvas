@@ -79,7 +79,10 @@
 		{"id":"85359404664489ad","type":"text","text":"FAnimNode_RigLogic::UpdateJoints","x":1773,"y":1210,"width":427,"height":60},
 		{"id":"2f266242ea1a2ac4","type":"text","text":"FAnimNode_RigLogic::UpdateBlendShapeCurves","x":1773,"y":1300,"width":427,"height":60},
 		{"id":"3ccb1ee7d42b0445","type":"text","text":"FAnimNode_RigLogic::UpdateAnimMapCurves","x":1773,"y":1380,"width":427,"height":60},
-		{"id":"b4a65b6b239fdd39","type":"text","text":"FAnimNode_RigLogic::UpdateControlCurves","x":1773,"y":1029,"width":427,"height":60}
+		{"id":"b4a65b6b239fdd39","type":"text","text":"FAnimNode_RigLogic::UpdateControlCurves","x":1773,"y":1029,"width":427,"height":60},
+		{"id":"52fc887e9d218685","type":"text","text":"暂时尚未生效","x":3340,"y":-800,"width":330,"height":60,"color":"3"},
+		{"id":"3be8e379f14ee9a5","type":"text","text":"ControlsInputInstance::calculate","x":3380,"y":-660,"width":290,"height":60},
+		{"id":"cce68e97a6d6d13b","type":"text","text":"根据之前输入的原始数据更新计算PSD修正数据输入权重值并将其记录到inputBuffer中，更多细节参考：[[DNA数据结构解析.canvas|DNA数据结构解析中的运行时数据结构部分]]","x":3720,"y":-660,"width":620,"height":60,"color":"3"}
 	],
 	"edges":[
 		{"id":"b1a7d39c95145f0b","fromNode":"5cd50fc874268d1a","fromSide":"right","toNode":"ab62520017e3a7d2","toSide":"left"},
@@ -124,6 +127,8 @@
 		{"id":"191d4acbc5e10e6f","fromNode":"7f2acc32881b645a","fromSide":"right","toNode":"68737160017d9316","toSide":"left"},
 		{"id":"3fa7279b30a8a1b4","fromNode":"7f2acc32881b645a","fromSide":"right","toNode":"85359404664489ad","toSide":"left"},
 		{"id":"fd2bee972a4f5a87","fromNode":"7f2acc32881b645a","fromSide":"right","toNode":"2f266242ea1a2ac4","toSide":"left"},
-		{"id":"36521e70025518b8","fromNode":"7f2acc32881b645a","fromSide":"right","toNode":"3ccb1ee7d42b0445","toSide":"left"}
+		{"id":"36521e70025518b8","fromNode":"7f2acc32881b645a","fromSide":"right","toNode":"3ccb1ee7d42b0445","toSide":"left"},
+		{"id":"09e3c20dd358c566","fromNode":"cf6740d6b1c493cb","fromSide":"right","toNode":"3be8e379f14ee9a5","toSide":"left"},
+		{"id":"5f03bcd5c3a77335","fromNode":"cce68e97a6d6d13b","fromSide":"top","toNode":"84a90c6002831a0d","toSide":"right","label":"关于原始控制器数据的值\n已在此处设置到inputBuffer中"}
 	]
 }

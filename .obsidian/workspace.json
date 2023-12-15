@@ -13,11 +13,26 @@
             "state": {
               "type": "canvas",
               "state": {
+                "file": "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
+                "viewState": {
+                  "x": 1115.9717272850032,
+                  "y": 2050.250070543867,
+                  "zoom": -0.3162239768801878
+                }
+              }
+            }
+          },
+          {
+            "id": "6fbee37260aca0ad",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
                 "file": "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
                 "viewState": {
-                  "x": 1747.5,
-                  "y": -80,
-                  "zoom": -2.0034555586362193
+                  "x": 3449.2467090653577,
+                  "y": -486.7885236593013,
+                  "zoom": -0.6134714015802429
                 }
               }
             }
@@ -88,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
+                "file": "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
+                "file": "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas"
+                "file": "UnrealEngine/MetaHuman/DNA数据结构解析.canvas"
               }
             }
           },
@@ -166,14 +181,14 @@
   },
   "active": "fa3d4d2db2d24f6c",
   "lastOpenFiles": [
+    "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
+    "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
+    "UnrealEngine/MetaHuman/3. RigLogic.md",
+    "UnrealEngine/MetaHuman/2. DNA.md",
     "UnrealEngine/MetaHuman/RigLogicWhitePaper.pdf",
     "UnrealEngine/MetaHuman/4. 面部表情与自定义脸型.md",
-    "UnrealEngine/MetaHuman/3. RigLogic.md",
     "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
-    "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
-    "UnrealEngine/MetaHuman/2. DNA.md",
     "UnrealEngine/MetaHuman/RigLogic白皮书.pdf",
-    "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
     "UnrealEngine/MetaHuman/attachments/Pic_078.png",
     "UnrealEngine/MetaHuman/attachments/Pic_077.png",
     "UnrealEngine/MetaHuman/attachments/Pic_076.png",
