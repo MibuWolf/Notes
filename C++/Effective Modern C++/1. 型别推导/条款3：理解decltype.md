@@ -95,3 +95,51 @@ decltype(exp) varname [= value];  //decltype的语法格式
 
 # 2. 理解decltype
 
+上文已经讨论了很多关于 ***auto*** 和 ***decltype*** 的用法与区别，实际上，在C++11中，***decltype*** 最主要的用途就是用于声明函数模板，而这个函数返回类型依赖于形参类型。举个例子，假定我们写一个函数，一个形参为容器，一个形参为索引值，这个函数支持使用方括号的方式（也就是使用 ***[]*** ）访问容器中指定索引值的数据，然后在返回索引操作的结果前执行认证用户操作。函数的返回类型应该和索引操作返回的类型相同。也就是说，对一个 ***T*** 类型的容器使用 ***operator[]***  通常会返回一个 ***T&*** 对象。
+
+使用 ***decltype*** 使得我们很容易去实现它，这是我们写的第一个版本，使用 ***decltype*** 计算返回类型，这个模板需要改良，我们把这个推迟到后面：
+
+``` C++ 伪代码
+
+template<typename Container, typename Index>    //可以工作，
+auto authAndAccess(Container& c, Index i)       //但是需要改良
+    ->decltype(c[i])
+{
+    authenticateUser();
+    return c[i];
+}
+
+```
+
+也许你会对 ***auto authAndAccess(Container& c, Index i)                       ->decltype(c[i])*** 的这种写法感到困惑，实际上这是C++11中的**尾置返回类型**语法。在[[条款2：理解auto型别推导#3. C++14 auto的扩展规则|C++14 auto的扩展规则]]中我们有提到：直到C++14才允许对函数返回值进行 ***auto*** 类型推导，也就是说在C++11中无法使用 ***auto*** 作为函数返回值的类型。
+
+因此，此处 ***auto authAndAccess(Container& c, Index i)                       ->decltype(c[i])*** 的 ***auto*** 不会做任何的类型推导工作。相反的，他只是暗示使用了C++11的**尾置返回类型**语法，即在函数形参列表后面使用一个”`->`“符号指出函数的返回类型，尾置返回类型的好处是我们可以在函数返回类型中使用函数形参相关的信息。因此在C++11版本中，此处的返回值类型说明，就只可以使用 ***decltype*** (再次提醒，此处的 ***auto***  并不表示函数返回值类型是可推导类型，原因是：在C++11语法中 不支持 ***auto*** 作为函数返回值类型。)
+
+在C++14及以后的版本中，由于[[条款2：理解auto型别推导#3. C++14 auto的扩展规则|auto的扩展规则]]，  ***auto***  允许自动推导所有的_lambda_表达式和函数。此时，对于 ***authAndAccess*** 来说这意味着在C++14标准下我们可以忽略尾置返回类型，只留下一个 ***auto*** ，如下代码所示：
+
+``` C++ 伪代码
+
+template<typename Container, typename Index>    //C++14版本，
+auto authAndAccess(Container& c, Index i)       //不那么正确
+{
+    authenticateUser();
+    return c[i];                     //从c[i]中推导返回类型
+}
+
+```
+
+在C++14中直接使用 ***auto*** 定义函数返回值，乍看起来好像没有什么问题，但仔细分析就会发现上述代码并不符合我们的预期。我们原本期望的是函数返回 ***T&*** 类型的数据，但根据[[条款2：理解auto型别推导|auto型别推导规则]] ***auto*** 会忽略 ***const*** 和 引用修饰，因此实际上最终返回值的类型是 ***T*** 而非 ***T&*** 。
+
+要想让 ***authAndAccess*** 像我们期待的那样工作，我们需要使用 ***decltype*** 类型推导来推导它的返回值，即指定 ***authAndAccess*** 应该返回一个和 ***c[i]*** 表达式类型一样的类型。C++期望在某些情况下当类型被暗示时需要使用 ***decltype*** 类型推导的规则，C++14通过使用 ***decltype(auto)*** 说明符使得这成为可能。我们第一次看见 ***decltype(auto)*** 可能觉得非常的矛盾（到底是 ***decltype*** 还是 ***auto*** ？），实际上我们可以这样解释它的意义：***auto***说明符表示这个类型将会被推导，***decltype*** 说明这个推导过程使用 ***decltype*** 的规则进行。因此我们可以这样写 ***authAndAccess*** ：
+
+``` C++ 
+
+template<typename Container, typename Index>    //C++14版本，
+decltype(auto)                                  //可以工作，
+authAndAccess(Container& c, Index i)            //但是还需要
+{                                               //改良
+    authenticateUser();
+    return c[i];     // decltype(auto) 说明按照decltype的推导规则进行推导，也就是相当于 de
+}
+
+```
