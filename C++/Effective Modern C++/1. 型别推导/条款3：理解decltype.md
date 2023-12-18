@@ -3,7 +3,7 @@ tags:
   - cplusplus decltype
 ---
 
-# 1. 初rdecltype
+# 1. 初认识decltype
 
 ## 1.1 概述
 
