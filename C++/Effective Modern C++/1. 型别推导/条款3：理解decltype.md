@@ -50,7 +50,7 @@ decltype(a->x); // 使用推导规则一，a->x是一个类的成员变量，因
 decltype(fx()); // 适用推导规则二，fx()为一个函数调用因此其类型为函数返回值类型即：const int&&
 decltype(m+n); // m+n表达式是两个int型数据相加的结果不能被赋值，因此是个右值，此时根据推导规则三得出其类型为： int
 decltype(m=m+n); // m = m + n 表达式的结果是将m+n的结果赋给m，主体是m故可以继续给其赋值，因此该表达式是个左值表达式，根据推导规则三得出其类型为：int&
-decltype((a->x)); // 此时表达式a->x是被括号()括起来的，因此不能将其看作是类的成员变量，而是将其看作一个整体。 根据推导规则四得出其类型为： double&
+decltype((a->x)); // 此时表达式a->x是被括号()括起来的，因此不能将其看作是类的成员变量，而是将其看作一个整体。 根据推导规则四得出其类型为： const double& 之所以有const是因为a是const类型的因此其成员变量也是const的。
 
 ```
 
@@ -97,6 +97,8 @@ decltype(exp) varname [= value];  //decltype的语法格式
 
 上文已经讨论了很多关于 ***auto*** 和 ***decltype*** 的用法与区别，实际上，在C++11中，***decltype*** 最主要的用途就是用于声明函数模板，而这个函数返回类型依赖于形参类型。举个例子，假定我们写一个函数，一个形参为容器，一个形参为索引值，这个函数支持使用方括号的方式（也就是使用 ***[]*** ）访问容器中指定索引值的数据，然后在返回索引操作的结果前执行认证用户操作。函数的返回类型应该和索引操作返回的类型相同。也就是说，对一个 ***T*** 类型的容器使用 ***operator[]***  通常会返回一个 ***T&*** 对象。
 
+# 2.1 decletype在模板函数中的作用
+
 使用 ***decltype*** 使得我们很容易去实现它，这是我们写的第一个版本，使用 ***decltype*** 计算返回类型，这个模板需要改良，我们把这个推迟到后面：
 
 ``` C++ 伪代码
@@ -139,7 +141,26 @@ decltype(auto)                                  //可以工作，
 authAndAccess(Container& c, Index i)            //但是还需要
 {                                               //改良
     authenticateUser();
-    return c[i];     // decltype(auto) 说明按照decltype的推导规则进行推导，也就是相当于 de
+    return c[i];     // decltype(auto) 说明按照decltype的推导规则进行推导，也就是相当于 decltype(c[i])
 }
+
+```
+
+上述代码中的备注中明确表示此版本可以工作但仍需改良，这是因为存在一种传入 ***Container&*** 参数是一个右值的边界情况。当我们传入的 ***Container&*** 是一个右值临时变量时，我们的返回值是一个引用，这也就意味着我们持有了一个被销毁变量的引用从而导致出错，如下代码所示：
+
+``` C++
+
+template<typename Container, typename Index>    //C++14版本，
+decltype(auto)                                  //可以工作，
+authAndAccess(Container& c, Index i)            //但是还需要
+{                                               //改良
+    authenticateUser();
+    return c[i];     // decltype(auto) 说明按照decltype的推导规则进行推导，也就是相当于 decltype(c[i])
+}
+
+std::deque<std::string> makeStringDeque();      //工厂函数
+
+//从makeStringDeque中获得第五个元素的拷贝并返回
+auto s = authAndAccess(makeStringDeque(), 5);  // 此时makeStringDeque()返回的是一个临时变量，并没有被任何左值变量持有，因此在完成调回后临时变量会被销毁。但由于函数返回的是临时变量第5个元素的引用，从而导致返回值 s 执行了一个被销毁对象的引用 从而出错。
 
 ```
