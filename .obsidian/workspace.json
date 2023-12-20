@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Effective Modern C++/0. 目录.md",
+                "file": "C++/Effective Modern C++/4. 智能指针/条款18：理解特种成员函数的生成机制.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Effective Modern C++/0. 目录.md",
+                "file": "C++/Effective Modern C++/4. 智能指针/条款18：理解特种成员函数的生成机制.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Effective Modern C++/0. 目录.md",
+                "file": "C++/Effective Modern C++/4. 智能指针/条款18：理解特种成员函数的生成机制.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Effective Modern C++/0. 目录.md",
+                "file": "C++/Effective Modern C++/4. 智能指针/条款18：理解特种成员函数的生成机制.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Effective Modern C++/0. 目录.md"
+                "file": "C++/Effective Modern C++/4. 智能指针/条款18：理解特种成员函数的生成机制.md"
               }
             }
           },
@@ -181,8 +181,11 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "c001a77f61a2bd59",
+  "active": "fa3d4d2db2d24f6c",
   "lastOpenFiles": [
+    "天涯明月刀/0. 整体结构框架.md",
+    "数学基础/3D数学基础/1. 向量.md",
+    "C++/Effective Modern C++/0. 目录.md",
     "天涯明月刀",
     "新建文件夹",
     "C++/Effective Modern C++/4. 智能指针/条款18：理解特种成员函数的生成机制.md",
@@ -212,7 +215,6 @@
     "UnrealEngine/MetaHuman/attachments/Pic_078.png",
     "UnrealEngine/MetaHuman/attachments/Pic_077.png",
     "UnrealEngine/MetaHuman/attachments/Pic_076.png",
-    "UnrealEngine/MetaHuman/attachments/courgette.log",
     "UnrealEngine/MetaHuman/attachments/Pic_075.png",
     "UnrealEngine/MetaHuman/attachments/Pic_074.png",
     "UnrealEngine/MetaHuman/attachments/Pic_073.png",
@@ -234,8 +236,6 @@
     "C++/Effective Modern C++/3. 转向现代C++/条款17：理解特种成员函数的生成机制.md",
     "C++/Effective Modern C++/3. 转向现代C++/条款16：保证const成员函数的线程安全性.md",
     "C++/Effective Modern C++/3. 转向现代C++/条款15：只要有可能使用constexpr就使用它.md",
-    "C++/Effective Modern C++/3. 转向现代C++/条款14：只要函数与不会抛出异常就为其加上noexcept声明.md",
-    "C++/Effective Modern C++/3. 转向现代C++/条款13：优先选用const_iterator而非iterator.md",
     "UnrealEngine/Animation/SkeletalMeshComponent/12. 骨骼动画更新流程.canvas",
     "未命名.canvas"
   ]
