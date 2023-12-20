@@ -181,8 +181,12 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "fa3d4d2db2d24f6c",
+  "active": "c001a77f61a2bd59",
   "lastOpenFiles": [
+    "天涯明月刀",
+    "新建文件夹",
+    "C++/Effective Modern C++/4. 智能指针/条款18：理解特种成员函数的生成机制.md",
+    "C++/Effective Modern C++/4. 智能指针/条款17：理解特种成员函数的生成机制.md",
     "C++/Effective Modern C++/4. 智能指针/4. 智能指针.md",
     "C++/Effective Modern C++/4. 智能指针/3. 转向现代C++.md",
     "C++/Effective Modern C++/8. 微调",
@@ -216,7 +220,6 @@
     "UnrealEngine/MetaHuman/attachments/Pic_071.png",
     "UnrealEngine/MetaHuman/attachments/Pic_070.png",
     "UnrealEngine/MetaHuman/1. 初探MetaHuman.md",
-    "UnrealEngine/MetaHuman/attachments/Omar.dna",
     "数学基础/3D数学基础/27. 稀疏矩阵行列压缩(Compressed Sparse Row Column Matrix).md",
     "UnrealEngine/Animation/SkeletalMeshComponent/1. SkeletalMeshComponent组件.md",
     "UnrealEngine/MetaHuman/RigLogic调整流程---基于骨骼调整的捏脸方案.canvas",
@@ -233,9 +236,6 @@
     "C++/Effective Modern C++/3. 转向现代C++/条款15：只要有可能使用constexpr就使用它.md",
     "C++/Effective Modern C++/3. 转向现代C++/条款14：只要函数与不会抛出异常就为其加上noexcept声明.md",
     "C++/Effective Modern C++/3. 转向现代C++/条款13：优先选用const_iterator而非iterator.md",
-    "C++/Effective Modern C++/3. 转向现代C++/条款12：为意在改写的函数添加override声明.md",
-    "C++/Effective Modern C++/3. 转向现代C++/条款11：优先选用删除函数而非private未定义函数.md",
-    "C++/Effective Modern C++/3. 转向现代C++/条款10：优先选用限定作用域的枚举型别，而非不限作用域的枚举型别.md",
     "UnrealEngine/Animation/SkeletalMeshComponent/12. 骨骼动画更新流程.canvas",
     "未命名.canvas"
   ]
