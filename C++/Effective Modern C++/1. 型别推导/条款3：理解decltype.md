@@ -54,6 +54,8 @@ decltype((a->x)); // 此时表达式a->x是被括号()括起来的，因此不�
 
 ```
 
+***注： 关于表达式 ***expression*** 是一个左值这一规则可以简单这样理解：对于单纯的变量名，***decltype*** 只会返回变量的声明类型。然而，对于比单纯的变量名更复杂的左值表达式，***decltype*** 可以确保报告的类型始终是左值引用。***
+
 ## 1.4 decltype vs auto
 
 也许你会有这样的疑问，***decltype***与***auto***的功能都一样，都用来在编译期间进行自动型别/类型推导。那么既然已经有了***auto*** 关键字，为什么还需要 ***decltype*** 关键字呢？那是因为两者的推导规则不同，使用方式和适用场景不同，甚至有些情况下只能使用 ***decltype*** 关键字。在下文中我们将详细对比两者的区别和适用场景。
@@ -97,7 +99,7 @@ decltype(exp) varname [= value];  //decltype的语法格式
 
 上文已经讨论了很多关于 ***auto*** 和 ***decltype*** 的用法与区别，实际上，在C++11中，***decltype*** 最主要的用途就是用于声明函数模板，而这个函数返回类型依赖于形参类型。举个例子，假定我们写一个函数，一个形参为容器，一个形参为索引值，这个函数支持使用方括号的方式（也就是使用 ***[]*** ）访问容器中指定索引值的数据，然后在返回索引操作的结果前执行认证用户操作。函数的返回类型应该和索引操作返回的类型相同。也就是说，对一个 ***T*** 类型的容器使用 ***operator[]***  通常会返回一个 ***T&*** 对象。
 
-# 2.1 decletype在模板函数中的作用
+## 2.1 decltype在模板函数中的作用
 
 使用 ***decltype*** 使得我们很容易去实现它，这是我们写的第一个版本，使用 ***decltype*** 计算返回类型，这个模板需要改良，我们把这个推迟到后面：
 
@@ -164,3 +166,78 @@ std::deque<std::string> makeStringDeque();      //工厂函数
 auto s = authAndAccess(makeStringDeque(), 5);  // 此时makeStringDeque()返回的是一个临时变量，并没有被任何左值变量持有，因此在完成调回后临时变量会被销毁。但由于函数返回的是临时变量第5个元素的引用，从而导致返回值 s 执行了一个被销毁对象的引用 从而出错。
 
 ```
+
+要解决这个问题最简单直觉的想法就是重载(一个函数重载声明为左值引用，另一个声明为右值引用)，但这也就意味着我们不得不同时维护两个重载函数。另一种方法就利用[[条款24：区分通用引用与右值引用|通用/万能引用]]使得 ***authAndAccess*** 的参数引用可以绑定左值和右值：
+
+``` C++
+
+template<typename Container, typename Index>    //最终的C++14版本
+decltype(auto) authAndAccess(Container&& c, Index i)
+{
+    authenticateUser();
+    return std::forward<Container>(c)[i];
+}
+
+
+template<typename Container, typename Index>    //最终的C++11版本
+auto authAndAccess(Container&& c, Index i)
+->decltype(std::forward<Container>(c)[i])
+{
+    authenticateUser();
+    return std::forward<Container>(c)[i];
+}
+
+```
+
+关于此处为什么使用 ***std::forward*** 以及其用法，我们将在[[条款25：对右值引用使用move，对通用引用使用forward|条款25]]中详细讨论。
+
+## 2.2 decltype(auto)
+
+上文中有提到 ***decltype(auto)*** 是C++14新增的类型指示符，可以用来声明变量及指示函数返回类型。
+
+当 ***decltype(auto)***  被用于声明变量时， 该变量必须立刻初始化。 也就是说， 在推导变量类型时，先用初始化表达式替换 ***decltype(auto)***  中的 ***auto*** ，然后再根据 ***decltype*** 的推到规则来确定变量类型，如下示例代码所示：
+
+``` C++
+
+struct S
+{
+	int a = 0;
+}
+
+int a = 0;
+S b;
+
+decltype(auto) i = a;         // 将a替换掉auto后推导，发现i的类型为int，使用decltype的推导规则一
+decltype(auto) j = (b.a); // 将(b.a)替换掉auto后推导，发现i的类型为int&，使用decltype的推导规则四
+
+```
+
+当 ***decltype(auto)***  被用于声明函数返回值类型时， 会用该函数的返回值替换 ***auto*** 并进行推导。 也就是说， 在推导函数返回值类型时，先用返回值初始化表达式替换 ***decltype(auto)***  中的 ***auto*** ，然后再根据 ***decltype*** 的推到规则来确定变量类型，如下示例代码所示：
+
+``` C++
+
+decltype(auto) f1()
+{
+    int x = 0;
+    …
+    return x;            //decltype(x）是int，所以f1返回int
+}
+
+decltype(auto) f2()
+{
+    int x = 0;
+    return (x);           //decltype((x))是int&，所以f2返回int& 
+                          // 而实际上返回的时局部变量x，因此最终的返回值是该局部变量的引用 所以会运行出错
+}
+
+```
+
+由上述示例代码可知，当使用 ***decltype(auto)*** 的时候一定要加倍的小心，在表达式中看起来无足轻重的细节将会影响到  ***decltype(auto)***  的推导结果。因此为了确认推导结果是否符合我们的预期，在[[[条款4：掌握查看型别推导结果的方法|条款4]]]中我们将讨论如何查看型别推导结果。
+
+虽然使用 ***decltype(auto)***  时需要小心，但那毕竟是少数情况，我们仍应该认识到 ***decltype*** 的作用与优势。通常，***decltype***  都会产生你想要的结果，尤其是当我们对一个变量使用 ***decltype***  时，因为在这种情况下，***decltype***  只是做一件本分之事：它产出变量的声明类型。
+
+# 3. 要点速记
+
+- ***decltype***  总是不加修改的产生变量或者表达式的类型。
+- 对于 ***T*** 类型的不是单纯的变量名的左值表达式，***decltype***  总是产出 ***T*** 的引用即 ***T&*** 。
+- C++14支持 ***decltype(auto)***，就像 ***auto*** 一样，推导出类型，但是它使用 ***decltype*** 的规则进行推导。
