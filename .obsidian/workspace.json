@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "天涯明月刀/0. 整体结构框架.md",
+                "file": "UnityGame/0. 整体结构框架.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "天涯明月刀/0. 整体结构框架.md",
+                "file": "UnityGame/0. 整体结构框架.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "天涯明月刀/0. 整体结构框架.md",
+                "file": "UnityGame/0. 整体结构框架.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "天涯明月刀/0. 整体结构框架.md",
+                "file": "UnityGame/0. 整体结构框架.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "天涯明月刀/0. 整体结构框架.md"
+                "file": "UnityGame/0. 整体结构框架.md"
               }
             }
           },
@@ -183,6 +183,11 @@
   },
   "active": "fa3d4d2db2d24f6c",
   "lastOpenFiles": [
+    "UnityGame/10. 动作控制.md",
+    "UnityGame/9. 渲染相关.md",
+    "UnityGame/0. 整体结构框架.md",
+    "UnityGame/attachments",
+    "UnityGame/新建文件夹",
     "天涯明月刀/9. 渲染相关.md",
     "天涯明月刀/8. AI系统.md",
     "天涯明月刀/7. 基于体素的碰撞及寻路.md",
@@ -206,9 +211,6 @@
     "C++/Effective Modern C++/7. 并发API/条款40：对于并发使用atomic，对于特殊内存使用volatile.md",
     "C++/Effective Modern C++/7. 并发API/条款39：对于一次性事件通信考虑使用void的futures.md",
     "C++/Effective Modern C++/7. 并发API/条款38：关注不同线程句柄的析构行为.md",
-    "C++/Effective Modern C++/7. 并发API/条款37：使thread在所有路径最后都不可结合.md",
-    "C++/Effective Modern C++/7. 并发API/条款36：如果有异步的必要请指定async.md",
-    "C++/Effective Modern C++/7. 并发API/条款35：优先考虑基于任务的编程而非基于线程的编程 - 副本 (5).md",
     "天涯明月刀",
     "新建文件夹",
     "C++/Effective Modern C++/8. 微调",
@@ -220,8 +222,6 @@
     "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
     "UnrealEngine/MetaHuman/attachments/Pic_079.png",
     "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
-    "UnrealEngine/MetaHuman/RigLogicWhitePaper.pdf",
-    "UnrealEngine/MetaHuman/RigLogic白皮书.pdf",
     "UnrealEngine/MetaHuman/attachments/Pic_078.png",
     "UnrealEngine/MetaHuman/attachments/Pic_077.png",
     "UnrealEngine/MetaHuman/attachments/Pic_076.png",
