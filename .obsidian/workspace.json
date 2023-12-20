@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
+                "file": "天涯明月刀/0. 整体结构框架.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
+                "file": "天涯明月刀/0. 整体结构框架.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
+                "file": "天涯明月刀/0. 整体结构框架.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
+                "file": "天涯明月刀/0. 整体结构框架.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md"
+                "file": "天涯明月刀/0. 整体结构框架.md"
               }
             }
           },
@@ -183,9 +183,9 @@
   },
   "active": "fa3d4d2db2d24f6c",
   "lastOpenFiles": [
+    "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
     "C++/Effective Modern C++/1. 型别推导/条款1： 理解模板型别推导.md",
     "C++/Effective Modern C++/1. 型别推导/条款2：理解auto型别推导.md",
-    "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
     "C++/Effective Modern C++/5. 右值引用，移动语义，完美转发/条款23：理解move和forward.md",
     "C++/Effective Modern C++/8. 微调/条款42：考虑使用置入代替插入.md",
     "C++/Effective Modern C++/8. 微调/条款41：对于移动成本低且总是被拷贝的可拷贝形参，考虑按值传递 - 副本.md",
