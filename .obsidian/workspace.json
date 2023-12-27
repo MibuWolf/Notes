@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/C++并发编程实战/3. 在线程间同步并发操作.md",
+                "file": "UnrealEngine/MetaHuman/4. 面部表情与自定义脸型.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             },
             "group": "a420730c141e0d6b"
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/C++并发编程实战/3. 在线程间同步并发操作.md",
+                "file": "UnrealEngine/MetaHuman/4. 面部表情与自定义脸型.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/C++并发编程实战/3. 在线程间同步并发操作.md",
+                "file": "UnrealEngine/MetaHuman/4. 面部表情与自定义脸型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/C++并发编程实战/3. 在线程间同步并发操作.md",
+                "file": "UnrealEngine/MetaHuman/4. 面部表情与自定义脸型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/C++并发编程实战/3. 在线程间同步并发操作.md"
+                "file": "UnrealEngine/MetaHuman/4. 面部表情与自定义脸型.md"
               }
             }
           },
@@ -183,6 +183,12 @@
   },
   "active": "fa3d4d2db2d24f6c",
   "lastOpenFiles": [
+    "UnrealEngine/MetaHuman/5. 基于控制调整的捏脸方案.md",
+    "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
+    "UnrealEngine/MetaHuman/RigLogic白皮书.pdf",
+    "UnrealEngine/MetaHuman/RigLogic调整流程---基于骨骼调整的捏脸方案.canvas",
+    "UnrealEngine/MetaHuman/RigLogic调整流程---基于控制调整的捏脸方案.canvas",
+    "C++/C++并发编程实战/3. 在线程间同步并发操作.md",
     "C++/C++并发编程实战/attachments/Pic_047.png",
     "C++/C++并发编程实战/attachments/Pic_046.png",
     "C++/C++并发编程实战/attachments/Pic_045.png",
@@ -193,11 +199,9 @@
     "C++/C++并发编程实战/attachments/Pic_040.png",
     "C++/C++并发编程实战/attachments/Pic_039.png",
     "C++/C++并发编程实战/attachments/Pic_038.png",
-    "C++/C++并发编程实战/attachments/Pic_037.png",
     "C++/C++并发编程实战/2. 在线程间共享数据.md",
     "UnityGame/1. Gameplay基本结构.md",
     "UnityGame/0. 整体结构框架.md",
-    "C++/C++并发编程实战/3. 在线程间同步并发操作.md",
     "C++/C++并发编程实战/1. 并行与线程.md",
     "C++/Effective Modern C++/1. 型别推导/条款1： 理解模板型别推导.md",
     "C++/Effective Modern C++/1. 型别推导/1. 型别推导.md",
@@ -229,11 +233,7 @@
     "UnityGame/attachments",
     "UnityGame/新建文件夹",
     "天涯明月刀",
-    "新建文件夹",
-    "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
     "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
-    "UnrealEngine/MetaHuman/RigLogic调整流程---基于骨骼调整的捏脸方案.canvas",
-    "UnrealEngine/MetaHuman/RigLogic调整流程---基于控制调整的捏脸方案.canvas",
     "UnrealEngine/MetaHuman/RigLogic运行时流程 - 副本.canvas",
     "UnrealEngine/MetaHuman/RigLogic调整流程---基于控制器调整的捏脸方案.canvas",
     "UnrealEngine/MetaHuman/RigLogic调整流程---基于骨骼调整的捏脸方案 - 副本.canvas",

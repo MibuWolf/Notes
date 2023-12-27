@@ -55,8 +55,8 @@
 		{"id":"c060fbc0cc44ef22","type":"text","text":"控制输入数据，该类中除inputBuffer外还有guiControlBuffer数据，但其与运行时RigLogic计算无关因此不做赘述","x":800,"y":1500,"width":277,"height":160,"color":"3"},
 		{"id":"98d1659d6fd47ae9","type":"text","text":"ControlsInputInstance","x":800,"y":1680,"width":277,"height":60},
 		{"id":"f0177b7c38efddc7","type":"text","text":"以上文中提到的控制数组inputBuffer作为输入参数，逐一将输入权重值设置到AnimatedMapsOutputInstance中，具体方式如右侧图片所示","x":1340,"y":2464,"width":663,"height":93,"color":"3"},
-		{"id":"ea62bcb82a40e3e3","x":2175,"y":2487,"width":400,"height":49,"type":"file","file":"UnrealEngine/MetaHuman/attachments/Pic_077.png"},
-		{"id":"aa18a87e9f4042ce","x":804,"y":2658,"width":273,"height":60,"type":"text","text":"MachineLearnedBehavior"},
+		{"id":"ea62bcb82a40e3e3","type":"file","file":"UnrealEngine/MetaHuman/attachments/Pic_077.png","x":2175,"y":2487,"width":400,"height":49},
+		{"id":"aa18a87e9f4042ce","type":"text","text":"MachineLearnedBehavior","x":804,"y":2658,"width":273,"height":60},
 		{"id":"b1e5232fd7934175","type":"text","text":"对深度学习参数数据更新","x":800,"y":2580,"width":277,"height":60,"color":"3"},
 		{"id":"b699876ebecf906b","type":"text","text":"暂未生效，在此先不做赘述","x":1202,"y":2658,"width":277,"height":60,"color":"3"}
 	],
