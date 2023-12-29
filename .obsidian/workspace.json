@@ -19,8 +19,19 @@
               }
             },
             "group": "a420730c141e0d6b"
+          },
+          {
+            "id": "402021d9743badf0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "c73f48b44a858a89",
@@ -155,7 +166,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -181,7 +194,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "fa3d4d2db2d24f6c",
+  "active": "402021d9743badf0",
   "lastOpenFiles": [
     "UnrealEngine/MetaHuman/5. 基于控制调整的捏脸方案.md",
     "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
