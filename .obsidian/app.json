@@ -3,5 +3,8 @@
   "newFileLocation": "current",
   "alwaysUpdateLinks": true,
   "strictLineBreaks": true,
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "livePreview": false,
+  "spellcheck": true,
+  "showIndentGuide": true
 }

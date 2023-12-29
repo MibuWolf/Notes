@@ -13,25 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UnrealEngine/MetaHuman/4. 面部表情与自定义脸型.md",
+                "file": "C++/C++并发编程实战/4. C++内存模型与原子操作.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             },
             "group": "a420730c141e0d6b"
-          },
-          {
-            "id": "402021d9743badf0",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.3"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "c73f48b44a858a89",
@@ -43,9 +32,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UnrealEngine/MetaHuman/4. 面部表情与自定义脸型.md",
-                "mode": "source",
-                "source": false
+                "file": "C++/C++并发编程实战/4. C++内存模型与原子操作.md",
+                "mode": "preview",
+                "source": true
               }
             },
             "group": "a420730c141e0d6b"
@@ -116,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UnrealEngine/MetaHuman/4. 面部表情与自定义脸型.md",
+                "file": "C++/C++并发编程实战/4. C++内存模型与原子操作.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UnrealEngine/MetaHuman/4. 面部表情与自定义脸型.md",
+                "file": "C++/C++并发编程实战/4. C++内存模型与原子操作.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UnrealEngine/MetaHuman/4. 面部表情与自定义脸型.md"
+                "file": "C++/C++并发编程实战/4. C++内存模型与原子操作.md"
               }
             }
           },
@@ -194,24 +183,30 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "402021d9743badf0",
+  "active": "fa3d4d2db2d24f6c",
   "lastOpenFiles": [
+    "C++/C++并发编程实战/attachments/Pic_053.png",
+    "C++/C++并发编程实战/attachments/Pic_052.png",
+    "C++/C++并发编程实战/attachments/Pic_051.png",
+    "C++/C++并发编程实战/attachments/Pic_050.png",
+    "C++/C++并发编程实战/attachments/Pic_049.png",
+    "C++/C++并发编程实战/attachments/Pic_048.png",
+    "C++/C++并发编程实战/3. 在线程间同步并发操作.md",
+    "C++/C++并发编程实战/4. C++内存模型与原子操作.md",
+    "C++/C++并发编程实战/5. 设计基于锁的并发数据结构.md",
+    "C++/C++并发编程实战/6. 设计无锁的并发数据结构.md",
+    "UnrealEngine/MetaHuman/2. DNA.md",
     "UnrealEngine/MetaHuman/5. 基于控制调整的捏脸方案.md",
-    "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
     "UnrealEngine/MetaHuman/RigLogic白皮书.pdf",
+    "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
+    "UnrealEngine/MetaHuman/4. 面部表情与自定义脸型.md",
     "UnrealEngine/MetaHuman/RigLogic调整流程---基于骨骼调整的捏脸方案.canvas",
     "UnrealEngine/MetaHuman/RigLogic调整流程---基于控制调整的捏脸方案.canvas",
-    "C++/C++并发编程实战/3. 在线程间同步并发操作.md",
     "C++/C++并发编程实战/attachments/Pic_047.png",
     "C++/C++并发编程实战/attachments/Pic_046.png",
     "C++/C++并发编程实战/attachments/Pic_045.png",
     "C++/C++并发编程实战/attachments/Pic_044.png",
     "C++/C++并发编程实战/attachments/Pic_043.png",
-    "C++/C++并发编程实战/attachments/Pic_042.png",
-    "C++/C++并发编程实战/attachments/Pic_041.png",
-    "C++/C++并发编程实战/attachments/Pic_040.png",
-    "C++/C++并发编程实战/attachments/Pic_039.png",
-    "C++/C++并发编程实战/attachments/Pic_038.png",
     "C++/C++并发编程实战/2. 在线程间共享数据.md",
     "UnityGame/1. Gameplay基本结构.md",
     "UnityGame/0. 整体结构框架.md",
@@ -219,9 +214,6 @@
     "C++/Effective Modern C++/1. 型别推导/条款1： 理解模板型别推导.md",
     "C++/Effective Modern C++/1. 型别推导/1. 型别推导.md",
     "C++/C++并发编程实战/0. 目录.md",
-    "C++/C++并发编程实战/6. 设计无锁的并发数据结构.md",
-    "C++/C++并发编程实战/5. 设计基于锁的并发数据结构.md",
-    "C++/C++并发编程实战/4. C++内存模型与原子操作.md",
     "C++/C++并发编程实战/attachments",
     "C++/C++并发编程实战/新建文件夹",
     "C++/C++并发编程实战",
@@ -239,10 +231,7 @@
     "UnrealEngine/Animation/SkeletalMesh/10. 使用动态骨骼进行布料模拟.md",
     "UnrealEngine/Animation/SkeletalMesh/12. 骨骼动画更新流程.canvas",
     "UnrealEngine/Animation/SkeletalMesh/1. SkeletalMeshComponent组件.md",
-    "UnrealEngine/Animation/SkeletalMesh/0. 目录.md",
     "UnrealEngine/Animation/SkeletalMesh",
-    "UnityGame/10. 动作控制.md",
-    "UnityGame/9. 渲染相关.md",
     "UnityGame/attachments",
     "UnityGame/新建文件夹",
     "天涯明月刀",
