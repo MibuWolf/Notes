@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/C++并发编程实战/4. C++内存模型与原子操作.md",
+                "file": "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/C++并发编程实战/4. C++内存模型与原子操作.md",
+                "file": "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/C++并发编程实战/4. C++内存模型与原子操作.md",
+                "file": "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/C++并发编程实战/4. C++内存模型与原子操作.md",
+                "file": "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/C++并发编程实战/4. C++内存模型与原子操作.md"
+                "file": "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md"
               }
             }
           },
@@ -185,6 +185,8 @@
   },
   "active": "fa3d4d2db2d24f6c",
   "lastOpenFiles": [
+    "C++/Effective Modern C++/1. 型别推导/条款4：掌握查看型别推导结果的方法.md",
+    "C++/C++并发编程实战/4. C++内存模型与原子操作.md",
     "C++/C++并发编程实战/attachments/Pic_053.png",
     "C++/C++并发编程实战/attachments/Pic_052.png",
     "C++/C++并发编程实战/attachments/Pic_051.png",
@@ -192,7 +194,6 @@
     "C++/C++并发编程实战/attachments/Pic_049.png",
     "C++/C++并发编程实战/attachments/Pic_048.png",
     "C++/C++并发编程实战/3. 在线程间同步并发操作.md",
-    "C++/C++并发编程实战/4. C++内存模型与原子操作.md",
     "C++/C++并发编程实战/5. 设计基于锁的并发数据结构.md",
     "C++/C++并发编程实战/6. 设计无锁的并发数据结构.md",
     "UnrealEngine/MetaHuman/2. DNA.md",
@@ -206,7 +207,6 @@
     "C++/C++并发编程实战/attachments/Pic_046.png",
     "C++/C++并发编程实战/attachments/Pic_045.png",
     "C++/C++并发编程实战/attachments/Pic_044.png",
-    "C++/C++并发编程实战/attachments/Pic_043.png",
     "C++/C++并发编程实战/2. 在线程间共享数据.md",
     "UnityGame/1. Gameplay基本结构.md",
     "UnityGame/0. 整体结构框架.md",
