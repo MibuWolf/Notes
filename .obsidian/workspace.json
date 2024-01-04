@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
+                "file": "C++/Effective Modern C++/1. 型别推导/条款4：掌握查看型别推导结果的方法.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
+                "file": "C++/Effective Modern C++/1. 型别推导/条款4：掌握查看型别推导结果的方法.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
+                "file": "C++/Effective Modern C++/1. 型别推导/条款4：掌握查看型别推导结果的方法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
+                "file": "C++/Effective Modern C++/1. 型别推导/条款4：掌握查看型别推导结果的方法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md"
+                "file": "C++/Effective Modern C++/1. 型别推导/条款4：掌握查看型别推导结果的方法.md"
               }
             }
           },
@@ -185,7 +185,13 @@
   },
   "active": "fa3d4d2db2d24f6c",
   "lastOpenFiles": [
+    "C++/Effective Modern C++/1. 型别推导/条款1： 理解模板型别推导.md",
     "C++/Effective Modern C++/1. 型别推导/条款4：掌握查看型别推导结果的方法.md",
+    "C++/Effective Modern C++/attachments/Pic_001.png",
+    "C++/Effective Modern C++/attachments",
+    "C++/Effective Modern C++/新建文件夹",
+    "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
+    "C++/Effective Modern C++/1. 型别推导/条款2：理解auto型别推导.md",
     "C++/C++并发编程实战/4. C++内存模型与原子操作.md",
     "C++/C++并发编程实战/attachments/Pic_053.png",
     "C++/C++并发编程实战/attachments/Pic_052.png",
@@ -206,12 +212,10 @@
     "C++/C++并发编程实战/attachments/Pic_047.png",
     "C++/C++并发编程实战/attachments/Pic_046.png",
     "C++/C++并发编程实战/attachments/Pic_045.png",
-    "C++/C++并发编程实战/attachments/Pic_044.png",
     "C++/C++并发编程实战/2. 在线程间共享数据.md",
     "UnityGame/1. Gameplay基本结构.md",
     "UnityGame/0. 整体结构框架.md",
     "C++/C++并发编程实战/1. 并行与线程.md",
-    "C++/Effective Modern C++/1. 型别推导/条款1： 理解模板型别推导.md",
     "C++/Effective Modern C++/1. 型别推导/1. 型别推导.md",
     "C++/C++并发编程实战/0. 目录.md",
     "C++/C++并发编程实战/attachments",
@@ -227,14 +231,9 @@
     "UnrealEngine/Animation/SkeletalMesh/7. PhysicalAnimation组件.md",
     "UnrealEngine/Animation/SkeletalMesh/3. 常用动作节点( FAnimNode).md",
     "UnrealEngine/Animation/SkeletalMesh/11. SkeletalMesh的渲染.md",
-    "UnrealEngine/Animation/SkeletalMesh/2. 动画蓝图的更新与评价(UAnimInstance).md",
-    "UnrealEngine/Animation/SkeletalMesh/10. 使用动态骨骼进行布料模拟.md",
     "UnrealEngine/Animation/SkeletalMesh/12. 骨骼动画更新流程.canvas",
-    "UnrealEngine/Animation/SkeletalMesh/1. SkeletalMeshComponent组件.md",
     "UnrealEngine/Animation/SkeletalMesh",
     "UnityGame/attachments",
-    "UnityGame/新建文件夹",
-    "天涯明月刀",
     "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
     "UnrealEngine/MetaHuman/RigLogic运行时流程 - 副本.canvas",
     "UnrealEngine/MetaHuman/RigLogic调整流程---基于控制器调整的捏脸方案.canvas",
