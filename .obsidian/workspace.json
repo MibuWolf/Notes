@@ -155,9 +155,7 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
+                "sortOrder": "frequency"
               }
             }
           }
@@ -178,9 +176,7 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false,
-      "templater-obsidian:Templater": false,
-      "obsidian42-brat:BRAT": false
+      "workspaces:Manage workspace layouts": false
     }
   },
   "active": "fa3d4d2db2d24f6c",
