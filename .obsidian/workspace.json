@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UnityGame/1. Gameplay基本结构.md",
+                "file": "UnityGame/0. 整体结构框架.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,8 +32,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UnityGame/1. Gameplay基本结构.md",
-                "mode": "preview",
+                "file": "UnityGame/0. 整体结构框架.md",
+                "mode": "source",
                 "source": true
               }
             },
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UnityGame/1. Gameplay基本结构.md",
+                "file": "UnityGame/0. 整体结构框架.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UnityGame/1. Gameplay基本结构.md",
+                "file": "UnityGame/0. 整体结构框架.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UnityGame/1. Gameplay基本结构.md"
+                "file": "UnityGame/0. 整体结构框架.md"
               }
             }
           },
@@ -185,9 +185,22 @@
   },
   "active": "fa3d4d2db2d24f6c",
   "lastOpenFiles": [
+    "UnityGame/1. 游戏中常用的系统管理器.md",
     "UnityGame/0. 整体结构框架.md",
-    "UnityGame/2. StrangeIOC(MVCS框架).md",
-    "UnityGame/1. Gameplay基本结构.md",
+    "UnityGame/14. 渲染流水线.md",
+    "UnityGame/9. 渲染相关.md",
+    "UnityGame/9. AI系统.md",
+    "UnityGame/8. 基于体素的碰撞及寻路.md",
+    "UnityGame/7. 技能系统.md",
+    "UnityGame/5. Morpheme动画控制.md",
+    "UnityGame/6. XLua.md",
+    "UnityGame/4. 网络通信.md",
+    "UnityGame/3. StrangeIOC(MVCS框架).md",
+    "UnityGame/attachments/2. 常用Manager.md",
+    "UnityGame/13. 场景切换与资源加载.md",
+    "UnityGame/12. 移动与角色控制.md",
+    "UnityGame/11. 相机控制.md",
+    "UnityGame/10. 动作控制.md",
     "C++/Effective Modern C++/1. 型别推导/条款4：掌握查看型别推导结果的方法.md",
     "C++/Effective Modern C++/1. 型别推导/条款1： 理解模板型别推导.md",
     "C++/Effective Modern C++/attachments/Pic_001.png",
@@ -209,29 +222,16 @@
     "UnrealEngine/MetaHuman/5. 基于控制调整的捏脸方案.md",
     "UnrealEngine/MetaHuman/RigLogic白皮书.pdf",
     "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
-    "UnrealEngine/MetaHuman/4. 面部表情与自定义脸型.md",
     "UnrealEngine/MetaHuman/RigLogic调整流程---基于骨骼调整的捏脸方案.canvas",
     "UnrealEngine/MetaHuman/RigLogic调整流程---基于控制调整的捏脸方案.canvas",
     "C++/C++并发编程实战/attachments/Pic_047.png",
     "C++/C++并发编程实战/attachments/Pic_046.png",
     "C++/C++并发编程实战/attachments/Pic_045.png",
-    "C++/C++并发编程实战/2. 在线程间共享数据.md",
-    "C++/C++并发编程实战/1. 并行与线程.md",
-    "C++/Effective Modern C++/1. 型别推导/1. 型别推导.md",
-    "C++/C++并发编程实战/0. 目录.md",
     "C++/C++并发编程实战/attachments",
     "C++/C++并发编程实战/新建文件夹",
     "C++/C++并发编程实战",
     "C++/新建文件夹",
     "UnrealEngine/Animation/SkeletalMesh/attachments",
-    "UnrealEngine/Animation/SkeletalMesh/9. 布料模拟.md",
-    "UnrealEngine/Animation/SkeletalMesh/8. PhysicsControl组件.md",
-    "UnrealEngine/Animation/SkeletalMesh/6. 物理动画更新流程.md",
-    "UnrealEngine/Animation/SkeletalMesh/4. 动画与移动.md",
-    "UnrealEngine/Animation/SkeletalMesh/5. 物理动画概述.md",
-    "UnrealEngine/Animation/SkeletalMesh/7. PhysicalAnimation组件.md",
-    "UnrealEngine/Animation/SkeletalMesh/3. 常用动作节点( FAnimNode).md",
-    "UnrealEngine/Animation/SkeletalMesh/11. SkeletalMesh的渲染.md",
     "UnrealEngine/Animation/SkeletalMesh/12. 骨骼动画更新流程.canvas",
     "UnrealEngine/Animation/SkeletalMesh",
     "UnityGame/attachments",
