@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UnityGame/1. 游戏中常用的系统管理器.md",
+                "file": "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UnityGame/1. 游戏中常用的系统管理器.md",
+                "file": "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UnityGame/1. 游戏中常用的系统管理器.md",
+                "file": "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UnityGame/1. 游戏中常用的系统管理器.md",
+                "file": "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UnityGame/1. 游戏中常用的系统管理器.md"
+                "file": "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md"
               }
             }
           },
@@ -183,31 +183,36 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "4a4eda9348915acd",
+  "active": "fa3d4d2db2d24f6c",
   "lastOpenFiles": [
-    "UnityGame/attachments/2. 常用Manager.md",
-    "UnityGame/1. 游戏中常用的系统管理器.md",
     "UnityGame/attachments/Pic_001.png",
-    "UnityGame/0. 整体结构框架.md",
-    "UnityGame/3. StrangeIOC(MVCS框架).md",
-    "UnityGame/5. Morpheme动画控制.md",
-    "UnityGame/4. 网络通信.md",
-    "UnityGame/14. 渲染流水线.md",
-    "UnityGame/9. 渲染相关.md",
     "UnityGame/9. AI系统.md",
     "UnityGame/8. 基于体素的碰撞及寻路.md",
     "UnityGame/7. 技能系统.md",
     "UnityGame/6. XLua.md",
+    "UnityGame/4. 网络通信.md",
+    "UnityGame/3. StrangeIOC(MVCS框架).md",
+    "UnityGame/14. 渲染流水线.md",
     "UnityGame/13. 场景切换与资源加载.md",
     "UnityGame/12. 移动与角色控制.md",
     "UnityGame/11. 相机控制.md",
-    "UnityGame/10. 动作控制.md",
+    "UnityGame/1. 游戏中常用的系统管理器.md",
+    "UnityGame/4. XLua.md",
+    "UnityGame/6. 技能系统.md",
+    "UnityGame/7. 基于体素的碰撞及寻路.md",
+    "UnityGame/8. AI系统.md",
+    "UnityGame/9. 渲染相关.md",
+    "UnityGame/0. 整体结构框架.md",
+    "UnityGame/1. Gameplay基本结构.md",
+    "UnityGame/2. StrangeIOC(MVCS框架).md",
+    "UnityGame/3. 网络通信.md",
+    "UnityGame/attachments",
     "C++/Effective Modern C++/1. 型别推导/条款4：掌握查看型别推导结果的方法.md",
+    "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
     "C++/Effective Modern C++/1. 型别推导/条款1： 理解模板型别推导.md",
     "C++/Effective Modern C++/attachments/Pic_001.png",
     "C++/Effective Modern C++/attachments",
     "C++/Effective Modern C++/新建文件夹",
-    "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
     "C++/Effective Modern C++/1. 型别推导/条款2：理解auto型别推导.md",
     "C++/C++并发编程实战/4. C++内存模型与原子操作.md",
     "C++/C++并发编程实战/attachments/Pic_053.png",
@@ -216,10 +221,6 @@
     "C++/C++并发编程实战/attachments/Pic_050.png",
     "C++/C++并发编程实战/attachments/Pic_049.png",
     "C++/C++并发编程实战/attachments/Pic_048.png",
-    "C++/C++并发编程实战/3. 在线程间同步并发操作.md",
-    "C++/C++并发编程实战/5. 设计基于锁的并发数据结构.md",
-    "C++/C++并发编程实战/6. 设计无锁的并发数据结构.md",
-    "UnrealEngine/MetaHuman/2. DNA.md",
     "UnrealEngine/MetaHuman/RigLogic白皮书.pdf",
     "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
     "UnrealEngine/MetaHuman/RigLogic调整流程---基于骨骼调整的捏脸方案.canvas",
@@ -233,7 +234,6 @@
     "UnrealEngine/Animation/SkeletalMesh/attachments",
     "UnrealEngine/Animation/SkeletalMesh/12. 骨骼动画更新流程.canvas",
     "UnrealEngine/Animation/SkeletalMesh",
-    "UnityGame/attachments",
     "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
     "UnrealEngine/MetaHuman/RigLogic运行时流程 - 副本.canvas",
     "UnrealEngine/MetaHuman/RigLogic调整流程---基于控制器调整的捏脸方案.canvas",
