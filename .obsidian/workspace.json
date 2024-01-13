@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Effective Modern C++/2. Auto/2. Auto.md",
+                "file": "C++/Effective Modern C++/1. 型别推导/1. 型别推导.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Effective Modern C++/2. Auto/2. Auto.md",
+                "file": "C++/Effective Modern C++/1. 型别推导/1. 型别推导.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Effective Modern C++/2. Auto/2. Auto.md",
+                "file": "C++/Effective Modern C++/1. 型别推导/1. 型别推导.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Effective Modern C++/2. Auto/2. Auto.md",
+                "file": "C++/Effective Modern C++/1. 型别推导/1. 型别推导.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Effective Modern C++/2. Auto/2. Auto.md"
+                "file": "C++/Effective Modern C++/1. 型别推导/1. 型别推导.md"
               }
             }
           },
@@ -185,8 +185,8 @@
   },
   "active": "fa3d4d2db2d24f6c",
   "lastOpenFiles": [
-    "C++/Effective Modern C++/1. 型别推导/1. 型别推导.md",
     "C++/Effective Modern C++/2. Auto/2. Auto.md",
+    "C++/Effective Modern C++/1. 型别推导/1. 型别推导.md",
     "C++/Effective Modern C++/0. 目录.md",
     "UnityGame/0. 整体结构框架.md",
     "UnityGame/1. 游戏中常用的系统管理器.md",
