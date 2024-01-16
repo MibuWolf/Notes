@@ -103,6 +103,15 @@ auto ep2 = static_cast<float>(calcEpsilon());   // 显示明确表示希望将�
 
 std::vector<float> vec;
 ...
-int index = vec.size(); // 暗藏隐式转化
+int index = vec.size(); // 暗藏隐式转化将std::vecotr<int>::size_type转化成int
+
+auto index1 = vec.size(); // 类型仍然是std::vecotr<int>::size_type
+
+auto index2 = static_cast<int>(vec.size()); // 确表明希望转成int
 
 ```
+
+# 3. 要点速记
+
+- 不可见的代理类可能会使`auto`从表达式中推导出“错误的”类型
+- 显式类型初始器惯用法强制`auto`推导出你想要的结果
