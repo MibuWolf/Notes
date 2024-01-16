@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Effective Modern C++/2. Auto/条款5：优先选用auto而非显示型别声明.md",
+                "file": "C++/Effective Modern C++/2. Auto/条款6：当auto推导的型别不符合要求时，使用带显示型别的初始化物习惯用法.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Effective Modern C++/2. Auto/条款5：优先选用auto而非显示型别声明.md",
+                "file": "C++/Effective Modern C++/2. Auto/条款6：当auto推导的型别不符合要求时，使用带显示型别的初始化物习惯用法.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Effective Modern C++/2. Auto/条款5：优先选用auto而非显示型别声明.md",
+                "file": "C++/Effective Modern C++/2. Auto/条款6：当auto推导的型别不符合要求时，使用带显示型别的初始化物习惯用法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Effective Modern C++/2. Auto/条款5：优先选用auto而非显示型别声明.md",
+                "file": "C++/Effective Modern C++/2. Auto/条款6：当auto推导的型别不符合要求时，使用带显示型别的初始化物习惯用法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Effective Modern C++/2. Auto/条款5：优先选用auto而非显示型别声明.md"
+                "file": "C++/Effective Modern C++/2. Auto/条款6：当auto推导的型别不符合要求时，使用带显示型别的初始化物习惯用法.md"
               }
             }
           },
@@ -185,10 +185,14 @@
   },
   "active": "fa3d4d2db2d24f6c",
   "lastOpenFiles": [
+    "C++/Effective Modern C++/2. Auto/条款5：优先选用auto而非显示型别声明.md",
+    "C++/Effective Modern C++/2. Auto/条款6：当auto推导的型别不符合要求时，使用带显示型别的初始化物习惯用法.md",
+    "UnityGame/0. 整体结构框架.md",
     "UnityGame/1. 游戏中常用的系统管理器.md",
+    "UnrealEngine/MetaHuman/RigLogic调整流程---基于骨骼调整的捏脸方案.canvas",
+    "UnityGame/12. 移动与角色控制.md",
     "UnityGame/attachments/2. 常用Manager.md",
     "UnityGame/attachments/Pic_001.png",
-    "UnityGame/0. 整体结构框架.md",
     "UnityGame/3. StrangeIOC(MVCS框架).md",
     "UnityGame/5. Morpheme动画控制.md",
     "UnityGame/4. 网络通信.md",
@@ -199,7 +203,6 @@
     "UnityGame/7. 技能系统.md",
     "UnityGame/6. XLua.md",
     "UnityGame/13. 场景切换与资源加载.md",
-    "UnityGame/12. 移动与角色控制.md",
     "UnityGame/11. 相机控制.md",
     "UnityGame/10. 动作控制.md",
     "C++/Effective Modern C++/1. 型别推导/条款4：掌握查看型别推导结果的方法.md",
@@ -219,10 +222,8 @@
     "C++/C++并发编程实战/3. 在线程间同步并发操作.md",
     "C++/C++并发编程实战/5. 设计基于锁的并发数据结构.md",
     "C++/C++并发编程实战/6. 设计无锁的并发数据结构.md",
-    "UnrealEngine/MetaHuman/2. DNA.md",
     "UnrealEngine/MetaHuman/RigLogic白皮书.pdf",
     "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
-    "UnrealEngine/MetaHuman/RigLogic调整流程---基于骨骼调整的捏脸方案.canvas",
     "UnrealEngine/MetaHuman/RigLogic调整流程---基于控制调整的捏脸方案.canvas",
     "C++/C++并发编程实战/attachments/Pic_047.png",
     "C++/C++并发编程实战/attachments/Pic_046.png",
