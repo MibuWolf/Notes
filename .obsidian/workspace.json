@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Effective Modern C++/2. Auto/条款6：当auto推导的型别不符合要求时，使用带显示型别的初始化物习惯用法.md",
+                "file": "UnityGame/1. 游戏中常用的系统管理器.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Effective Modern C++/2. Auto/条款6：当auto推导的型别不符合要求时，使用带显示型别的初始化物习惯用法.md",
+                "file": "UnityGame/1. 游戏中常用的系统管理器.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Effective Modern C++/2. Auto/条款6：当auto推导的型别不符合要求时，使用带显示型别的初始化物习惯用法.md",
+                "file": "UnityGame/1. 游戏中常用的系统管理器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Effective Modern C++/2. Auto/条款6：当auto推导的型别不符合要求时，使用带显示型别的初始化物习惯用法.md",
+                "file": "UnityGame/1. 游戏中常用的系统管理器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Effective Modern C++/2. Auto/条款6：当auto推导的型别不符合要求时，使用带显示型别的初始化物习惯用法.md"
+                "file": "UnityGame/1. 游戏中常用的系统管理器.md"
               }
             }
           },
@@ -185,9 +185,9 @@
   },
   "active": "fa3d4d2db2d24f6c",
   "lastOpenFiles": [
-    "C++/Effective Modern C++/2. Auto/条款5：优先选用auto而非显示型别声明.md",
-    "C++/Effective Modern C++/2. Auto/条款6：当auto推导的型别不符合要求时，使用带显示型别的初始化物习惯用法.md",
     "UnityGame/0. 整体结构框架.md",
+    "C++/Effective Modern C++/2. Auto/条款6：当auto推导的型别不符合要求时，使用带显示型别的初始化物习惯用法.md",
+    "C++/Effective Modern C++/2. Auto/条款5：优先选用auto而非显示型别声明.md",
     "UnityGame/1. 游戏中常用的系统管理器.md",
     "UnrealEngine/MetaHuman/RigLogic调整流程---基于骨骼调整的捏脸方案.canvas",
     "UnityGame/12. 移动与角色控制.md",
