@@ -51,3 +51,58 @@ auto highPriority = features(w)[5];     //推导highPriority的类型
 
 # 2. 对于代理类使用显示型别的初始化物习惯用法
 
+`std::vector<bool>::reference`本质上是一个代理类（_proxy class_）的例子，事实上，在设计模式中[[3. 结构型模式#8. 代理(Proxy)模式|代理(Proxy)模式]]是一种很常见的设计模式。我们常用的标准库中的[[4. 智能指针|智能指针]]也是用代理类实现了对原始指针的资源管理行为。
+
+一些代理类被设计于用以对客户可见。比如`std::shared_ptr`和`std::unique_ptr`。其他的代理类则或多或少不可见，比如`std::vector<bool>::reference`就是不可见代理类的一个例子。不可见代理类多是因为设计者不希望外部使用者知道有这层代理的存在，希望使用者像使用原始数据一样的使用代理类。但是正如上文中的`std::vector<bool>::reference`示例一样，通常不可见的代理类通常不适用于`auto`。这样类型的对象的生命期通常不会设计为能活过一条语句，所以创建那样的对象你基本上就走向了违反程序库设计基本假设的道路。因此，我们应当尽量避免这种形式的代码：
+
+``` C++
+
+auto someVar = expression of "invisible" proxy class type;  // 既然不可见代理类的设计初衷就是让使用者无感的使用代理对象(像使用原始类型数据那样)。那么背其隐藏的不可见的代理类通常在完成类型转化后就会被销毁，使用auto会变量转化为不可见的代理类，而在其生命周期结束后访问它就很容易出现悬挂指针的情况。
+
+```
+
+事实上，这是一个悖论：因为不可见代理类的设计者在设计之初就是希望用户无感使用，这也就意味着我们可能根本没有意识到自己在使用一个不可见代理类。这就要求我们除了在看文档时应注意这些不可见代理类的设计说明，在看源码时也要注意。因为很少会出现源代码全都用代理对象，它们通常用于一些函数的返回类型，所以通常能从函数签名中看出它们的存在。这里有一份`std::vector<bool>::operator[]`的说明书：
+
+``` C++
+
+namespace std{                                  //来自于C++标准库
+    template<class Allocator>
+    class vector<bool, Allocator>{
+    public:
+        …
+        class reference { … };
+
+        reference operator[](size_type n);
+        …
+    };
+}
+
+```
+
+我们知道对`std::vector<T>`使用`operator[]`通常会返回一个`T&`，在这里`operator[]`不寻常的返回类型提示你它使用了代理类。多关注你使用的接口可以暴露代理类的存在。除此之外，更为更加安全的一个解决方案是：强制使用一个不同的类型推导形式，这种方法我通常称之为显式类型初始器惯用法（_the explicitly typed initialized idiom_)。
+
+显式类型初始器惯用法使用`auto`声明一个变量，然后对表达式强制类型转换（_cast_）得出你期望的推导结果。施加到上文中的报错代码则可修改为：
+
+``` C++
+
+auto highPriority = static_cast<bool>(features(w)[5]);
+
+```
+
+这里，`features(w)[5]`还是返回一个`std::vector<bool>::reference`对象，就像之前那样，但是这个转型使得表达式类型为`bool`，然后`auto`才被用于推导`highPriority`。在运行时，对`std::vector<bool>::operator[]`返回的`std::vector<bool>::reference`执行它支持的向`bool`的转型，在这个过程中指向`std::vector<bool>`的指针已经被解引用。这就避开了我们之前的未定义行为。然后5将被用于指向_bit_的指针，`bool`值被用于初始化`highPriority`。
+
+这种使用显示类型初始化器的示例在实际中常常被忽略，但在细节处这往往很有用：
+
+``` C++
+
+double calcEpsilon();     //返回公差值
+
+float ep = calcEpsilon();    //double到float隐式转换
+auto ep1 = calcEpsilon();   // 此时ep1仍然是double
+auto ep2 = static_cast<float>(calcEpsilon());   // 显示明确表示希望将类型转化为float
+
+std::vector<float> vec;
+...
+int index = vec.size(); // 暗藏隐式转化
+
+```
