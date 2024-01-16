@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UnityGame/1. 游戏中常用的系统管理器.md",
+                "file": "C++/Effective Modern C++/2. Auto/条款5：优先选用auto而非显示型别声明.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UnityGame/1. 游戏中常用的系统管理器.md",
+                "file": "C++/Effective Modern C++/2. Auto/条款5：优先选用auto而非显示型别声明.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UnityGame/1. 游戏中常用的系统管理器.md",
+                "file": "C++/Effective Modern C++/2. Auto/条款5：优先选用auto而非显示型别声明.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UnityGame/1. 游戏中常用的系统管理器.md",
+                "file": "C++/Effective Modern C++/2. Auto/条款5：优先选用auto而非显示型别声明.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UnityGame/1. 游戏中常用的系统管理器.md"
+                "file": "C++/Effective Modern C++/2. Auto/条款5：优先选用auto而非显示型别声明.md"
               }
             }
           },
@@ -183,10 +183,10 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "4a4eda9348915acd",
+  "active": "fa3d4d2db2d24f6c",
   "lastOpenFiles": [
-    "UnityGame/attachments/2. 常用Manager.md",
     "UnityGame/1. 游戏中常用的系统管理器.md",
+    "UnityGame/attachments/2. 常用Manager.md",
     "UnityGame/attachments/Pic_001.png",
     "UnityGame/0. 整体结构框架.md",
     "UnityGame/3. StrangeIOC(MVCS框架).md",
