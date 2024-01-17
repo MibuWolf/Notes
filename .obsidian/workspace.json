@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/C++并发编程实战/6. 设计无锁的并发数据结构.md",
+                "file": "图形学/龙书DX12/1. Direct3D初始化.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/C++并发编程实战/6. 设计无锁的并发数据结构.md",
+                "file": "图形学/龙书DX12/1. Direct3D初始化.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/C++并发编程实战/6. 设计无锁的并发数据结构.md",
+                "file": "图形学/龙书DX12/1. Direct3D初始化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/C++并发编程实战/6. 设计无锁的并发数据结构.md",
+                "file": "图形学/龙书DX12/1. Direct3D初始化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/C++并发编程实战/6. 设计无锁的并发数据结构.md"
+                "file": "图形学/龙书DX12/1. Direct3D初始化.md"
               }
             }
           },
@@ -185,8 +185,34 @@
   },
   "active": "fa3d4d2db2d24f6c",
   "lastOpenFiles": [
-    "C++/C++并发编程实战/5. 设计基于锁的并发数据结构.md",
+    "图形学/龙书DX12/attachments/Pic_005.png",
+    "图形学/龙书DX12/attachments/Pic_005.png.crdownload",
+    "图形学/龙书DX12/attachments/Pic_004.png",
+    "图形学/龙书DX12/attachments/Pic_004.png.crdownload",
+    "图形学/龙书DX12/attachments/Pic_003.png",
+    "图形学/龙书DX12/attachments/Pic_003.png.crdownload",
+    "图形学/龙书DX12/attachments/Pic_002.png",
+    "图形学/龙书DX12/attachments/Pic_002.png.crdownload",
+    "图形学/龙书DX12/attachments/Pic_001.png",
+    "图形学/龙书DX12/attachments/Pic_001.png.crdownload",
+    "图形学/计算机图形学/1. 实时图形渲染管线.md",
+    "图形学/龙书DX12/1. Direct3D初始化.md",
+    "图形学/计算机图形学/0. 目录.md",
+    "UnityGame/1. 游戏中常用的系统管理器.md",
+    "图形学/龙书DX12/attachments",
+    "图形学/龙书DX12",
+    "UnityGame/0. 整体结构框架.md",
+    "C++/Effective Modern C++/3. 转向现代C++/3. 转向现代C++.md",
+    "C++/Effective Modern C++/2. Auto/2. Auto.md",
+    "C++/Effective Modern C++/0. 目录.md",
+    "C++/Effective Modern C++/attachments/Pic_001.png",
+    "C++/Effective Modern C++/4. 智能指针/条款18：对于独占资源使用unique_ptr.md",
+    "C++/Effective Modern C++/4. 智能指针/4. 智能指针.md",
+    "C++/Effective Modern C++/2. Auto/条款6：当auto推导的型别不符合要求时，使用带显示型别的初始化物习惯用法.md",
+    "C++/Effective Modern C++/2. Auto/条款5：优先选用auto而非显示型别声明.md",
+    "C++/Effective Modern C++/3. 转向现代C++/条款7：创建对象时注意区分()和{}.md",
     "C++/C++并发编程实战/6. 设计无锁的并发数据结构.md",
+    "C++/C++并发编程实战/5. 设计基于锁的并发数据结构.md",
     "C++/C++并发编程实战/attachments/Pic_070.png",
     "C++/C++并发编程实战/attachments/Pic_070.png.crdownload",
     "C++/C++并发编程实战/attachments/Pic_069.png",
@@ -194,19 +220,7 @@
     "C++/C++并发编程实战/attachments/Pic_068.png",
     "C++/C++并发编程实战/attachments/Pic_068.png.crdownload",
     "C++/C++并发编程实战/attachments/Pic_067.png",
-    "C++/C++并发编程实战/attachments/Pic_067.png.crdownload",
     "C++/C++并发编程实战/attachments/Pic_066.png",
-    "C++/C++并发编程实战/attachments/Pic_066.png.crdownload",
-    "C++/C++并发编程实战/attachments/Pic_065.png",
-    "C++/C++并发编程实战/attachments/Pic_065.png.crdownload",
-    "C++/C++并发编程实战/attachments/Pic_064.png",
-    "C++/C++并发编程实战/attachments/Pic_064.png.crdownload",
-    "C++/C++并发编程实战/attachments/Pic_063.png",
-    "C++/C++并发编程实战/attachments/Pic_063.png.crdownload",
-    "C++/C++并发编程实战/attachments/Pic_062.png",
-    "C++/C++并发编程实战/attachments/Pic_062.png.crdownload",
-    "C++/C++并发编程实战/attachments/Pic_061.png",
-    "C++/C++并发编程实战/attachments/Pic_061.png.crdownload",
     "C++/C++并发编程实战/4. C++内存模型与原子操作.md",
     "C++/C++并发编程实战/3. 在线程间同步并发操作.md",
     "C++/C++并发编程实战/2. 在线程间共享数据.md",
@@ -218,24 +232,10 @@
     "UnrealEngine/Animation/SkeletalMesh/9. 布料模拟.md",
     "UnrealEngine/Animation/SkeletalMesh/8. PhysicsControl组件.md",
     "UnrealEngine/Animation/SkeletalMesh/7. PhysicalAnimation组件.md",
-    "UnrealEngine/Animation/SkeletalMesh/6. 物理动画更新流程.md",
-    "UnrealEngine/Animation/SkeletalMesh/5. 物理动画概述.md",
-    "UnrealEngine/Animation/SkeletalMesh/4. 动画与移动.md",
-    "UnrealEngine/Animation/SkeletalMesh/3. 常用动作节点( FAnimNode).md",
-    "UnrealEngine/Animation/SkeletalMesh/2. 动画蓝图的更新与评价(UAnimInstance).md",
-    "UnrealEngine/Animation/SkeletalMesh/1. SkeletalMeshComponent组件.md",
-    "UnrealEngine/MetaHuman/3. RigLogic.md",
-    "UnrealEngine/MetaHuman/4. 面部表情与自定义脸型.md",
-    "UnrealEngine/MetaHuman/5. 基于控制调整的捏脸方案.md",
     "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
     "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
     "UnrealEngine/MetaHuman/RigLogic调整流程---基于控制调整的捏脸方案.canvas",
     "UnrealEngine/MetaHuman/RigLogic调整流程---基于骨骼调整的捏脸方案.canvas",
-    "UnrealEngine/MetaHuman/2. DNA.md",
-    "UnrealEngine/MetaHuman/1. 初探MetaHuman.md",
-    "README.md",
-    "C++/Effective Modern C++/2. Auto/条款6：当auto推导的型别不符合要求时，使用带显示型别的初始化物习惯用法.md",
-    "C++/Effective Modern C++/2. Auto/条款5：优先选用auto而非显示型别声明.md",
     "UnrealEngine/MetaHuman/RigLogic运行时流程 - 副本.canvas",
     "UnrealEngine/MetaHuman/RigLogic调整流程---基于控制器调整的捏脸方案.canvas",
     "UnrealEngine/MetaHuman/RigLogic调整流程---基于骨骼调整的捏脸方案 - 副本.canvas",
