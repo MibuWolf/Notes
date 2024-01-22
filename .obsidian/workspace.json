@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "图形学/龙书DX12/1. Direct3D初始化.md",
+                "file": "C++/Effective Modern C++/3. 转向现代C++/3. 转向现代C++.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "图形学/龙书DX12/1. Direct3D初始化.md",
+                "file": "C++/Effective Modern C++/3. 转向现代C++/3. 转向现代C++.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "图形学/龙书DX12/1. Direct3D初始化.md",
+                "file": "C++/Effective Modern C++/3. 转向现代C++/3. 转向现代C++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "图形学/龙书DX12/1. Direct3D初始化.md",
+                "file": "C++/Effective Modern C++/3. 转向现代C++/3. 转向现代C++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "图形学/龙书DX12/1. Direct3D初始化.md"
+                "file": "C++/Effective Modern C++/3. 转向现代C++/3. 转向现代C++.md"
               }
             }
           },
@@ -185,6 +185,7 @@
   },
   "active": "fa3d4d2db2d24f6c",
   "lastOpenFiles": [
+    "图形学/龙书DX12/1. Direct3D初始化.md",
     "图形学/龙书DX12/attachments/Pic_005.png",
     "图形学/龙书DX12/attachments/Pic_005.png.crdownload",
     "图形学/龙书DX12/attachments/Pic_004.png",
@@ -196,7 +197,6 @@
     "图形学/龙书DX12/attachments/Pic_001.png",
     "图形学/龙书DX12/attachments/Pic_001.png.crdownload",
     "图形学/计算机图形学/1. 实时图形渲染管线.md",
-    "图形学/龙书DX12/1. Direct3D初始化.md",
     "图形学/计算机图形学/0. 目录.md",
     "UnityGame/1. 游戏中常用的系统管理器.md",
     "图形学/龙书DX12/attachments",
@@ -220,7 +220,6 @@
     "C++/C++并发编程实战/attachments/Pic_068.png",
     "C++/C++并发编程实战/attachments/Pic_068.png.crdownload",
     "C++/C++并发编程实战/attachments/Pic_067.png",
-    "C++/C++并发编程实战/attachments/Pic_066.png",
     "C++/C++并发编程实战/4. C++内存模型与原子操作.md",
     "C++/C++并发编程实战/3. 在线程间同步并发操作.md",
     "C++/C++并发编程实战/2. 在线程间共享数据.md",
