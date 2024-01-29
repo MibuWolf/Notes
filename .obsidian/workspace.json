@@ -89,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5
+    "width": 200
   },
   "right": {
     "id": "7c6e048684854d63",
@@ -185,10 +185,11 @@
   },
   "active": "fa3d4d2db2d24f6c",
   "lastOpenFiles": [
-    "C++/Effective Modern C++/1. 型别推导/条款2：理解auto型别推导.md",
-    "C++/Effective Modern C++/3. 转向现代C++/条款7：创建对象时注意区分()和{}.md",
-    "C++/Effective Modern C++/3. 转向现代C++/3. 转向现代C++.md",
+    "C++/Effective Modern C++/2. Auto/条款5：优先选用auto而非显示型别声明.md",
     "C++/Effective Modern C++/2. Auto/条款6：当auto推导的型别不符合要求时，使用带显示型别的初始化物习惯用法.md",
+    "C++/Effective Modern C++/3. 转向现代C++/条款7：创建对象时注意区分()和{}.md",
+    "C++/Effective Modern C++/1. 型别推导/条款2：理解auto型别推导.md",
+    "C++/Effective Modern C++/3. 转向现代C++/3. 转向现代C++.md",
     "C++/Effective Modern C++/2. Auto/2. Auto.md",
     "图形学/龙书DX12/1. Direct3D初始化.md",
     "图形学/龙书DX12/attachments/Pic_005.png",
@@ -211,7 +212,6 @@
     "C++/Effective Modern C++/attachments/Pic_001.png",
     "C++/Effective Modern C++/4. 智能指针/条款18：对于独占资源使用unique_ptr.md",
     "C++/Effective Modern C++/4. 智能指针/4. 智能指针.md",
-    "C++/Effective Modern C++/2. Auto/条款5：优先选用auto而非显示型别声明.md",
     "C++/C++并发编程实战/6. 设计无锁的并发数据结构.md",
     "C++/C++并发编程实战/5. 设计基于锁的并发数据结构.md",
     "C++/C++并发编程实战/attachments/Pic_070.png",
