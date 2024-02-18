@@ -125,4 +125,23 @@ decltype(auto) lockAndCall(FuncType func,       //C++14
 
 ```
 
-当调用此模板函数来实现加锁 函数调用 解锁时
+当调用此模板函数来实现 加锁 函数调用 解锁时，`nullptr`的优势就更为明显了：
+
+``` C++
+
+auto result1 = lockAndCall(f1, f1m, 0);         //错误！
+...
+auto result2 = lockAndCall(f2, f2m, NULL);      //错误！
+...
+auto result3 = lockAndCall(f3, f3m, nullptr);   //没问题
+
+```
+
+当调用 `lockAndCall` 模板函数时，参数 `0` 或 `NULL` 被传递给`lockAndCall`时会尝试进行实参类型推导，不幸的是，这意味着`lockAndCall`中`func`会被`int`类型的实参调用，这与`f1`期待的`std::shared_ptr<Widget>`形参不符。传递`0`给`lockAndCall`本来想表示空指针，但是实际上得到的一个普通的`int`。把`int`类型看做`std::shared_ptr<Widget>`类型给`f1`自然是一个类型错误。`NULL`也是一样的问题，然而，使用`nullptr`是调用没什么问题。当`nullptr`传给`lockAndCall`时，`ptr`被推导为`std::nullptr_t`。当`ptr`被传递给`f3`的时候，隐式转换使`std::nullptr_t`转换为`Widget*`，因为`std::nullptr_t`可以隐式转换为任何指针类型。
+
+模板类型推导将`0`和`NULL`推导为一个错误的类型（即它们的实际类型，而不是作为空指针的隐含意义），这就导致在当你想要一个空指针时，它们的替代品`nullptr`很吸引人。使用`nullptr`，模板不会有什么特殊的转换。另外，使用`nullptr`不会让你受到同重载决议特殊对待`0`和`NULL`一样的待遇。当你想用一个空指针，使用`nullptr`，不用`0`或者`NULL`。
+
+# 2. 要点速记
+
+- 优先考虑`nullptr`而非`0`和`NULL`
+- 避免重载指针和整型
