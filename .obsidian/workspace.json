@@ -183,11 +183,14 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "fa3d4d2db2d24f6c",
+  "active": "4a4eda9348915acd",
   "lastOpenFiles": [
+    "C++/Effective Modern C++/3. 转向现代C++/条款9：优先选用别名声明而非typedef.md",
+    "C++/Effective Modern C++/1. 型别推导/条款3：理解decltype.md",
+    "C++/Effective Modern C++/3. 转向现代C++/条款8：优先选用nullptr而非0或NULL.md",
+    "C++/Effective Modern C++/2. Auto/条款6：当auto推导的型别不符合要求时，使用带显示型别的初始化物习惯用法.md",
     "C++/Effective Modern C++/3. 转向现代C++/条款7：创建对象时注意区分()和{}.md",
     "C++/Effective Modern C++/2. Auto/条款5：优先选用auto而非显示型别声明.md",
-    "C++/Effective Modern C++/2. Auto/条款6：当auto推导的型别不符合要求时，使用带显示型别的初始化物习惯用法.md",
     "C++/Effective Modern C++/1. 型别推导/条款2：理解auto型别推导.md",
     "C++/Effective Modern C++/3. 转向现代C++/3. 转向现代C++.md",
     "C++/Effective Modern C++/2. Auto/2. Auto.md",
@@ -229,9 +232,6 @@
     "UnrealEngine/Animation/SkeletalMesh/12. 骨骼动画更新流程.canvas",
     "UnrealEngine/Animation/SkeletalMesh/11. SkeletalMesh的渲染.md",
     "UnrealEngine/Animation/SkeletalMesh/10. 使用动态骨骼进行布料模拟.md",
-    "UnrealEngine/Animation/SkeletalMesh/9. 布料模拟.md",
-    "UnrealEngine/Animation/SkeletalMesh/8. PhysicsControl组件.md",
-    "UnrealEngine/Animation/SkeletalMesh/7. PhysicalAnimation组件.md",
     "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
     "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
     "UnrealEngine/MetaHuman/RigLogic调整流程---基于控制调整的捏脸方案.canvas",
