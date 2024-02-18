@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Effective Modern C++/3. 转向现代C++/条款7：创建对象时注意区分()和{}.md",
+                "file": "C++/Effective Modern C++/3. 转向现代C++/条款8：优先选用nullptr而非0或NULL.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Effective Modern C++/3. 转向现代C++/条款7：创建对象时注意区分()和{}.md",
+                "file": "C++/Effective Modern C++/3. 转向现代C++/条款8：优先选用nullptr而非0或NULL.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Effective Modern C++/3. 转向现代C++/条款7：创建对象时注意区分()和{}.md",
+                "file": "C++/Effective Modern C++/3. 转向现代C++/条款8：优先选用nullptr而非0或NULL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Effective Modern C++/3. 转向现代C++/条款7：创建对象时注意区分()和{}.md",
+                "file": "C++/Effective Modern C++/3. 转向现代C++/条款8：优先选用nullptr而非0或NULL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Effective Modern C++/3. 转向现代C++/条款7：创建对象时注意区分()和{}.md"
+                "file": "C++/Effective Modern C++/3. 转向现代C++/条款8：优先选用nullptr而非0或NULL.md"
               }
             }
           },
@@ -185,9 +185,9 @@
   },
   "active": "fa3d4d2db2d24f6c",
   "lastOpenFiles": [
+    "C++/Effective Modern C++/3. 转向现代C++/条款7：创建对象时注意区分()和{}.md",
     "C++/Effective Modern C++/2. Auto/条款5：优先选用auto而非显示型别声明.md",
     "C++/Effective Modern C++/2. Auto/条款6：当auto推导的型别不符合要求时，使用带显示型别的初始化物习惯用法.md",
-    "C++/Effective Modern C++/3. 转向现代C++/条款7：创建对象时注意区分()和{}.md",
     "C++/Effective Modern C++/1. 型别推导/条款2：理解auto型别推导.md",
     "C++/Effective Modern C++/3. 转向现代C++/3. 转向现代C++.md",
     "C++/Effective Modern C++/2. Auto/2. Auto.md",
