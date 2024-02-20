@@ -111,3 +111,44 @@ std::remove_reference<T>::type      //从T&和T&&中产出T
 std::add_lvalue_reference<T>::type  //从T中产出T&
 
 ```
+
+注意类型转换尾部的`::type`。如果我们在一个模板内部将他们施加到类型形参上（实际代码中我么也总是这么用），我们也需要在它们前面加上`typename`。至于为什么要这么做是因为这些C++11的_type traits_是通过在`struct`内嵌套`typedef`来实现的。
+
+关于为什么这么实现是有历史原因的，但是我们跳过它（我认为太无聊了），因为标准委员会没有及时认识到别名声明是更好的选择，所以直到C++14它们才提供了使用别名声明的版本。这些别名声明有一个通用形式：对于C++11的类型转换`std::`transformation`<T>::type`在C++14中变成了`std::`transformation`_t`。举个例子或许更容易理解：
+
+``` C++
+
+std::remove_const<T>::type          //C++11: const T → T 
+std::remove_const_t<T>              //C++14 等价形式
+
+std::remove_reference<T>::type      //C++11: T&/T&& → T 
+std::remove_reference_t<T>          //C++14 等价形式
+
+std::add_lvalue_reference<T>::type  //C++11: T → T& 
+std::add_lvalue_reference_t<T>      //C++14 等价形式
+
+```
+
+C++11的的形式在C++14中也有效，但是我不能理解为什么你要去用它们。就算你没办法使用C++14，使用别名模板也是小儿科。只需要C++11的语言特性，甚至每个小孩都能仿写，对吧？如果你有一份C++14标准，就更简单了，只需要复制粘贴：
+
+``` C++
+
+template <class T> 
+using remove_const_t = typename remove_const<T>::type;
+
+template <class T> 
+using remove_reference_t = typename remove_reference<T>::type;
+
+template <class T> 
+using add_lvalue_reference_t =
+  typename add_lvalue_reference<T>::type; 
+
+```
+
+这样问题就会变得更加简单，所以尽量选用别名而不是`typedef`，因为对于模板而已别名更加简单方便且无需为思考是否该使用`typename`而发愁。
+
+# 2. 要点速记
+
+- `typedef`不支持模板化，但是别名声明支持。
+- 别名模板避免了使用“`::type`”后缀，而且在模板中使用`typedef`还需要在前面加上`typename`
+- C++14提供了C++11所有_type traits_转换的别名声明版本
