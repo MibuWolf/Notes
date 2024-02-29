@@ -186,6 +186,7 @@
   "active": "fa3d4d2db2d24f6c",
   "lastOpenFiles": [
     "C++/Effective Modern C++/3. 转向现代C++/条款10：优先选用限定作用域的枚举型别，而非不限作用域的枚举型别.md",
+    "C++/Effective Modern C++/3. 转向现代C++/条款11：优先选用删除函数而非private未定义函数.md",
     "计算机理论基础/设计模式/2. 行为型模式.md",
     "C++/Effective Modern C++/3. 转向现代C++/条款9：优先选用别名声明而非typedef.md",
     "C++/C++并发编程实战/2. 在线程间共享数据.md",
@@ -230,7 +231,6 @@
     "C++/C++并发编程实战/attachments/Pic_068.png",
     "C++/C++并发编程实战/attachments/Pic_068.png.crdownload",
     "C++/C++并发编程实战/attachments/Pic_067.png",
-    "C++/C++并发编程实战/4. C++内存模型与原子操作.md",
     "UnrealEngine/Animation/SkeletalMesh/12. 骨骼动画更新流程.canvas",
     "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
     "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
