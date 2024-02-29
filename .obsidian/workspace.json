@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Effective Modern C++/3. 转向现代C++/条款10：优先选用限定作用域的枚举型别，而非不限作用域的枚举型别.md",
+                "file": "C++/Effective Modern C++/3. 转向现代C++/条款11：优先选用删除函数而非private未定义函数.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Effective Modern C++/3. 转向现代C++/条款10：优先选用限定作用域的枚举型别，而非不限作用域的枚举型别.md",
+                "file": "C++/Effective Modern C++/3. 转向现代C++/条款11：优先选用删除函数而非private未定义函数.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Effective Modern C++/3. 转向现代C++/条款10：优先选用限定作用域的枚举型别，而非不限作用域的枚举型别.md",
+                "file": "C++/Effective Modern C++/3. 转向现代C++/条款11：优先选用删除函数而非private未定义函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Effective Modern C++/3. 转向现代C++/条款10：优先选用限定作用域的枚举型别，而非不限作用域的枚举型别.md",
+                "file": "C++/Effective Modern C++/3. 转向现代C++/条款11：优先选用删除函数而非private未定义函数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Effective Modern C++/3. 转向现代C++/条款10：优先选用限定作用域的枚举型别，而非不限作用域的枚举型别.md"
+                "file": "C++/Effective Modern C++/3. 转向现代C++/条款11：优先选用删除函数而非private未定义函数.md"
               }
             }
           },
@@ -185,9 +185,9 @@
   },
   "active": "fa3d4d2db2d24f6c",
   "lastOpenFiles": [
+    "C++/Effective Modern C++/3. 转向现代C++/条款10：优先选用限定作用域的枚举型别，而非不限作用域的枚举型别.md",
     "计算机理论基础/设计模式/2. 行为型模式.md",
     "C++/Effective Modern C++/3. 转向现代C++/条款9：优先选用别名声明而非typedef.md",
-    "C++/Effective Modern C++/3. 转向现代C++/条款10：优先选用限定作用域的枚举型别，而非不限作用域的枚举型别.md",
     "C++/C++并发编程实战/2. 在线程间共享数据.md",
     "C++/Effective Modern C++/2. Auto/条款6：当auto推导的型别不符合要求时，使用带显示型别的初始化物习惯用法.md",
     "C++/Effective Modern C++/1. 型别推导/条款4：掌握查看型别推导结果的方法.md",
