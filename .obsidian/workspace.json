@@ -19,21 +19,8 @@
               }
             },
             "group": "a420730c141e0d6b"
-          },
-          {
-            "id": "22ed0b640f2c7081",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++/Effective Modern C++/3. 转向现代C++/条款9：优先选用别名声明而非typedef.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "c73f48b44a858a89",
@@ -196,7 +183,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "22ed0b640f2c7081",
+  "active": "c001a77f61a2bd59",
   "lastOpenFiles": [
     "C++/Effective Modern C++/3. 转向现代C++/条款8：优先选用nullptr而非0或NULL.md",
     "C++/Effective Modern C++/3. 转向现代C++/条款7：创建对象时注意区分()和{}.md",
